@@ -7,10 +7,22 @@
 本项目推荐通过 Vercel 部署后预览。部署完成后，请使用 Vercel 自动生成的线上地址访问，例如：
 
 ```text
-https://5414392-xxxx.vercel.app
+https://feiyi-zaowu.vercel.app
 ```
 
-如果已经绑定自定义域名，请使用你的正式域名访问。GitHub 仓库本身只保存代码，不直接提供网站预览页面。
+当前生产预览地址：
+
+```text
+https://feiyi-zaowu.vercel.app
+```
+
+备用部署地址：
+
+```text
+https://feiyi-zaowu-pin5ug5vl-feiyi.vercel.app
+```
+
+GitHub 仓库本身只保存代码，不直接提供网站预览页面。
 
 ## Vercel 部署设置
 
