@@ -2,9 +2,17 @@ import Link from "next/link";
 import type { Theme } from "@/lib/types";
 
 const fallbackImage = "/images/textures/dark-paper.png";
+const themeImages: Record<string, string> = {
+  "tea-life": "/images/themes/tea.jpg",
+  "ceramic-craft": "/images/themes/ceramics.jpg",
+  "textile-pattern": "/images/themes/textile.jpg",
+  "local-flavor": "/images/themes/food.jpg",
+  "craft-study": "/images/themes/craft.jpg",
+  "guofeng-photo": "/images/themes/zanhua.jpg"
+};
 
 export function ThemeCard({ theme, index }: { theme: Theme; index: number }) {
-  const image = theme.image || fallbackImage;
+  const image = themeImages[theme.id] || theme.image || fallbackImage;
 
   return (
     <Link

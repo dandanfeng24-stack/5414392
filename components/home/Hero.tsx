@@ -35,7 +35,7 @@ export function Hero() {
           <div className="absolute bottom-14 left-1/2 h-3 w-[30rem] -translate-x-1/2 rounded-full bg-gold/20 blur-md" />
           <div className="vessel-float absolute left-1/2 top-1/2 w-[min(430px,82vw)] -translate-x-1/2 -translate-y-1/2">
             <img
-              src="/images/hero/zaowu-vessel-logo.png"
+              src="/images/hero/hero-vessel.png"
               alt="瓶器山水暗金浮雕标识"
               className="w-full select-none rounded-[6px] object-contain opacity-95 shadow-[0_34px_110px_rgba(0,0,0,.55)]"
             />
