@@ -1,0 +1,28 @@
+{
+  "inputOptions": {
+    "region": ["江南", "西南", "华北", "岭南", "西北", "全国"],
+    "projectType": ["历史街区", "景区", "研学营地", "酒店民宿", "文创品牌", "旅拍空间"],
+    "targetUsers": ["亲子家庭", "学校研学", "年轻游客", "商务礼赠"],
+    "budget": ["10万以内", "10-30万", "30-80万", "80万以上"],
+    "goal": ["提升停留", "增加二消", "开发礼品", "研学课程", "社交传播"]
+  },
+  "matchingRules": [
+    {"when":{"projectType":"历史街区"},"recommendThemes":["craft-study","local-flavor","guofeng-photo"],"recommendProjects":["paper-cut","rongchang-pottery","hanfu-makeup"],"risks":["需控制业态同质化","需明确授权与文化表达边界"]},
+    {"when":{"targetUsers":"亲子家庭"},"recommendThemes":["craft-study","ceramic-craft"],"recommendProjects":["paper-cut","kite-making","dough-figurine"],"risks":["需强化儿童安全流程","需降低单次体验复杂度"]},
+    {"when":{"goal":"开发礼品"},"recommendThemes":["textile-pattern","ceramic-craft","tea-life"],"recommendProjects":["suzhou-embroidery","longquan-celadon","jingshan-tea"],"risks":["需控制库存和包装成本","需避免只贴符号不讲价值"]},
+    {"when":{"projectType":"旅拍空间"},"recommendThemes":["guofeng-photo","textile-pattern"],"recommendProjects":["hanfu-makeup","blue-calico","silver-ornament"],"risks":["需避免文化误读","需控制服化道卫生和动线"]}
+  ],
+  "scoringWeights": {"commodity":0.2,"experience":0.2,"scenario":0.2,"spread":0.15,"gift":0.15,"operation":0.1},
+  "riskRules": [
+    {"keyword":"儿童","risk":"涉及儿童体验时需配置安全告知和低风险材料。"},
+    {"keyword":"食品","risk":"食品类项目需优先处理生产许可、保质期和现场卫生。"},
+    {"keyword":"旅拍","risk":"旅拍类项目需注意文化挪用、服饰误读和肖像授权。"},
+    {"keyword":"火","risk":"涉及明火、烧造或热加工需设置专业操作区。"}
+  ],
+  "recommendationTemplates": {
+    "high":"适合先做样板体验，再扩展为产品组合。",
+    "medium":"建议从轻量体验或资料包验证开始。",
+    "low":"建议先补充本地资源和运营条件。"
+  },
+  "upgradePrompts": ["生成完整项目诊断报告", "匹配城市级非遗清单", "生成招商页与课程脚本"]
+}

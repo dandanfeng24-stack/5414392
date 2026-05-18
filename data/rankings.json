@@ -1,0 +1,6 @@
+[
+  {"id":"rank-gift","title":"最适合做城市伴手礼的非遗方向","description":"优先考虑标准化、携带性、解释成本和价格带。","criteria":["商品化稳定","轻量包装","故事清晰"],"relatedTags":["伴手礼","商务礼赠"],"items":["suzhou-embroidery","longquan-celadon","huizhou-ink","zhoucun-sesame-cake","jingshan-tea"],"updateCycle":"季度更新"},
+  {"id":"rank-study","title":"亲子研学低风险优先榜","description":"优先选择安全、步骤清晰、成果可展示的手作方向。","criteria":["安全性","课程化","成品率"],"relatedTags":["亲子家庭","学校研学"],"items":["paper-cut","woodblock-new-year","kite-making","dough-figurine","bamboo-weaving"],"updateCycle":"季度更新"},
+  {"id":"rank-district","title":"历史街区业态导入推荐榜","description":"关注停留时长、门店坪效、拍照传播和复购可能。","criteria":["停留能力","体验转化","运营弹性"],"relatedTags":["历史街区","工坊体验"],"items":["rongchang-pottery","blue-calico","hanfu-makeup","wuyi-rock-tea","sugar-painting"],"updateCycle":"月度观察"},
+  {"id":"rank-viral","title":"社交传播潜力榜","description":"关注视觉识别度、故事密度和内容生产效率。","criteria":["视觉强度","出片效率","话题延展"],"relatedTags":["高传播","年轻游客"],"items":["hanfu-makeup","silver-ornament","suzhou-embroidery","blue-calico","dragon-lantern"],"updateCycle":"月度观察"}
+]

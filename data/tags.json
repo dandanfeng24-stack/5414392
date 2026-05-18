@@ -1,0 +1,14 @@
+[
+  {"id":"family","name":"亲子家庭","type":"客群标签","description":"适合家庭共同参与","userNeed":"安全、有成果、可拍照","relatedScenes":["研学营地","景区工坊"],"priority":1},
+  {"id":"school","name":"学校研学","type":"客群标签","description":"适合课程化和团体接待","userNeed":"课程目标清晰","relatedScenes":["研学基地"],"priority":2},
+  {"id":"young","name":"年轻游客","type":"客群标签","description":"注重审美与传播","userNeed":"可分享、可消费","relatedScenes":["历史街区","旅拍空间"],"priority":3},
+  {"id":"business","name":"商务礼赠","type":"客群标签","description":"强调品质和文化解释","userNeed":"体面、可定制","relatedScenes":["城市礼物店"],"priority":4},
+  {"id":"district","name":"历史街区","type":"场景标签","description":"适合业态导入","userNeed":"停留、消费、传播","relatedScenes":["历史街区"],"priority":1},
+  {"id":"scenic","name":"景区体验","type":"场景标签","description":"适合轻量体验和伴手礼","userNeed":"转化效率","relatedScenes":["景区"],"priority":2},
+  {"id":"gift","name":"伴手礼","type":"商业属性标签","description":"可转化为标准化商品","userNeed":"易购买、易携带","relatedScenes":["文创店"],"priority":1},
+  {"id":"workshop","name":"工坊体验","type":"产品方向标签","description":"可转化为动手体验","userNeed":"参与感","relatedScenes":["研学工坊"],"priority":2},
+  {"id":"viral","name":"高传播","type":"传播属性标签","description":"具有视觉或故事传播点","userNeed":"内容素材","relatedScenes":["社交媒体"],"priority":1},
+  {"id":"auth-risk","name":"真实性风险","type":"风险标签","description":"容易出现符号化或误读","userNeed":"合规表达","relatedScenes":["商业联名"],"priority":1},
+  {"id":"safety-risk","name":"安全风险","type":"风险标签","description":"涉及火、刀、食品或儿童安全","userNeed":"流程管控","relatedScenes":["亲子研学"],"priority":2},
+  {"id":"high-operation","name":"高运营难度","type":"运营难度标签","description":"依赖师傅、设备或复杂供应链","userNeed":"稳定交付","relatedScenes":["工坊","零售"],"priority":3}
+]

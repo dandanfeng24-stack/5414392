@@ -1,0 +1,2563 @@
+[
+  {
+    "id": "wuyi-rock-tea",
+    "name": "武夷岩茶制作技艺",
+    "alias": "岩茶",
+    "themeId": "tea-life",
+    "category": "制茶技艺",
+    "region": "福建武夷山",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "具备强地域心智和高客单潜力的茶文化方向。",
+    "positioning": "适合做高端茶旅体验、酒店茶席和商务礼赠。",
+    "productDirections": [
+      "岩茶小罐礼盒",
+      "茶席器具组合",
+      "城市限定茶样"
+    ],
+    "experienceDirections": [
+      "茶山品鉴",
+      "酒店茶席",
+      "焙火观察"
+    ],
+    "courseDirections": [
+      "茶叶风味课",
+      "茶山研学"
+    ],
+    "giftDirections": [
+      "商务礼盒",
+      "伴手礼茶样"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "年轻游客"
+    ],
+    "scenes": [
+      "度假酒店",
+      "景区体验",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "高客单",
+      "伴手礼",
+      "体验预约"
+    ],
+    "spreadTags": [
+      "地域故事",
+      "高传播"
+    ],
+    "riskTags": [
+      "价格门槛",
+      "真实性风险"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 88,
+      "experience": 86,
+      "scenario": 84,
+      "spread": 78,
+      "gift": 90,
+      "operation": 62
+    },
+    "totalScore": 82,
+    "scoreExplanation": "商品和礼品能力强，运营依赖专业讲解与供应链。",
+    "suitableScenes": [
+      "度假酒店",
+      "茶旅线路",
+      "商务礼赠"
+    ],
+    "unsuitableScenes": [
+      "低龄亲子快闪"
+    ],
+    "risks": [
+      "专业门槛高",
+      "价格带容易失控",
+      "真伪与等级解释成本高"
+    ],
+    "cases": [
+      "case-tea-hotel"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "地方文旅公开资料"
+    ],
+    "imagePrompt": "rock tea tasting set, dark oriental luxury",
+    "reviewStatus": "人工初审",
+    "confidence": "中高",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "jingshan-tea",
+    "name": "径山茶宴",
+    "alias": "径山茶",
+    "themeId": "tea-life",
+    "category": "茶俗",
+    "region": "浙江杭州",
+    "heritageLevel": "国家级",
+    "type": "民俗/传统技艺",
+    "summary": "兼具仪式、茶点和空间审美的茶生活方式内容。",
+    "positioning": "适合转化为酒店茶宴、研学体验和城市礼物。",
+    "productDirections": [
+      "茶宴体验券",
+      "茶点礼盒",
+      "茶席材料包"
+    ],
+    "experienceDirections": [
+      "茶宴仪式体验",
+      "宋韵茶席"
+    ],
+    "courseDirections": [
+      "茶礼课程",
+      "宋韵生活美学课"
+    ],
+    "giftDirections": [
+      "茶点组合",
+      "轻量茶器"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠",
+      "学校研学"
+    ],
+    "scenes": [
+      "酒店民宿",
+      "历史街区",
+      "研学基地"
+    ],
+    "businessTags": [
+      "体验预约",
+      "伴手礼"
+    ],
+    "spreadTags": [
+      "仪式感",
+      "高传播"
+    ],
+    "riskTags": [
+      "表演化风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 82,
+      "experience": 90,
+      "scenario": 88,
+      "spread": 84,
+      "gift": 78,
+      "operation": 70
+    },
+    "totalScore": 84,
+    "scoreExplanation": "体验和场景适配度高，适合做慢消费产品。",
+    "suitableScenes": [
+      "酒店茶宴",
+      "宋韵街区",
+      "研学课程"
+    ],
+    "unsuitableScenes": [
+      "高翻台餐饮"
+    ],
+    "risks": [
+      "仪式过重导致参与门槛高",
+      "讲解需避免神秘化"
+    ],
+    "cases": [
+      "case-tea-hotel"
+    ],
+    "sources": [
+      "非遗名录公开资料",
+      "杭州文旅公开资料"
+    ],
+    "imagePrompt": "jingshan tea ceremony dark paper gold",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "yixing-zisha",
+    "name": "宜兴紫砂陶制作技艺",
+    "alias": "紫砂",
+    "themeId": "tea-life",
+    "category": "茶器",
+    "region": "江苏宜兴",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "茶器属性清晰，礼品价值高，但依赖审美和真伪教育。",
+    "positioning": "适合做高端器物礼赠、茶空间陈列和工坊体验。",
+    "productDirections": [
+      "入门茶器",
+      "大师联名器物",
+      "茶空间陈列"
+    ],
+    "experienceDirections": [
+      "紫砂泥料体验",
+      "壶型美学课"
+    ],
+    "courseDirections": [
+      "茶器审美课",
+      "泥料识别课"
+    ],
+    "giftDirections": [
+      "定制茶器",
+      "企业礼赠"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "年轻游客"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "茶空间",
+      "文创店"
+    ],
+    "businessTags": [
+      "高客单",
+      "定制礼品"
+    ],
+    "spreadTags": [
+      "器物美学"
+    ],
+    "riskTags": [
+      "真伪风险",
+      "价格门槛"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 90,
+      "experience": 76,
+      "scenario": 82,
+      "spread": 72,
+      "gift": 92,
+      "operation": 58
+    },
+    "totalScore": 79,
+    "scoreExplanation": "商品化强，体验转化需做好入门层设计。",
+    "suitableScenes": [
+      "茶空间",
+      "高端礼赠",
+      "器物展陈"
+    ],
+    "unsuitableScenes": [
+      "低预算亲子活动"
+    ],
+    "risks": [
+      "市场真伪复杂",
+      "价格跨度大",
+      "工坊体验难标准化"
+    ],
+    "cases": [
+      "case-tea-hotel"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息"
+    ],
+    "imagePrompt": "yixing zisha teapot dark curated plinth",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "longquan-celadon",
+    "name": "龙泉青瓷烧制技艺",
+    "alias": "龙泉青瓷",
+    "themeId": "ceramic-craft",
+    "category": "陶瓷烧造",
+    "region": "浙江龙泉",
+    "heritageLevel": "国家级/人类非遗代表作名录相关",
+    "type": "传统技艺",
+    "summary": "釉色识别度强，适合器物美学、礼品和展陈体验。",
+    "positioning": "适合城市礼物、高端伴手礼与陶瓷美学课程。",
+    "productDirections": [
+      "青瓷杯盏",
+      "花器香插",
+      "城市限定器物"
+    ],
+    "experienceDirections": [
+      "拉坯体验",
+      "釉色观察",
+      "窑口参观"
+    ],
+    "courseDirections": [
+      "青瓷美学课",
+      "陶瓷工艺课"
+    ],
+    "giftDirections": [
+      "商务器物礼盒",
+      "婚礼伴手礼"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "年轻游客",
+      "学校研学"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "研学基地",
+      "酒店空间"
+    ],
+    "businessTags": [
+      "伴手礼",
+      "高客单",
+      "空间陈列"
+    ],
+    "spreadTags": [
+      "器物美学",
+      "高传播"
+    ],
+    "riskTags": [
+      "破损风险"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 88,
+      "experience": 82,
+      "scenario": 86,
+      "spread": 80,
+      "gift": 90,
+      "operation": 60
+    },
+    "totalScore": 82,
+    "scoreExplanation": "器物审美和礼赠能力强，烧造体验不宜过重。",
+    "suitableScenes": [
+      "城市礼物店",
+      "酒店陈列",
+      "陶瓷研学"
+    ],
+    "unsuitableScenes": [
+      "高流量快闪低价体验"
+    ],
+    "risks": [
+      "运输破损",
+      "库存占用",
+      "现场烧制周期长"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "longquan celadon vessel dark cyan glaze",
+    "reviewStatus": "人工初审",
+    "confidence": "中高",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "jingdezhen-porcelain",
+    "name": "景德镇手工制瓷技艺",
+    "alias": "景德镇瓷",
+    "themeId": "ceramic-craft",
+    "category": "陶瓷烧造",
+    "region": "江西景德镇",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "产业基础成熟，适合器物品牌、工坊体验和文创零售。",
+    "positioning": "适合做陶瓷美学目的地、联名器物与研学课程。",
+    "productDirections": [
+      "餐茶器系列",
+      "艺术衍生小件",
+      "品牌联名瓷"
+    ],
+    "experienceDirections": [
+      "拉坯修坯",
+      "釉下彩体验"
+    ],
+    "courseDirections": [
+      "陶瓷产业研学",
+      "器物设计课"
+    ],
+    "giftDirections": [
+      "企业定制瓷",
+      "城市礼品"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠",
+      "学校研学"
+    ],
+    "scenes": [
+      "文创园区",
+      "研学基地",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "文创零售",
+      "工坊体验",
+      "定制礼品"
+    ],
+    "spreadTags": [
+      "高传播",
+      "器物美学"
+    ],
+    "riskTags": [
+      "同质化风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 86,
+      "experience": 88,
+      "scenario": 88,
+      "spread": 86,
+      "gift": 84,
+      "operation": 68
+    },
+    "totalScore": 84,
+    "scoreExplanation": "产业和内容成熟，需避免普通陶艺店同质化。",
+    "suitableScenes": [
+      "陶瓷文创园",
+      "研学线路",
+      "联名零售"
+    ],
+    "unsuitableScenes": [
+      "无专业师资的快闪点"
+    ],
+    "risks": [
+      "体验同质化",
+      "物流破损",
+      "版权图案需授权"
+    ],
+    "cases": [
+      "case-district-workshop"
+    ],
+    "sources": [
+      "地方公开文旅资料"
+    ],
+    "imagePrompt": "jingdezhen porcelain studio dark premium",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "rongchang-pottery",
+    "name": "荣昌陶器制作技艺",
+    "alias": "荣昌陶",
+    "themeId": "ceramic-craft",
+    "category": "陶器",
+    "region": "重庆荣昌",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "朴素器物感强，适合街区工坊和地方礼物。",
+    "positioning": "适合历史街区引入陶艺体验和地方器物零售。",
+    "productDirections": [
+      "茶杯花器",
+      "地方限定陶器",
+      "小件摆件"
+    ],
+    "experienceDirections": [
+      "手捏陶",
+      "纹样压印",
+      "陶器陈列"
+    ],
+    "courseDirections": [
+      "泥性体验课",
+      "地方器物课"
+    ],
+    "giftDirections": [
+      "街区小礼",
+      "企业小批量定制"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "年轻游客"
+    ],
+    "scenes": [
+      "历史街区",
+      "景区体验",
+      "研学基地"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "伴手礼"
+    ],
+    "spreadTags": [
+      "手作感"
+    ],
+    "riskTags": [
+      "破损风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 78,
+      "experience": 86,
+      "scenario": 84,
+      "spread": 72,
+      "gift": 76,
+      "operation": 72
+    },
+    "totalScore": 78,
+    "scoreExplanation": "体验友好，礼品高端化需要设计提升。",
+    "suitableScenes": [
+      "街区工坊",
+      "亲子体验",
+      "地方礼物店"
+    ],
+    "unsuitableScenes": [
+      "高端商务礼赠主场"
+    ],
+    "risks": [
+      "烧制周期影响交付",
+      "成品质感需设计把控"
+    ],
+    "cases": [
+      "case-district-workshop"
+    ],
+    "sources": [
+      "非遗名录公开信息"
+    ],
+    "imagePrompt": "rongchang pottery workshop dark wood",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "suzhou-embroidery",
+    "name": "苏绣",
+    "alias": "苏州刺绣",
+    "themeId": "textile-pattern",
+    "category": "刺绣",
+    "region": "江苏苏州",
+    "heritageLevel": "国家级",
+    "type": "传统美术",
+    "summary": "审美价值和礼赠属性强，适合高端文创与纹样再设计。",
+    "positioning": "适合做高端礼品、空间软装和轻量刺绣体验。",
+    "productDirections": [
+      "刺绣摆件",
+      "丝巾配饰",
+      "纹样衍生品"
+    ],
+    "experienceDirections": [
+      "针法体验",
+      "纹样观摩"
+    ],
+    "courseDirections": [
+      "刺绣美育课",
+      "东方纹样课"
+    ],
+    "giftDirections": [
+      "商务摆件",
+      "定制丝巾"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "年轻游客"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "博物馆商店",
+      "酒店空间"
+    ],
+    "businessTags": [
+      "高客单",
+      "伴手礼",
+      "品牌联名"
+    ],
+    "spreadTags": [
+      "东方纹样",
+      "高传播"
+    ],
+    "riskTags": [
+      "版权风险",
+      "价格门槛"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 90,
+      "experience": 72,
+      "scenario": 84,
+      "spread": 86,
+      "gift": 92,
+      "operation": 58
+    },
+    "totalScore": 82,
+    "scoreExplanation": "礼品和审美强，现场体验宜轻量化。",
+    "suitableScenes": [
+      "城市礼物店",
+      "高端礼赠",
+      "美育课程"
+    ],
+    "unsuitableScenes": [
+      "快节奏低价体验"
+    ],
+    "risks": [
+      "人工成本高",
+      "图案授权需清晰",
+      "低价仿制影响认知"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息"
+    ],
+    "imagePrompt": "suzhou embroidery dark silk pattern",
+    "reviewStatus": "人工初审",
+    "confidence": "中高",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "blue-calico",
+    "name": "蓝印花布印染技艺",
+    "alias": "蓝印花布",
+    "themeId": "textile-pattern",
+    "category": "印染",
+    "region": "江苏南通",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "视觉识别度高，适合空间软装、服饰配件和旅拍布景。",
+    "positioning": "适合做街区陈列、亲子印染体验和国风视觉产品。",
+    "productDirections": [
+      "布包围巾",
+      "家居软装",
+      "纹样文具"
+    ],
+    "experienceDirections": [
+      "拓印体验",
+      "染布观察",
+      "纹样拼贴"
+    ],
+    "courseDirections": [
+      "植物染课程",
+      "纹样美育"
+    ],
+    "giftDirections": [
+      "布艺伴手礼",
+      "城市纹样礼盒"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "亲子家庭"
+    ],
+    "scenes": [
+      "历史街区",
+      "研学基地",
+      "旅拍空间"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "文创零售"
+    ],
+    "spreadTags": [
+      "高传播",
+      "东方纹样"
+    ],
+    "riskTags": [
+      "褪色风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 82,
+      "experience": 86,
+      "scenario": 88,
+      "spread": 90,
+      "gift": 78,
+      "operation": 70
+    },
+    "totalScore": 84,
+    "scoreExplanation": "视觉和体验都较强，适合轻量化运营。",
+    "suitableScenes": [
+      "街区工坊",
+      "旅拍布景",
+      "美育课程"
+    ],
+    "unsuitableScenes": [
+      "高端商务主礼"
+    ],
+    "risks": [
+      "染料管理",
+      "成品干燥时间",
+      "图案重复导致同质化"
+    ],
+    "cases": [
+      "case-guofeng-photo"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "blue calico textile archive dark linen",
+    "reviewStatus": "人工初审",
+    "confidence": "中高",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "miao-embroidery",
+    "name": "苗绣",
+    "alias": "苗族刺绣",
+    "themeId": "textile-pattern",
+    "category": "刺绣",
+    "region": "贵州",
+    "heritageLevel": "国家级",
+    "type": "传统美术",
+    "summary": "纹样故事密度高，适合品牌联名和文化解释型产品。",
+    "positioning": "适合做服饰配件、公益联名与研学美育内容。",
+    "productDirections": [
+      "纹样丝巾",
+      "配饰包袋",
+      "联名服饰"
+    ],
+    "experienceDirections": [
+      "纹样讲解",
+      "基础针法体验"
+    ],
+    "courseDirections": [
+      "民族纹样美育",
+      "非遗与女性手工课"
+    ],
+    "giftDirections": [
+      "联名礼盒",
+      "艺术衍生品"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "文创品牌",
+      "展览商店",
+      "研学基地"
+    ],
+    "businessTags": [
+      "品牌联名",
+      "高客单"
+    ],
+    "spreadTags": [
+      "故事密度",
+      "高传播"
+    ],
+    "riskTags": [
+      "文化误读",
+      "版权风险"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 84,
+      "experience": 70,
+      "scenario": 78,
+      "spread": 88,
+      "gift": 82,
+      "operation": 56
+    },
+    "totalScore": 78,
+    "scoreExplanation": "传播和审美强，需重视合作机制和文化解释。",
+    "suitableScenes": [
+      "品牌联名",
+      "展览零售",
+      "美育课程"
+    ],
+    "unsuitableScenes": [
+      "无授权的快速贴图产品"
+    ],
+    "risks": [
+      "纹样意义误读",
+      "合作收益分配需清晰"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "miao embroidery pattern premium dark display",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "shaoxing-rice-wine",
+    "name": "绍兴黄酒酿制技艺",
+    "alias": "绍兴黄酒",
+    "themeId": "local-flavor",
+    "category": "酿造",
+    "region": "浙江绍兴",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "地方风味心智强，适合味觉体验、伴手礼和餐旅融合。",
+    "positioning": "适合做城市味觉名片、酒坊体验和节令礼盒。",
+    "productDirections": [
+      "小瓶黄酒",
+      "节令礼盒",
+      "酒香点心"
+    ],
+    "experienceDirections": [
+      "酒坊参观",
+      "风味品鉴",
+      "黄酒入菜"
+    ],
+    "courseDirections": [
+      "酿造研学",
+      "地方风味课"
+    ],
+    "giftDirections": [
+      "节令酒礼",
+      "城市伴手礼"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "古城街区",
+      "餐饮空间",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "伴手礼",
+      "餐旅融合"
+    ],
+    "spreadTags": [
+      "地方风味"
+    ],
+    "riskTags": [
+      "食品安全",
+      "酒精限制"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 86,
+      "experience": 82,
+      "scenario": 84,
+      "spread": 76,
+      "gift": 86,
+      "operation": 60
+    },
+    "totalScore": 79,
+    "scoreExplanation": "味觉和礼品能力强，合规与库存要求较高。",
+    "suitableScenes": [
+      "古城街区",
+      "酒坊体验",
+      "节令礼品"
+    ],
+    "unsuitableScenes": [
+      "低龄研学主项目"
+    ],
+    "risks": [
+      "酒精类合规限制",
+      "仓储和保质期管理"
+    ],
+    "cases": [
+      "case-food-market"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "shaoxing rice wine dark warm tasting",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "zhoucun-sesame-cake",
+    "name": "周村烧饼制作技艺",
+    "alias": "周村烧饼",
+    "themeId": "local-flavor",
+    "category": "传统糕点",
+    "region": "山东淄博",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "轻量易携带，适合地方伴手礼和现场制作展示。",
+    "positioning": "适合做低门槛城市味觉伴手礼和市集快闪。",
+    "productDirections": [
+      "小包装烧饼",
+      "口味组合",
+      "节庆礼盒"
+    ],
+    "experienceDirections": [
+      "现场摊制观察",
+      "试吃市集"
+    ],
+    "courseDirections": [
+      "地方风味课",
+      "面点研学"
+    ],
+    "giftDirections": [
+      "游客伴手礼",
+      "企业小礼"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "亲子家庭"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "周末市集",
+      "景区体验"
+    ],
+    "businessTags": [
+      "伴手礼",
+      "快消零售"
+    ],
+    "spreadTags": [
+      "地方风味"
+    ],
+    "riskTags": [
+      "食品安全",
+      "同质化风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 88,
+      "experience": 74,
+      "scenario": 80,
+      "spread": 70,
+      "gift": 82,
+      "operation": 74
+    },
+    "totalScore": 78,
+    "scoreExplanation": "商品化效率高，文化解释和品牌包装需加强。",
+    "suitableScenes": [
+      "游客中心",
+      "市集摊位",
+      "城市礼物店"
+    ],
+    "unsuitableScenes": [
+      "高端文化展陈主项目"
+    ],
+    "risks": [
+      "保质期管理",
+      "现场食品安全",
+      "口味创新需克制"
+    ],
+    "cases": [
+      "case-food-market"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "sesame cake heritage gift dark warm",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "doubanjiang",
+    "name": "郫县豆瓣传统制作技艺",
+    "alias": "郫县豆瓣",
+    "themeId": "local-flavor",
+    "category": "酿造调味",
+    "region": "四川成都",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "地域风味识别强，适合餐旅融合和厨房礼品。",
+    "positioning": "适合做地方风味体验、调味礼盒和餐饮联名。",
+    "productDirections": [
+      "小罐调味礼盒",
+      "风味套装",
+      "联名菜品"
+    ],
+    "experienceDirections": [
+      "晒场参观",
+      "川味调味课"
+    ],
+    "courseDirections": [
+      "川菜风味研学",
+      "酿造观察课"
+    ],
+    "giftDirections": [
+      "厨房伴手礼",
+      "城市风味礼盒"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "美食街区",
+      "餐饮空间",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "伴手礼",
+      "餐旅融合"
+    ],
+    "spreadTags": [
+      "地方风味"
+    ],
+    "riskTags": [
+      "食品安全",
+      "气味场景限制"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 84,
+      "experience": 72,
+      "scenario": 78,
+      "spread": 72,
+      "gift": 80,
+      "operation": 62
+    },
+    "totalScore": 75,
+    "scoreExplanation": "调味产品稳定，现场体验需处理气味和卫生边界。",
+    "suitableScenes": [
+      "餐饮联名",
+      "地方礼品",
+      "美食研学"
+    ],
+    "unsuitableScenes": [
+      "高雅酒店公区体验"
+    ],
+    "risks": [
+      "气味影响空间",
+      "食品生产许可",
+      "体验观赏性有限"
+    ],
+    "cases": [
+      "case-food-market"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "pixian doubanjiang jar dark food heritage",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "paper-cut",
+    "name": "剪纸",
+    "alias": "中国剪纸",
+    "themeId": "craft-study",
+    "category": "纸艺",
+    "region": "全国多地",
+    "heritageLevel": "国家级/人类非遗代表作名录相关",
+    "type": "传统美术",
+    "summary": "材料低成本、成果明确，是亲子研学和节令活动的基础款。",
+    "positioning": "适合做低风险亲子课程、节庆快闪和街区轻体验。",
+    "productDirections": [
+      "剪纸贺卡",
+      "节令窗花",
+      "纹样文创"
+    ],
+    "experienceDirections": [
+      "基础剪纸体验",
+      "生肖主题活动"
+    ],
+    "courseDirections": [
+      "节令民俗课",
+      "纹样美育课"
+    ],
+    "giftDirections": [
+      "轻量文创套装",
+      "节庆礼物"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "学校研学"
+    ],
+    "scenes": [
+      "研学基地",
+      "历史街区",
+      "景区体验"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "低成本"
+    ],
+    "spreadTags": [
+      "节令传播"
+    ],
+    "riskTags": [
+      "安全风险"
+    ],
+    "operationTags": [
+      "低运营难度"
+    ],
+    "scores": {
+      "commodity": 70,
+      "experience": 88,
+      "scenario": 86,
+      "spread": 76,
+      "gift": 68,
+      "operation": 90
+    },
+    "totalScore": 80,
+    "scoreExplanation": "体验和运营友好，商品溢价有限。",
+    "suitableScenes": [
+      "亲子研学",
+      "节庆活动",
+      "街区快闪"
+    ],
+    "unsuitableScenes": [
+      "高端礼品主推"
+    ],
+    "risks": [
+      "剪刀安全",
+      "内容易同质化",
+      "成品质感需设计提升"
+    ],
+    "cases": [
+      "case-study-camp",
+      "case-district-workshop"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "paper cutting workshop dark gold paper",
+    "reviewStatus": "人工初审",
+    "confidence": "高",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "woodblock-new-year",
+    "name": "木版年画",
+    "alias": "年画",
+    "themeId": "craft-study",
+    "category": "版画",
+    "region": "天津杨柳青等",
+    "heritageLevel": "国家级",
+    "type": "传统美术",
+    "summary": "图像识别度强，适合节令课程、亲子拓印和文创开发。",
+    "positioning": "适合做春节主题研学、拓印体验和图像衍生品。",
+    "productDirections": [
+      "年画海报",
+      "红包对联",
+      "版画套装"
+    ],
+    "experienceDirections": [
+      "拓印体验",
+      "套色观察"
+    ],
+    "courseDirections": [
+      "年俗美育课",
+      "版画工艺课"
+    ],
+    "giftDirections": [
+      "节令礼盒",
+      "家庭装饰"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "学校研学"
+    ],
+    "scenes": [
+      "研学基地",
+      "博物馆商店",
+      "节庆活动"
+    ],
+    "businessTags": [
+      "课程化",
+      "文创零售"
+    ],
+    "spreadTags": [
+      "节令传播",
+      "高传播"
+    ],
+    "riskTags": [
+      "版权风险",
+      "安全风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 76,
+      "experience": 86,
+      "scenario": 84,
+      "spread": 84,
+      "gift": 74,
+      "operation": 76
+    },
+    "totalScore": 80,
+    "scoreExplanation": "图像传播强，课程设计成熟度高。",
+    "suitableScenes": [
+      "节令研学",
+      "博物馆教育",
+      "街区活动"
+    ],
+    "unsuitableScenes": [
+      "全年无主题零售主力"
+    ],
+    "risks": [
+      "图像授权",
+      "颜料清洁",
+      "节令性明显"
+    ],
+    "cases": [
+      "case-study-camp"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "woodblock new year print workshop dark red restrained",
+    "reviewStatus": "人工初审",
+    "confidence": "中高",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "kite-making",
+    "name": "风筝制作技艺",
+    "alias": "风筝",
+    "themeId": "craft-study",
+    "category": "手作",
+    "region": "山东潍坊等",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "动手和户外体验结合，适合亲子活动和春季节庆。",
+    "positioning": "适合做亲子研学、户外节庆和景区活动。",
+    "productDirections": [
+      "小风筝材料包",
+      "城市纹样风筝",
+      "节庆套装"
+    ],
+    "experienceDirections": [
+      "骨架制作",
+      "放飞活动"
+    ],
+    "courseDirections": [
+      "风筝结构课",
+      "春日民俗课"
+    ],
+    "giftDirections": [
+      "亲子材料包",
+      "节庆礼物"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "学校研学"
+    ],
+    "scenes": [
+      "景区体验",
+      "研学营地",
+      "户外活动"
+    ],
+    "businessTags": [
+      "课程化",
+      "材料包"
+    ],
+    "spreadTags": [
+      "高传播",
+      "户外内容"
+    ],
+    "riskTags": [
+      "天气风险",
+      "安全风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 72,
+      "experience": 90,
+      "scenario": 82,
+      "spread": 86,
+      "gift": 70,
+      "operation": 74
+    },
+    "totalScore": 79,
+    "scoreExplanation": "体验传播强，受天气和场地影响。",
+    "suitableScenes": [
+      "户外营地",
+      "春季活动",
+      "景区草坪"
+    ],
+    "unsuitableScenes": [
+      "室内小空间"
+    ],
+    "risks": [
+      "天气不确定",
+      "线材安全",
+      "场地管理"
+    ],
+    "cases": [
+      "case-study-camp"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "kite making heritage study desk dark wood",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "dough-figurine",
+    "name": "面塑",
+    "alias": "面人",
+    "themeId": "craft-study",
+    "category": "塑作",
+    "region": "北京等",
+    "heritageLevel": "国家级",
+    "type": "传统美术",
+    "summary": "角色感强、上手快，适合亲子体验和节令主题课程。",
+    "positioning": "适合做低龄亲子手作、角色主题课程和街区快闪。",
+    "productDirections": [
+      "面塑摆件",
+      "亲子材料包",
+      "节令主题套装"
+    ],
+    "experienceDirections": [
+      "基础捏塑",
+      "生肖角色"
+    ],
+    "courseDirections": [
+      "色彩造型课",
+      "民俗角色课"
+    ],
+    "giftDirections": [
+      "亲子成品",
+      "节令小礼"
+    ],
+    "targetUsers": [
+      "亲子家庭"
+    ],
+    "scenes": [
+      "研学基地",
+      "景区体验",
+      "亲子空间"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "低成本"
+    ],
+    "spreadTags": [
+      "可爱传播"
+    ],
+    "riskTags": [
+      "食品误食",
+      "安全风险"
+    ],
+    "operationTags": [
+      "低运营难度"
+    ],
+    "scores": {
+      "commodity": 68,
+      "experience": 88,
+      "scenario": 82,
+      "spread": 78,
+      "gift": 64,
+      "operation": 84
+    },
+    "totalScore": 77,
+    "scoreExplanation": "亲子体验好，商品长期保存和质感有限。",
+    "suitableScenes": [
+      "亲子工坊",
+      "节令课程",
+      "景区二消"
+    ],
+    "unsuitableScenes": [
+      "高端礼品"
+    ],
+    "risks": [
+      "低龄误食",
+      "材料保存",
+      "作品审美不稳定"
+    ],
+    "cases": [
+      "case-study-camp"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "dough figurine craft table dark warm",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "bamboo-weaving",
+    "name": "竹编",
+    "alias": "竹编技艺",
+    "themeId": "craft-study",
+    "category": "编织",
+    "region": "浙江四川等",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "材料质感好，既可做体验也可做生活器物。",
+    "positioning": "适合街区工坊、生活方式产品和研学课程。",
+    "productDirections": [
+      "竹编杯垫",
+      "收纳器物",
+      "灯具软装"
+    ],
+    "experienceDirections": [
+      "基础编织",
+      "器物观察"
+    ],
+    "courseDirections": [
+      "材料结构课",
+      "东方生活器物课"
+    ],
+    "giftDirections": [
+      "家居小礼",
+      "企业定制"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "历史街区",
+      "研学基地",
+      "生活方式店"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "生活器物",
+      "伴手礼"
+    ],
+    "spreadTags": [
+      "自然材料"
+    ],
+    "riskTags": [
+      "工时较长"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 80,
+      "experience": 82,
+      "scenario": 84,
+      "spread": 74,
+      "gift": 78,
+      "operation": 72
+    },
+    "totalScore": 78,
+    "scoreExplanation": "产品和体验平衡，需控制课程时长。",
+    "suitableScenes": [
+      "街区工坊",
+      "家居文创",
+      "研学课程"
+    ],
+    "unsuitableScenes": [
+      "15分钟快闪体验"
+    ],
+    "risks": [
+      "体验耗时",
+      "竹材毛刺安全",
+      "成品率控制"
+    ],
+    "cases": [
+      "case-district-workshop"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "bamboo weaving dark natural craft",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "hanfu-makeup",
+    "name": "传统妆造体验",
+    "alias": "国风妆造",
+    "themeId": "guofeng-photo",
+    "category": "妆造体验",
+    "region": "全国古城街区",
+    "heritageLevel": "非遗相关转化方向",
+    "type": "体验业态",
+    "summary": "传播效率高，适合国风旅拍和夜游街区，但需处理文化边界。",
+    "positioning": "适合古城旅拍、街区夜游和内容传播型消费。",
+    "productDirections": [
+      "妆造套餐",
+      "服饰租赁",
+      "旅拍套系"
+    ],
+    "experienceDirections": [
+      "妆造体验",
+      "场景拍摄",
+      "短视频出片"
+    ],
+    "courseDirections": [
+      "传统审美课",
+      "服饰纹样课"
+    ],
+    "giftDirections": [
+      "写真礼券",
+      "城市旅拍套票"
+    ],
+    "targetUsers": [
+      "年轻游客"
+    ],
+    "scenes": [
+      "古城旅拍",
+      "历史街区",
+      "夜游空间"
+    ],
+    "businessTags": [
+      "体验预约",
+      "高传播"
+    ],
+    "spreadTags": [
+      "高传播",
+      "出片"
+    ],
+    "riskTags": [
+      "文化误读",
+      "卫生风险"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 72,
+      "experience": 90,
+      "scenario": 90,
+      "spread": 94,
+      "gift": 66,
+      "operation": 58
+    },
+    "totalScore": 82,
+    "scoreExplanation": "传播和场景强，运营标准化要求高。",
+    "suitableScenes": [
+      "古城旅拍",
+      "夜游街区",
+      "节庆活动"
+    ],
+    "unsuitableScenes": [
+      "严肃学术展陈"
+    ],
+    "risks": [
+      "文化误读",
+      "妆具卫生",
+      "价格透明和排队管理"
+    ],
+    "cases": [
+      "case-guofeng-photo"
+    ],
+    "sources": [
+      "公开旅拍业态观察"
+    ],
+    "imagePrompt": "traditional makeup studio dark rouge professional",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "silver-ornament",
+    "name": "苗族银饰锻制技艺",
+    "alias": "苗银",
+    "themeId": "guofeng-photo",
+    "category": "金属工艺",
+    "region": "贵州黔东南",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "视觉冲击力强，适合旅拍配饰、展陈和高端衍生品。",
+    "positioning": "适合国风旅拍配饰、文化展陈和礼品开发。",
+    "productDirections": [
+      "银饰配件",
+      "纹样首饰",
+      "陈列摆件"
+    ],
+    "experienceDirections": [
+      "银饰试戴",
+      "纹样讲解"
+    ],
+    "courseDirections": [
+      "民族纹样课",
+      "金工观察课"
+    ],
+    "giftDirections": [
+      "首饰礼盒",
+      "旅拍纪念品"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "旅拍空间",
+      "展览商店",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "高客单",
+      "旅拍配饰"
+    ],
+    "spreadTags": [
+      "高传播",
+      "视觉强"
+    ],
+    "riskTags": [
+      "文化误读",
+      "价格门槛"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 82,
+      "experience": 76,
+      "scenario": 86,
+      "spread": 92,
+      "gift": 84,
+      "operation": 56
+    },
+    "totalScore": 79,
+    "scoreExplanation": "视觉传播强，真实工艺体验不宜简化过度。",
+    "suitableScenes": [
+      "旅拍配饰",
+      "展陈零售",
+      "高端礼品"
+    ],
+    "unsuitableScenes": [
+      "低预算儿童工坊"
+    ],
+    "risks": [
+      "材质真伪",
+      "文化语境误读",
+      "防盗与保养"
+    ],
+    "cases": [
+      "case-guofeng-photo"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "miao silver ornament dark rouge display",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "dragon-lantern",
+    "name": "龙灯彩扎",
+    "alias": "龙灯",
+    "themeId": "guofeng-photo",
+    "category": "彩扎灯会",
+    "region": "多地",
+    "heritageLevel": "国家级相关项目",
+    "type": "传统美术/民俗",
+    "summary": "大型视觉装置属性强，适合夜游、节庆和城市活动。",
+    "positioning": "适合做夜游装置、节庆内容和传播节点。",
+    "productDirections": [
+      "小型灯彩文创",
+      "节庆装置衍生",
+      "活动周边"
+    ],
+    "experienceDirections": [
+      "灯彩装置打卡",
+      "彩扎观察"
+    ],
+    "courseDirections": [
+      "节庆民俗课",
+      "结构美育课"
+    ],
+    "giftDirections": [
+      "灯彩小礼",
+      "节庆纪念品"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "亲子家庭"
+    ],
+    "scenes": [
+      "夜游空间",
+      "历史街区",
+      "节庆活动"
+    ],
+    "businessTags": [
+      "活动引流",
+      "文创零售"
+    ],
+    "spreadTags": [
+      "高传播",
+      "夜游内容"
+    ],
+    "riskTags": [
+      "安全风险",
+      "高成本"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 64,
+      "experience": 84,
+      "scenario": 90,
+      "spread": 94,
+      "gift": 60,
+      "operation": 46
+    },
+    "totalScore": 73,
+    "scoreExplanation": "传播和场景强，投入与维护成本高。",
+    "suitableScenes": [
+      "夜游街区",
+      "节庆活动",
+      "城市装置"
+    ],
+    "unsuitableScenes": [
+      "常态小店运营"
+    ],
+    "risks": [
+      "消防安全",
+      "装置维护",
+      "季节性强"
+    ],
+    "cases": [
+      "case-guofeng-photo"
+    ],
+    "sources": [
+      "地方节庆公开资料"
+    ],
+    "imagePrompt": "dragon lantern installation dark night gold",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "huizhou-ink",
+    "name": "徽墨制作技艺",
+    "alias": "徽墨",
+    "themeId": "ceramic-craft",
+    "category": "文房器物",
+    "region": "安徽黄山",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "文房属性清晰，适合礼品、书房空间和美育课程。",
+    "positioning": "适合做东方书房礼品和文房体验。",
+    "productDirections": [
+      "小锭徽墨",
+      "文房礼盒",
+      "香墨衍生"
+    ],
+    "experienceDirections": [
+      "描金体验",
+      "制墨观察"
+    ],
+    "courseDirections": [
+      "文房美学课",
+      "汉字书写课"
+    ],
+    "giftDirections": [
+      "商务文房礼",
+      "城市文化礼"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "学校研学"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "书房空间",
+      "研学基地"
+    ],
+    "businessTags": [
+      "伴手礼",
+      "高客单"
+    ],
+    "spreadTags": [
+      "文人美学"
+    ],
+    "riskTags": [
+      "解释成本"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 84,
+      "experience": 70,
+      "scenario": 80,
+      "spread": 70,
+      "gift": 88,
+      "operation": 70
+    },
+    "totalScore": 77,
+    "scoreExplanation": "礼品稳定，体验吸引力需通过书写场景补足。",
+    "suitableScenes": [
+      "文房礼品",
+      "书院研学",
+      "城市礼物店"
+    ],
+    "unsuitableScenes": [
+      "高流量儿童快闪"
+    ],
+    "risks": [
+      "使用频率低",
+      "文化解释偏重",
+      "库存规格复杂"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "huizhou ink gift dark paper gold",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "sugar-painting",
+    "name": "糖画",
+    "alias": "糖画技艺",
+    "themeId": "local-flavor",
+    "category": "民间小吃",
+    "region": "四川等",
+    "heritageLevel": "省市级常见项目",
+    "type": "传统技艺",
+    "summary": "现场观赏性强，适合市集、亲子和节庆活动。",
+    "positioning": "适合做低客单现场体验和街区互动摊位。",
+    "productDirections": [
+      "现制糖画",
+      "节庆糖礼",
+      "亲子体验券"
+    ],
+    "experienceDirections": [
+      "现场绘糖",
+      "转盘互动"
+    ],
+    "courseDirections": [
+      "民俗小吃课",
+      "糖艺观察"
+    ],
+    "giftDirections": [
+      "节庆小礼"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "年轻游客"
+    ],
+    "scenes": [
+      "历史街区",
+      "周末市集",
+      "景区体验"
+    ],
+    "businessTags": [
+      "快闪摊位",
+      "低客单"
+    ],
+    "spreadTags": [
+      "现场传播"
+    ],
+    "riskTags": [
+      "食品安全",
+      "安全风险"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 58,
+      "experience": 86,
+      "scenario": 82,
+      "spread": 82,
+      "gift": 50,
+      "operation": 72
+    },
+    "totalScore": 72,
+    "scoreExplanation": "现场互动强，商品化和保存能力弱。",
+    "suitableScenes": [
+      "街区市集",
+      "节庆活动",
+      "亲子互动"
+    ],
+    "unsuitableScenes": [
+      "标准化伴手礼主力"
+    ],
+    "risks": [
+      "热糖安全",
+      "食品卫生",
+      "天气影响"
+    ],
+    "cases": [
+      "case-food-market"
+    ],
+    "sources": [
+      "地方民俗公开资料"
+    ],
+    "imagePrompt": "sugar painting market dark warm",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "clay-figurine",
+    "name": "泥塑",
+    "alias": "泥人",
+    "themeId": "ceramic-craft",
+    "category": "泥塑",
+    "region": "天津无锡等",
+    "heritageLevel": "国家级",
+    "type": "传统美术",
+    "summary": "角色造型强，适合展陈、亲子捏塑和地方文创。",
+    "positioning": "适合做民俗角色研学和小型文创摆件。",
+    "productDirections": [
+      "角色摆件",
+      "文创盲盒",
+      "节令小件"
+    ],
+    "experienceDirections": [
+      "泥塑体验",
+      "彩绘体验"
+    ],
+    "courseDirections": [
+      "民俗角色课",
+      "造型色彩课"
+    ],
+    "giftDirections": [
+      "地方小礼",
+      "节令摆件"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "年轻游客"
+    ],
+    "scenes": [
+      "研学基地",
+      "历史街区",
+      "文创店"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "文创零售"
+    ],
+    "spreadTags": [
+      "角色传播"
+    ],
+    "riskTags": [
+      "成品质感"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 74,
+      "experience": 84,
+      "scenario": 78,
+      "spread": 76,
+      "gift": 70,
+      "operation": 72
+    },
+    "totalScore": 76,
+    "scoreExplanation": "体验和角色感好，审美稳定性需控制。",
+    "suitableScenes": [
+      "亲子工坊",
+      "民俗展陈",
+      "街区文创"
+    ],
+    "unsuitableScenes": [
+      "高端商务礼品"
+    ],
+    "risks": [
+      "成品干燥",
+      "审美低龄化",
+      "运输破损"
+    ],
+    "cases": [
+      "case-study-camp"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "clay figurine craft dark display",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "lacquerware",
+    "name": "漆器髹饰技艺",
+    "alias": "漆器",
+    "themeId": "ceramic-craft",
+    "category": "器物髹饰",
+    "region": "福州扬州等",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "高端器物属性明显，适合礼赠和空间陈列。",
+    "positioning": "适合做高端生活器物、商务礼赠和展陈型体验。",
+    "productDirections": [
+      "漆盘漆盒",
+      "首饰器物",
+      "空间陈列"
+    ],
+    "experienceDirections": [
+      "漆色体验",
+      "工艺观摩"
+    ],
+    "courseDirections": [
+      "器物美学课",
+      "材料工艺课"
+    ],
+    "giftDirections": [
+      "商务漆器礼",
+      "收藏小件"
+    ],
+    "targetUsers": [
+      "商务礼赠"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "酒店空间",
+      "展览商店"
+    ],
+    "businessTags": [
+      "高客单",
+      "定制礼品"
+    ],
+    "spreadTags": [
+      "器物美学"
+    ],
+    "riskTags": [
+      "价格门槛",
+      "工期长"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 86,
+      "experience": 64,
+      "scenario": 78,
+      "spread": 72,
+      "gift": 90,
+      "operation": 48
+    },
+    "totalScore": 73,
+    "scoreExplanation": "礼赠价值强，体验和交付周期较重。",
+    "suitableScenes": [
+      "高端礼赠",
+      "酒店陈列",
+      "展览商店"
+    ],
+    "unsuitableScenes": [
+      "低价亲子体验"
+    ],
+    "risks": [
+      "工期长",
+      "过敏与材料安全",
+      "价格解释成本"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "lacquerware dark gold premium object",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "xiangyunsha",
+    "name": "香云纱染整技艺",
+    "alias": "香云纱",
+    "themeId": "textile-pattern",
+    "category": "染整",
+    "region": "广东佛山",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "材质高级感强，适合服饰、空间软装和高端礼品。",
+    "positioning": "适合做东方生活方式服饰配件和高端联名。",
+    "productDirections": [
+      "丝巾服饰",
+      "包袋配件",
+      "软装面料"
+    ],
+    "experienceDirections": [
+      "材质触摸体验",
+      "染整工艺讲解"
+    ],
+    "courseDirections": [
+      "面料美学课",
+      "岭南工艺课"
+    ],
+    "giftDirections": [
+      "高端丝巾",
+      "商务礼品"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "年轻游客"
+    ],
+    "scenes": [
+      "文创品牌",
+      "酒店空间",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "高客单",
+      "品牌联名"
+    ],
+    "spreadTags": [
+      "材质美学"
+    ],
+    "riskTags": [
+      "价格门槛"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 88,
+      "experience": 68,
+      "scenario": 82,
+      "spread": 78,
+      "gift": 88,
+      "operation": 54
+    },
+    "totalScore": 78,
+    "scoreExplanation": "材质和礼赠强，现场体验弱于成品销售。",
+    "suitableScenes": [
+      "高端文创",
+      "酒店零售",
+      "品牌联名"
+    ],
+    "unsuitableScenes": [
+      "低预算研学"
+    ],
+    "risks": [
+      "面料成本高",
+      "真伪解释",
+      "供应链周期"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "xiangyunsha silk dark refined textile",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "paper-umbrella",
+    "name": "油纸伞制作技艺",
+    "alias": "油纸伞",
+    "themeId": "guofeng-photo",
+    "category": "器物/旅拍道具",
+    "region": "四川泸州等",
+    "heritageLevel": "国家级相关项目",
+    "type": "传统技艺",
+    "summary": "旅拍道具属性强，适合街区陈列、体验和纪念品。",
+    "positioning": "适合国风旅拍、古镇街区和轻量彩绘体验。",
+    "productDirections": [
+      "小型纸伞",
+      "彩绘伞",
+      "空间吊饰"
+    ],
+    "experienceDirections": [
+      "伞面彩绘",
+      "旅拍道具租赁"
+    ],
+    "courseDirections": [
+      "纸伞结构课",
+      "民俗美育"
+    ],
+    "giftDirections": [
+      "旅拍纪念品",
+      "节庆小礼"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "亲子家庭"
+    ],
+    "scenes": [
+      "古城旅拍",
+      "历史街区",
+      "研学基地"
+    ],
+    "businessTags": [
+      "旅拍配饰",
+      "工坊体验"
+    ],
+    "spreadTags": [
+      "高传播",
+      "出片"
+    ],
+    "riskTags": [
+      "天气风险",
+      "易损"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 76,
+      "experience": 82,
+      "scenario": 88,
+      "spread": 90,
+      "gift": 72,
+      "operation": 68
+    },
+    "totalScore": 79,
+    "scoreExplanation": "场景和传播强，商品耐用性与库存需控制。",
+    "suitableScenes": [
+      "古镇旅拍",
+      "街区装置",
+      "亲子彩绘"
+    ],
+    "unsuitableScenes": [
+      "雨天高频实用销售"
+    ],
+    "risks": [
+      "易损坏",
+      "运输占空间",
+      "雨天体验受限"
+    ],
+    "cases": [
+      "case-guofeng-photo"
+    ],
+    "sources": [
+      "地方非遗公开资料"
+    ],
+    "imagePrompt": "oil paper umbrella guofeng dark rouge",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "shadow-puppet",
+    "name": "皮影戏",
+    "alias": "皮影",
+    "themeId": "craft-study",
+    "category": "表演/美术",
+    "region": "陕西等",
+    "heritageLevel": "国家级",
+    "type": "传统戏剧/美术",
+    "summary": "故事性强，适合亲子剧场、影偶制作和夜间活动。",
+    "positioning": "适合做小剧场体验、亲子影偶课程和节庆演出。",
+    "productDirections": [
+      "影偶材料包",
+      "小剧场票券",
+      "故事文创"
+    ],
+    "experienceDirections": [
+      "皮影小戏",
+      "影偶制作"
+    ],
+    "courseDirections": [
+      "光影故事课",
+      "传统戏剧课"
+    ],
+    "giftDirections": [
+      "影偶书签",
+      "故事礼盒"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "学校研学"
+    ],
+    "scenes": [
+      "研学基地",
+      "夜游空间",
+      "博物馆教育"
+    ],
+    "businessTags": [
+      "课程化",
+      "演艺体验"
+    ],
+    "spreadTags": [
+      "故事传播"
+    ],
+    "riskTags": [
+      "师资依赖"
+    ],
+    "operationTags": [
+      "高运营难度"
+    ],
+    "scores": {
+      "commodity": 70,
+      "experience": 88,
+      "scenario": 84,
+      "spread": 82,
+      "gift": 66,
+      "operation": 58
+    },
+    "totalScore": 75,
+    "scoreExplanation": "体验内容好，依赖演示和故事组织能力。",
+    "suitableScenes": [
+      "亲子剧场",
+      "博物馆教育",
+      "夜游活动"
+    ],
+    "unsuitableScenes": [
+      "无人值守零售"
+    ],
+    "risks": [
+      "演出人才依赖",
+      "道具维护",
+      "故事时长控制"
+    ],
+    "cases": [
+      "case-study-camp"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "shadow puppet theatre dark warm light",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "seal-carving",
+    "name": "篆刻",
+    "alias": "印章篆刻",
+    "themeId": "ceramic-craft",
+    "category": "文房体验",
+    "region": "全国多地",
+    "heritageLevel": "国家级相关项目",
+    "type": "传统美术",
+    "summary": "个人化和纪念属性强，适合文房体验和定制礼品。",
+    "positioning": "适合做姓名印、城市印章和书房美学体验。",
+    "productDirections": [
+      "姓名印章",
+      "城市印谱",
+      "文房礼盒"
+    ],
+    "experienceDirections": [
+      "印稿设计",
+      "钤印体验"
+    ],
+    "courseDirections": [
+      "汉字美学课",
+      "篆刻入门课"
+    ],
+    "giftDirections": [
+      "定制印章",
+      "企业纪念章"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠",
+      "学校研学"
+    ],
+    "scenes": [
+      "书院空间",
+      "城市礼物店",
+      "研学基地"
+    ],
+    "businessTags": [
+      "定制礼品",
+      "体验预约"
+    ],
+    "spreadTags": [
+      "个人化"
+    ],
+    "riskTags": [
+      "刀具安全"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 78,
+      "experience": 80,
+      "scenario": 78,
+      "spread": 72,
+      "gift": 82,
+      "operation": 68
+    },
+    "totalScore": 76,
+    "scoreExplanation": "定制价值较强，体验需处理刀具安全。",
+    "suitableScenes": [
+      "书院研学",
+      "城市礼品",
+      "文化空间"
+    ],
+    "unsuitableScenes": [
+      "低龄无监管体验"
+    ],
+    "risks": [
+      "刀具安全",
+      "字形设计门槛",
+      "交付时间"
+    ],
+    "cases": [
+      "case-city-gift"
+    ],
+    "sources": [
+      "公开艺术教育资料"
+    ],
+    "imagePrompt": "seal carving dark scholar desk",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "paper-making",
+    "name": "传统造纸技艺",
+    "alias": "手工纸",
+    "themeId": "craft-study",
+    "category": "纸艺材料",
+    "region": "安徽泾县等",
+    "heritageLevel": "国家级",
+    "type": "传统技艺",
+    "summary": "过程可视化强，适合研学、文房礼品和材料美学。",
+    "positioning": "适合做手工纸体验、文房产品和自然材料课程。",
+    "productDirections": [
+      "手工纸本",
+      "花草纸",
+      "文房纸品"
+    ],
+    "experienceDirections": [
+      "抄纸体验",
+      "纸浆观察"
+    ],
+    "courseDirections": [
+      "材料科学课",
+      "文房美学课"
+    ],
+    "giftDirections": [
+      "纸品礼盒",
+      "手账材料包"
+    ],
+    "targetUsers": [
+      "亲子家庭",
+      "学校研学",
+      "年轻游客"
+    ],
+    "scenes": [
+      "研学基地",
+      "文创店",
+      "自然教育营地"
+    ],
+    "businessTags": [
+      "工坊体验",
+      "材料包"
+    ],
+    "spreadTags": [
+      "自然材料"
+    ],
+    "riskTags": [
+      "水电场地"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 76,
+      "experience": 88,
+      "scenario": 82,
+      "spread": 78,
+      "gift": 74,
+      "operation": 66
+    },
+    "totalScore": 77,
+    "scoreExplanation": "体验过程好，场地湿区和材料准备需规范。",
+    "suitableScenes": [
+      "研学课程",
+      "自然教育",
+      "文房礼品"
+    ],
+    "unsuitableScenes": [
+      "无水源快闪摊位"
+    ],
+    "risks": [
+      "湿区管理",
+      "干燥时间",
+      "材料卫生"
+    ],
+    "cases": [
+      "case-study-camp"
+    ],
+    "sources": [
+      "非遗名录公开资料"
+    ],
+    "imagePrompt": "handmade paper workshop dark linen",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  },
+  {
+    "id": "incense-making",
+    "name": "传统制香技艺",
+    "alias": "制香",
+    "themeId": "tea-life",
+    "category": "香事",
+    "region": "福建广东等",
+    "heritageLevel": "地方非遗常见项目",
+    "type": "传统技艺",
+    "summary": "与茶、书房和疗愈空间兼容，适合成人体验和礼品。",
+    "positioning": "适合做东方生活方式体验、香牌礼品和酒店活动。",
+    "productDirections": [
+      "线香香牌",
+      "香事礼盒",
+      "空间香氛"
+    ],
+    "experienceDirections": [
+      "合香体验",
+      "香席体验"
+    ],
+    "courseDirections": [
+      "香事入门课",
+      "东方生活美学"
+    ],
+    "giftDirections": [
+      "香牌礼盒",
+      "酒店伴手礼"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "酒店民宿",
+      "茶空间",
+      "生活方式店"
+    ],
+    "businessTags": [
+      "伴手礼",
+      "体验预约"
+    ],
+    "spreadTags": [
+      "生活方式"
+    ],
+    "riskTags": [
+      "气味过敏"
+    ],
+    "operationTags": [
+      "中运营难度"
+    ],
+    "scores": {
+      "commodity": 82,
+      "experience": 84,
+      "scenario": 86,
+      "spread": 76,
+      "gift": 82,
+      "operation": 70
+    },
+    "totalScore": 81,
+    "scoreExplanation": "茶旅和生活方式融合度高，需注意气味敏感。",
+    "suitableScenes": [
+      "酒店体验",
+      "茶空间",
+      "生活方式零售"
+    ],
+    "unsuitableScenes": [
+      "高密闭大客流空间"
+    ],
+    "risks": [
+      "气味过敏",
+      "原料宣称合规",
+      "明火管理"
+    ],
+    "cases": [
+      "case-tea-hotel"
+    ],
+    "sources": [
+      "地方非遗公开资料"
+    ],
+    "imagePrompt": "oriental incense making dark tea room",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "updatedAt": "2026-05-17"
+  }
+]
