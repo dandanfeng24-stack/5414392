@@ -1,28 +1,18 @@
 # 非遗造物 MVP
 
-中国非遗产品化与文旅转化研究平台 MVP。项目使用 Next.js App Router、React、TypeScript、Tailwind CSS，页面以静态生成为主，内容由 `data` 目录下的 JSON 驱动。
+中国非遗产品化与文旅转化研究平台 MVP。项目使用 Next.js App Router、React、TypeScript、Tailwind CSS，页面以静态生成和 JSON 数据驱动为主。
 
 ## 在线预览
 
-本项目推荐通过 Vercel 部署后预览。部署完成后，请使用 Vercel 自动生成的线上地址访问，例如：
-
-```text
-https://feiyi-zaowu.vercel.app
-```
-
 当前生产预览地址：
 
-```text
-https://feiyi-zaowu.vercel.app
-```
+[https://feiyi-zaowu.vercel.app](https://feiyi-zaowu.vercel.app)
 
 备用部署地址：
 
-```text
-https://feiyi-zaowu-pin5ug5vl-feiyi.vercel.app
-```
+[https://feiyi-zaowu-pin5ug5vl-feiyi.vercel.app](https://feiyi-zaowu-pin5ug5vl-feiyi.vercel.app)
 
-GitHub 仓库本身只保存代码，不直接提供网站预览页面。
+GitHub 仓库本身只保存代码，不直接提供网站预览页面。请使用上面的 Vercel 地址访问网站。
 
 ## Vercel 部署设置
 
@@ -45,16 +35,11 @@ npm install
 npm run dev
 ```
 
-本地开发时打开 `http://localhost:3000` 查看网站。这个地址只在你的电脑上有效，不能用于线上分享。
+本地开发时打开：
 
-如果只想预览静态导出版本，也可以运行：
+[http://localhost:3000](http://localhost:3000)
 
-```bash
-npm run build
-node preview-server.mjs
-```
-
-然后打开 `http://127.0.0.1:3000`。
+这个地址只在你的电脑上有效，不能用于线上分享。
 
 ## 数据修改
 
@@ -72,22 +57,22 @@ node preview-server.mjs
 
 ## 页面路由
 
-- `/` 首页
-- `/themes/[id]` 六大主题页
-- `/database` 非遗产品化数据库
-- `/projects/[id]` 项目研究档案
-- `/cases` 案例列表
-- `/cases/[id]` 案例详情
-- `/ai-assessment` AI 项目初评演示
-- `/packages` 资料包列表
-- `/packages/[id]` 资料包落地页
-- `/methodology` 关于与方法论
-- `/ai-factory` AI 内容工厂预留
+- `/`：首页
+- `/themes/[id]`：六大主题页
+- `/database`：非遗产品化数据库
+- `/projects/[id]`：项目研究档案
+- `/cases`：案例列表
+- `/cases/[id]`：案例详情
+- `/ai-assessment`：AI 项目初评演示
+- `/packages`：资料包列表
+- `/packages/[id]`：资料包落地页
+- `/methodology`：关于与方法论
+- `/ai-factory`：AI 内容工厂预留
 
 ## MVP 边界
 
 首版不接支付系统、复杂会员、真实 AI API、爬虫、多用户后台和 APP。AI 初评为本地规则模拟，资料包只保留预约或样张入口。
 
-## 部署
+## 部署说明
 
-可部署到支持 Next.js 的平台。正式上线前建议替换邮箱、补充真实来源链、接入已授权图片或自有视觉资产，并根据实际业务完善免责声明。
+项目已按 Vercel 原生 Next.js 部署方式配置。不要把 Output Directory 设置为 `out`，否则 Vercel 会找不到 Next.js 的构建清单。
