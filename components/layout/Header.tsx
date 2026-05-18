@@ -14,8 +14,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-paper/10 bg-ink/78 backdrop-blur-xl">
       <div className="section-shell flex h-16 items-center justify-between gap-5">
-        <Link href="/" className="font-serif text-xl tracking-[0.18em] text-paper">
-          非遗造物
+        <Link href="/" className="flex items-center gap-3">
+          <span className="grid h-9 w-9 place-items-center overflow-hidden rounded border border-gold/30 bg-charcoal/70 shadow-[0_0_24px_rgba(184,154,94,.12)]">
+            <img
+              src="/assets/brand/zaowu-vessel-logo.png"
+              alt="非遗造物"
+              className="h-8 w-8 object-cover opacity-90"
+            />
+          </span>
+          <span className="font-serif text-xl tracking-[0.18em] text-paper">非遗造物</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm text-linen md:flex">
           {nav.map(([label, href]) => (
