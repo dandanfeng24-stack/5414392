@@ -6,10 +6,21 @@
     "description": "围绕茶席、茶器、茶点、香事与慢生活空间，研究非遗如何进入酒店、街区、礼品与疗愈型消费场景。",
     "color": "#3F4A32",
     "imagePrompt": "dark oriental tea lifestyle curation table, warm black background, quiet gold light, paper texture",
-    "tags": ["生活方式", "伴手礼", "酒店场景", "慢体验"],
-    "subcategories": ["制茶技艺", "茶器", "茶点", "香事"],
+    "tags": [
+      "生活方式",
+      "伴手礼",
+      "酒店场景",
+      "慢体验"
+    ],
+    "subcategories": [
+      "制茶技艺",
+      "茶器",
+      "茶点",
+      "香事"
+    ],
     "seoTitle": "茶文化与东方生活方式 | 非遗造物",
-    "seoDescription": "研究茶文化非遗的产品化、体验化与文旅场景转化。"
+    "seoDescription": "研究茶文化非遗的产品化、体验化与文旅场景转化。",
+    "image": ""
   },
   {
     "id": "ceramic-craft",
@@ -18,10 +29,21 @@
     "description": "关注陶瓷、泥塑、器物烧造与手作审美，适配文创零售、展陈体验、研学工坊和高端礼赠。",
     "color": "#BFD4CF",
     "imagePrompt": "celadon porcelain vessels on dark curator plinth, subtle glaze reflections",
-    "tags": ["器物美学", "手作工坊", "礼品", "展陈"],
-    "subcategories": ["陶瓷烧造", "泥塑", "器物修复", "工坊体验"],
+    "tags": [
+      "器物美学",
+      "手作工坊",
+      "礼品",
+      "展陈"
+    ],
+    "subcategories": [
+      "陶瓷烧造",
+      "泥塑",
+      "器物修复",
+      "工坊体验"
+    ],
     "seoTitle": "陶瓷器物与手作美学 | 非遗造物",
-    "seoDescription": "研究陶瓷器物非遗的产品化方向与场景适配。"
+    "seoDescription": "研究陶瓷器物非遗的产品化方向与场景适配。",
+    "image": ""
   },
   {
     "id": "textile-pattern",
@@ -30,10 +52,21 @@
     "description": "以纹样、织造、染色、刺绣为核心，适配服饰配件、空间软装、品牌联名和美育课程。",
     "color": "#788B8F",
     "imagePrompt": "indigo textile pattern archive, embroidery samples, dark linen table",
-    "tags": ["东方纹样", "服饰配件", "软装", "美育"],
-    "subcategories": ["织造", "染色", "刺绣", "纹样再设计"],
+    "tags": [
+      "东方纹样",
+      "服饰配件",
+      "软装",
+      "美育"
+    ],
+    "subcategories": [
+      "织造",
+      "染色",
+      "刺绣",
+      "纹样再设计"
+    ],
     "seoTitle": "织染刺绣与东方纹样 | 非遗造物",
-    "seoDescription": "研究织染刺绣非遗的纹样转化和文旅应用。"
+    "seoDescription": "研究织染刺绣非遗的纹样转化和文旅应用。",
+    "image": ""
   },
   {
     "id": "local-flavor",
@@ -42,10 +75,21 @@
     "description": "研究传统饮食技艺、地方风味和节令食物如何转化为街区业态、伴手礼和城市味觉名片。",
     "color": "#7A4E2E",
     "imagePrompt": "heritage local food tasting board, dark warm brown, refined travel retail mood",
-    "tags": ["城市味觉", "伴手礼", "街区业态", "节令消费"],
-    "subcategories": ["传统小吃", "酿造", "糕点", "节令饮食"],
+    "tags": [
+      "城市味觉",
+      "伴手礼",
+      "街区业态",
+      "节令消费"
+    ],
+    "subcategories": [
+      "传统小吃",
+      "酿造",
+      "糕点",
+      "节令饮食"
+    ],
     "seoTitle": "非遗美食与地方风味 | 非遗造物",
-    "seoDescription": "研究非遗美食的产品化、街区导入和地方风味表达。"
+    "seoDescription": "研究非遗美食的产品化、街区导入和地方风味表达。",
+    "image": ""
   },
   {
     "id": "craft-study",
@@ -54,10 +98,21 @@
     "description": "面向学校、营地、亲子空间与景区研学，梳理低风险、高参与度的非遗课程化路径。",
     "color": "#8A623E",
     "imagePrompt": "heritage craft study desk, child friendly tools, dark wood, curated professional style",
-    "tags": ["亲子研学", "课程化", "低门槛", "工坊"],
-    "subcategories": ["纸艺", "木作", "泥塑", "节令手作"],
+    "tags": [
+      "亲子研学",
+      "课程化",
+      "低门槛",
+      "工坊"
+    ],
+    "subcategories": [
+      "纸艺",
+      "木作",
+      "泥塑",
+      "节令手作"
+    ],
     "seoTitle": "非遗手作与亲子研学 | 非遗造物",
-    "seoDescription": "研究非遗手作如何进入亲子研学、营地和景区课程。"
+    "seoDescription": "研究非遗手作如何进入亲子研学、营地和景区课程。",
+    "image": ""
   },
   {
     "id": "guofeng-photo",
@@ -66,9 +121,20 @@
     "description": "聚焦妆造、服饰、空间布景和旅拍内容，研究国风消费场景中的非遗表达与边界。",
     "color": "#8C3F4D",
     "imagePrompt": "traditional makeup and guofeng travel photo studio, dark rouge, curated lighting",
-    "tags": ["国风旅拍", "内容传播", "服饰妆造", "街区场景"],
-    "subcategories": ["传统妆造", "服饰体验", "旅拍布景", "内容运营"],
+    "tags": [
+      "国风旅拍",
+      "内容传播",
+      "服饰妆造",
+      "街区场景"
+    ],
+    "subcategories": [
+      "传统妆造",
+      "服饰体验",
+      "旅拍布景",
+      "内容运营"
+    ],
     "seoTitle": "传统妆造与国风旅拍 | 非遗造物",
-    "seoDescription": "研究传统妆造与国风旅拍的产品化和风险边界。"
+    "seoDescription": "研究传统妆造与国风旅拍的产品化和风险边界。",
+    "image": ""
   }
 ]

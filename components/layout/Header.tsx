@@ -17,7 +17,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3">
           <span className="grid h-9 w-9 place-items-center overflow-hidden rounded border border-gold/30 bg-charcoal/70 shadow-[0_0_24px_rgba(184,154,94,.12)]">
             <img
-              src="/assets/brand/zaowu-vessel-logo.png"
+              src="/images/brand/zaowu-vessel-logo.png"
               alt="非遗造物"
               className="h-8 w-8 object-cover opacity-90"
             />

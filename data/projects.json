@@ -86,7 +86,8 @@
     "imagePrompt": "rock tea tasting set, dark oriental luxury",
     "reviewStatus": "人工初审",
     "confidence": "中高",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "jingshan-tea",
@@ -172,7 +173,8 @@
     "imagePrompt": "jingshan tea ceremony dark paper gold",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "yixing-zisha",
@@ -257,7 +259,8 @@
     "imagePrompt": "yixing zisha teapot dark curated plinth",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "longquan-celadon",
@@ -345,7 +348,8 @@
     "imagePrompt": "longquan celadon vessel dark cyan glaze",
     "reviewStatus": "人工初审",
     "confidence": "中高",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "jingdezhen-porcelain",
@@ -432,7 +436,8 @@
     "imagePrompt": "jingdezhen porcelain studio dark premium",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "rongchang-pottery",
@@ -516,7 +521,8 @@
     "imagePrompt": "rongchang pottery workshop dark wood",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "suzhou-embroidery",
@@ -603,7 +609,8 @@
     "imagePrompt": "suzhou embroidery dark silk pattern",
     "reviewStatus": "人工初审",
     "confidence": "中高",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "blue-calico",
@@ -689,7 +696,8 @@
     "imagePrompt": "blue calico textile archive dark linen",
     "reviewStatus": "人工初审",
     "confidence": "中高",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "miao-embroidery",
@@ -774,7 +782,8 @@
     "imagePrompt": "miao embroidery pattern premium dark display",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "shaoxing-rice-wine",
@@ -859,7 +868,8 @@
     "imagePrompt": "shaoxing rice wine dark warm tasting",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "zhoucun-sesame-cake",
@@ -944,7 +954,8 @@
     "imagePrompt": "sesame cake heritage gift dark warm",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "doubanjiang",
@@ -1029,7 +1040,8 @@
     "imagePrompt": "pixian doubanjiang jar dark food heritage",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "paper-cut",
@@ -1114,7 +1126,8 @@
     "imagePrompt": "paper cutting workshop dark gold paper",
     "reviewStatus": "人工初审",
     "confidence": "高",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "woodblock-new-year",
@@ -1200,7 +1213,8 @@
     "imagePrompt": "woodblock new year print workshop dark red restrained",
     "reviewStatus": "人工初审",
     "confidence": "中高",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "kite-making",
@@ -1286,7 +1300,8 @@
     "imagePrompt": "kite making heritage study desk dark wood",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "dough-figurine",
@@ -1370,7 +1385,8 @@
     "imagePrompt": "dough figurine craft table dark warm",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "bamboo-weaving",
@@ -1456,7 +1472,8 @@
     "imagePrompt": "bamboo weaving dark natural craft",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "hanfu-makeup",
@@ -1542,7 +1559,8 @@
     "imagePrompt": "traditional makeup studio dark rouge professional",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "silver-ornament",
@@ -1628,7 +1646,8 @@
     "imagePrompt": "miao silver ornament dark rouge display",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "dragon-lantern",
@@ -1714,7 +1733,8 @@
     "imagePrompt": "dragon lantern installation dark night gold",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "huizhou-ink",
@@ -1798,7 +1818,8 @@
     "imagePrompt": "huizhou ink gift dark paper gold",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "sugar-painting",
@@ -1882,7 +1903,8 @@
     "imagePrompt": "sugar painting market dark warm",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "clay-figurine",
@@ -1966,7 +1988,8 @@
     "imagePrompt": "clay figurine craft dark display",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "lacquerware",
@@ -2050,7 +2073,8 @@
     "imagePrompt": "lacquerware dark gold premium object",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "xiangyunsha",
@@ -2134,7 +2158,8 @@
     "imagePrompt": "xiangyunsha silk dark refined textile",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "paper-umbrella",
@@ -2220,7 +2245,8 @@
     "imagePrompt": "oil paper umbrella guofeng dark rouge",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "shadow-puppet",
@@ -2304,7 +2330,8 @@
     "imagePrompt": "shadow puppet theatre dark warm light",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "seal-carving",
@@ -2389,7 +2416,8 @@
     "imagePrompt": "seal carving dark scholar desk",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "paper-making",
@@ -2474,7 +2502,8 @@
     "imagePrompt": "handmade paper workshop dark linen",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   },
   {
     "id": "incense-making",
@@ -2558,6 +2587,7 @@
     "imagePrompt": "oriental incense making dark tea room",
     "reviewStatus": "人工初审",
     "confidence": "中",
-    "updatedAt": "2026-05-17"
+    "updatedAt": "2026-05-17",
+    "image": ""
   }
 ]

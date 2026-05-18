@@ -4,6 +4,7 @@ export type Theme = {
   shortName: string;
   description: string;
   color: string;
+  image: string;
   imagePrompt: string;
   tags: string[];
   subcategories: string[];
@@ -49,6 +50,7 @@ export type Project = {
   risks: string[];
   cases: string[];
   sources: string[];
+  image: string;
   imagePrompt: string;
   reviewStatus: string;
   confidence: string;
@@ -67,6 +69,7 @@ export type CaseStudy = {
   risks: string[];
   replicability: string;
   sourceLinks: string[];
+  image: string;
   imagePrompt: string;
   reviewStatus: string;
 };
