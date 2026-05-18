@@ -20,7 +20,7 @@ https://5414392-xxxx.vercel.app
 Framework Preset: Next.js
 Install Command: npm install
 Build Command: npm run build
-Output Directory: out
+Output Directory: 留空，使用 Next.js default
 Root Directory: /
 ```
 
