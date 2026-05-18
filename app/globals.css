@@ -30,14 +30,17 @@ body {
 @keyframes steam-rise {
   0% {
     opacity: 0;
-    transform: translateY(34px) translateX(0) scale(0.82) rotate(0deg);
+    transform: translateY(26px) translateX(0) scale(0.84) rotate(0deg);
   }
-  28% {
-    opacity: 0.42;
+  34% {
+    opacity: 0.22;
+  }
+  68% {
+    opacity: 0.16;
   }
   100% {
     opacity: 0;
-    transform: translateY(-155px) translateX(28px) scale(1.22) rotate(8deg);
+    transform: translateY(-132px) translateX(20px) scale(1.18) rotate(6deg);
   }
 }
 
@@ -136,13 +139,12 @@ a {
 
 .hero-paper-texture {
   background-image:
-    linear-gradient(135deg, rgba(11, 10, 8, 0.92), rgba(18, 16, 12, 0.96)),
-    url("/images/textures/dark-paper.png"),
-    radial-gradient(circle at 13% 10%, rgba(184, 154, 94, 0.12), transparent 28rem),
-    radial-gradient(circle at 80% 22%, rgba(232, 221, 197, 0.07), transparent 30rem),
-    linear-gradient(135deg, rgba(11, 10, 8, 0.96), rgba(18, 16, 12, 0.98));
-  background-position: center;
-  background-size: auto, 520px 520px, auto, auto, auto;
+    linear-gradient(rgba(11, 10, 8, 0.72), rgba(11, 10, 8, 0.88)),
+    radial-gradient(circle at 18% 12%, rgba(184, 154, 94, 0.14), transparent 32rem),
+    radial-gradient(circle at 76% 45%, rgba(232, 221, 197, 0.06), transparent 28rem),
+    url("/images/hero/hero-home-bg.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-paper-texture::after {
@@ -150,26 +152,52 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.24;
+  opacity: 0.34;
   background-image:
-    repeating-linear-gradient(90deg, rgba(232, 221, 197, 0.025) 0 1px, transparent 1px 9px),
-    repeating-linear-gradient(0deg, rgba(184, 173, 150, 0.02) 0 1px, transparent 1px 7px),
-    radial-gradient(circle at 50% 40%, transparent, rgba(0, 0, 0, 0.38));
+    radial-gradient(circle at 62% 38%, rgba(232, 221, 197, 0.06), transparent 24rem),
+    radial-gradient(circle at 48% 56%, rgba(184, 154, 94, 0.05), transparent 28rem),
+    linear-gradient(90deg, rgba(11, 10, 8, 0.08), transparent 44%, rgba(11, 10, 8, 0.34));
   mix-blend-mode: screen;
 }
 
-.steam {
+.hero-tea-steam {
   position: absolute;
-  bottom: 225px;
-  width: 46px;
-  height: 145px;
+  z-index: 1;
+  left: min(71vw, 1180px);
+  top: 39vh;
+  width: 180px;
+  height: 230px;
+}
+
+.hero-steam {
+  position: absolute;
+  bottom: 0;
+  width: 42px;
+  height: 150px;
   border-radius: 999px;
   background:
-    radial-gradient(circle at 44% 18%, rgba(232, 221, 197, 0.2), transparent 34%),
-    linear-gradient(180deg, transparent, rgba(232, 221, 197, 0.18), transparent);
-  filter: blur(11px);
+    radial-gradient(circle at 48% 20%, rgba(232, 221, 197, 0.18), transparent 34%),
+    linear-gradient(180deg, transparent, rgba(232, 221, 197, 0.12), transparent 72%);
+  filter: blur(13px);
   mix-blend-mode: screen;
-  animation: steam-rise 7s ease-in-out infinite;
+  animation: steam-rise 8s ease-in-out infinite;
+}
+
+.hero-steam-a {
+  left: 26px;
+}
+
+.hero-steam-b {
+  left: 70px;
+  animation-delay: 1.9s;
+  transform: scale(0.92);
+}
+
+.hero-steam-c {
+  left: 108px;
+  animation-delay: 3.8s;
+  opacity: 0.7;
+  transform: scale(0.78);
 }
 
 .theme-image {
@@ -248,7 +276,7 @@ a {
   .hero-light,
   .hero-object,
   .vessel-float,
-  .steam {
+  .hero-steam {
     transition: none;
     animation: none;
     transform: none;
