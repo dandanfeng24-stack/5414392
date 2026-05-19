@@ -12,7 +12,7 @@ export function Hero() {
       </div>
       <div className="section-shell relative grid min-h-[calc(100vh-64px)] items-center gap-10 py-20 lg:grid-cols-[0.92fr_1fr]">
         <div className="relative z-10 max-w-3xl">
-          <h1 className="font-serif text-6xl leading-tight text-gold md:text-8xl">非遗造物</h1>
+          <h1 className="hero-calligraphy-title font-serif text-6xl leading-tight text-gold md:text-8xl">非遗造物</h1>
           <p className="mt-7 max-w-3xl font-serif text-3xl leading-snug text-paper md:text-5xl">
             中国非遗产品化与文旅转化研究平台
           </p>

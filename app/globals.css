@@ -166,6 +166,24 @@ a {
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.62);
 }
 
+.hero-calligraphy-title {
+  font-family: "STKaiti", "KaiTi", "FZKai-Z03", "Kaiti SC", var(--font-serif);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: transparent;
+  background-image:
+    linear-gradient(112deg, #6f5322 0%, #d6b66a 18%, #fff0b8 34%, #b99143 50%, #5f4219 68%, #e2c573 84%, #8a682f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.35px rgba(255, 231, 163, 0.32);
+  text-shadow:
+    0 1px 0 rgba(255, 242, 190, 0.45),
+    0 3px 0 rgba(82, 56, 20, 0.5),
+    0 12px 22px rgba(0, 0, 0, 0.58),
+    0 0 26px rgba(184, 154, 94, 0.18);
+}
+
 .hero-tea-steam {
   position: absolute;
   z-index: 1;
