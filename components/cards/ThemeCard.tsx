@@ -17,12 +17,12 @@ export function ThemeCard({ theme, index }: { theme: Theme; index: number }) {
   return (
     <Link
       href={`/themes/${theme.id}`}
-      className="quiet-hover group relative flex min-h-[420px] flex-col justify-end overflow-hidden rounded surface p-5"
+      className="image-card-text quiet-hover group relative flex min-h-[420px] flex-col justify-end overflow-hidden rounded surface p-5"
     >
       <div
         className="theme-image"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(11,10,8,.08), rgba(11,10,8,.86)), url(${image})`,
+          backgroundImage: `linear-gradient(180deg, rgba(232,221,197,.03), rgba(184,154,94,.08)), url(${image})`,
           backgroundPosition: "center",
           backgroundSize: "cover"
         }}

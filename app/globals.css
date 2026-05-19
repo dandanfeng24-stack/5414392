@@ -139,7 +139,6 @@ a {
 
 .hero-paper-texture {
   background-image:
-    linear-gradient(rgba(11, 10, 8, 0.72), rgba(11, 10, 8, 0.88)),
     radial-gradient(circle at 18% 12%, rgba(184, 154, 94, 0.14), transparent 32rem),
     radial-gradient(circle at 76% 45%, rgba(232, 221, 197, 0.06), transparent 28rem),
     url("/images/hero/hero-home-bg.jpg");
@@ -155,9 +154,19 @@ a {
   opacity: 0.34;
   background-image:
     radial-gradient(circle at 62% 38%, rgba(232, 221, 197, 0.06), transparent 24rem),
-    radial-gradient(circle at 48% 56%, rgba(184, 154, 94, 0.05), transparent 28rem),
-    linear-gradient(90deg, rgba(11, 10, 8, 0.08), transparent 44%, rgba(11, 10, 8, 0.34));
+    radial-gradient(circle at 48% 56%, rgba(184, 154, 94, 0.05), transparent 28rem);
   mix-blend-mode: screen;
+}
+
+.hero-paper-texture h1,
+.hero-paper-texture p,
+.hero-paper-texture a,
+.image-card-text h3,
+.image-card-text p,
+.image-card-text span,
+.image-card-text a,
+.image-card-text div {
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.62);
 }
 
 .hero-tea-steam {
@@ -217,8 +226,8 @@ a {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(11, 10, 8, 0.04), rgba(11, 10, 8, 0.88) 76%),
-    radial-gradient(circle at 50% 16%, transparent, rgba(11, 10, 8, 0.72) 74%);
+    linear-gradient(180deg, rgba(232, 221, 197, 0.02), rgba(184, 154, 94, 0.08) 76%),
+    radial-gradient(circle at 50% 16%, transparent, rgba(232, 221, 197, 0.06) 74%);
 }
 
 .theme-tea {

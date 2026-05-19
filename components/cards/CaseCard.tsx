@@ -9,9 +9,9 @@ export function CaseCard({ caseStudy }: { caseStudy: CaseStudy }) {
 
   return (
     <article
-      className="quiet-hover surface relative overflow-hidden rounded p-6"
+      className="image-card-text quiet-hover surface relative overflow-hidden rounded p-6"
       style={{
-        backgroundImage: `linear-gradient(180deg, rgba(26,23,18,.76), rgba(11,10,8,.91)), url(${image})`,
+        backgroundImage: `linear-gradient(180deg, rgba(232,221,197,.06), rgba(184,154,94,.10)), url(${image})`,
         backgroundPosition: "center",
         backgroundSize: "cover"
       }}

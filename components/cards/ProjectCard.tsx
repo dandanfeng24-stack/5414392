@@ -13,7 +13,7 @@ export function ProjectCard({ project }: { project: Project }) {
       <div
         className="h-40 border-b border-paper/10"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(11,10,8,.08), rgba(11,10,8,.74)), url(${image})`,
+          backgroundImage: `url(${image})`,
           backgroundPosition: "center",
           backgroundSize: "cover"
         }}
