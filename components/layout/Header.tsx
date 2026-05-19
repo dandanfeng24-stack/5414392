@@ -19,7 +19,7 @@ export function Header() {
             <img
               src="/images/brand/logo-icon.png"
               alt="非遗造物"
-              className="h-8 w-8 object-contain opacity-90"
+              className="h-8 w-8 object-contain opacity-100"
             />
           </span>
           <span className="font-serif text-xl tracking-[0.18em] text-paper">非遗造物</span>

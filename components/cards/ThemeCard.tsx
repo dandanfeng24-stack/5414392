@@ -22,7 +22,7 @@ export function ThemeCard({ theme, index }: { theme: Theme; index: number }) {
       <div
         className="theme-image"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(232,221,197,.03), rgba(184,154,94,.08)), url(${image})`,
+          backgroundImage: `url(${image})`,
           backgroundPosition: "center",
           backgroundSize: "cover"
         }}

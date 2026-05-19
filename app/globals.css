@@ -151,11 +151,8 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.34;
-  background-image:
-    radial-gradient(circle at 62% 38%, rgba(232, 221, 197, 0.06), transparent 24rem),
-    radial-gradient(circle at 48% 56%, rgba(184, 154, 94, 0.05), transparent 28rem);
-  mix-blend-mode: screen;
+  background: none;
+  mix-blend-mode: normal;
 }
 
 .hero-paper-texture h1,
@@ -212,12 +209,14 @@ a {
 .theme-image {
   position: absolute;
   inset: 0;
-  opacity: 0.78;
+  opacity: 1;
+  filter: brightness(1.06) contrast(1.12) saturate(1.12);
+  mix-blend-mode: normal;
   transition: transform 700ms ease, opacity 500ms ease;
 }
 
 .group:hover .theme-image {
-  opacity: 0.94;
+  opacity: 1;
   transform: scale(1.045);
 }
 
@@ -225,9 +224,8 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg, rgba(232, 221, 197, 0.02), rgba(184, 154, 94, 0.08) 76%),
-    radial-gradient(circle at 50% 16%, transparent, rgba(232, 221, 197, 0.06) 74%);
+  background: none;
+  mix-blend-mode: normal;
 }
 
 .theme-tea {
