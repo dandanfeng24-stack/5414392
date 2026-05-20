@@ -8,6 +8,8 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TagPill } from "@/components/ui/TagPill";
 import { getCasesForProject, getProject, getTheme, packages, projects } from "@/lib/data";
 
+const fallbackImage = "/images/textures/dark-paper.png";
+
 export function generateStaticParams() {
   return projects.map((project) => ({ id: project.id }));
 }
@@ -18,6 +20,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
   if (!project) notFound();
   const theme = getTheme(project.themeId);
   const relatedCases = getCasesForProject(project.id);
+  const image = project.image || fallbackImage;
 
   return (
     <div className="section-shell py-16">
@@ -28,6 +31,14 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
         <div className="mt-6 flex flex-wrap gap-2">
           {[project.region, project.heritageLevel, project.type, ...project.businessTags].slice(0, 7).map((tag) => <TagPill key={tag}>{tag}</TagPill>)}
         </div>
+        <div
+          className="mt-8 aspect-[21/9] rounded border border-paper/10"
+          style={{
+            backgroundImage: `url(${image})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
+        />
       </div>
 
       <div className="mt-8 grid gap-5 lg:grid-cols-[0.8fr_1.2fr]">

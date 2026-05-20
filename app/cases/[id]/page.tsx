@@ -4,6 +4,8 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TagPill } from "@/components/ui/TagPill";
 import { cases, getCaseStudy, projects } from "@/lib/data";
 
+const fallbackImage = "/images/textures/dark-paper.png";
+
 export function generateStaticParams() {
   return cases.map((caseStudy) => ({ id: caseStudy.id }));
 }
@@ -13,6 +15,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
   const caseStudy = getCaseStudy(id);
   if (!caseStudy) notFound();
   const relatedProjects = projects.filter((project) => caseStudy.relatedProjects.includes(project.id));
+  const image = caseStudy.image || fallbackImage;
 
   return (
     <div className="section-shell py-16">
@@ -20,6 +23,14 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
         <div className="text-sm text-gold">{caseStudy.city} · {caseStudy.scene}</div>
         <h1 className="mt-4 font-serif text-5xl leading-tight text-paper">{caseStudy.title}</h1>
         <div className="mt-6 flex flex-wrap gap-2">{caseStudy.targetUsers.map((item) => <TagPill key={item}>{item}</TagPill>)}</div>
+        <div
+          className="mt-8 aspect-[16/9] rounded border border-paper/10"
+          style={{
+            backgroundImage: `url(${image})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
+        />
       </div>
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         <TextBlock title="产品化逻辑" text={caseStudy.transformationLogic} />

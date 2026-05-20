@@ -11,7 +11,7 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="quiet-hover surface overflow-hidden rounded">
       <div
-        className="h-40 border-b border-paper/10"
+        className="aspect-[16/10] border-b border-paper/10"
         style={{
           backgroundImage: `url(${image})`,
           backgroundPosition: "center",

@@ -4,6 +4,8 @@ import { ProjectCard } from "@/components/cards/ProjectCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TagPill } from "@/components/ui/TagPill";
 
+const fallbackImage = "/images/textures/dark-paper.png";
+
 export function generateStaticParams() {
   return packages.map((item) => ({ id: item.id }));
 }
@@ -13,6 +15,7 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
   const item = getPackageItem(id);
   if (!item) notFound();
   const relatedProjects = projects.filter((project) => item.relatedProjects.includes(project.id));
+  const image = item.coverImage || fallbackImage;
 
   return (
     <div className="section-shell py-16">
@@ -20,6 +23,14 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
         <div className="text-sm text-gold">{item.status} · {item.price}</div>
         <h1 className="mt-4 font-serif text-5xl leading-tight text-paper">{item.title}</h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-linen">{item.subtitle}</p>
+        <div
+          className="mt-8 aspect-[16/10] max-w-3xl rounded border border-paper/10"
+          style={{
+            backgroundImage: `url(${image})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
+        />
         <button className="mt-8 rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">{item.cta}</button>
       </div>
       <div className="mt-10 grid gap-5 md:grid-cols-3">

@@ -98,6 +98,7 @@ export type PackageItem = {
   id: string;
   title: string;
   subtitle: string;
+  coverImage?: string;
   targetUsers: string[];
   problemsSolved: string[];
   contents: string[];

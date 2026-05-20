@@ -30,7 +30,7 @@
     ],
     "imagePrompt": "dark oriental heritage workshop street retail case board",
     "reviewStatus": "人工初审",
-    "image": ""
+    "image": "/images/cases/case-district-workshop.png"
   },
   {
     "id": "case-tea-hotel",
@@ -63,7 +63,7 @@
     ],
     "imagePrompt": "curated tea hotel experience dark gold linen",
     "reviewStatus": "人工初审",
-    "image": ""
+    "image": "/images/cases/case-hotel-tea-life.png"
   },
   {
     "id": "case-study-camp",
@@ -96,7 +96,7 @@
     ],
     "imagePrompt": "heritage craft study camp professional dark wood",
     "reviewStatus": "人工初审",
-    "image": ""
+    "image": "/images/cases/case-family-workshop.png"
   },
   {
     "id": "case-city-gift",
@@ -129,7 +129,7 @@
     ],
     "imagePrompt": "premium heritage gift retail dark paper gold",
     "reviewStatus": "人工初审",
-    "image": ""
+    "image": "/images/cases/case-city-gift-store.png"
   },
   {
     "id": "case-guofeng-photo",
@@ -161,7 +161,7 @@
     ],
     "imagePrompt": "guofeng travel photo studio dark rouge professional",
     "reviewStatus": "人工初审",
-    "image": ""
+    "image": "/images/cases/case-ancient-city-portrait.png"
   },
   {
     "id": "case-food-market",
@@ -194,6 +194,6 @@
     ],
     "imagePrompt": "heritage food market dark warm brown curated",
     "reviewStatus": "人工初审",
-    "image": ""
+    "image": "/images/cases/case-local-food-market.png"
   }
 ]

@@ -1,0 +1,12 @@
+{
+  "output_format": "png",
+  "recommended_directory": "public/images/cases/",
+  "images": [
+    {"file": "case-district-workshop.png", "title": "历史街区非遗工坊组合导入"},
+    {"file": "case-hotel-tea-life.png", "title": "度假酒店茶生活体验产品"},
+    {"file": "case-family-workshop.png", "title": "亲子非遗研学半日营"},
+    {"file": "case-city-gift-store.png", "title": "城市礼物店非遗伴手礼模型"},
+    {"file": "case-ancient-city-portrait.png", "title": "古城国风旅拍与妆造动线"},
+    {"file": "case-local-food-market.png", "title": "地方风味非遗市集周末模型"}
+  ]
+}

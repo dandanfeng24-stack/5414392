@@ -87,7 +87,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中高",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/wuyi-rock-tea.png"
   },
   {
     "id": "jingshan-tea",
@@ -174,7 +174,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/jingshan-tea-banquet.png"
   },
   {
     "id": "yixing-zisha",
@@ -260,7 +260,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/yixing-zisha.png"
   },
   {
     "id": "longquan-celadon",
@@ -349,7 +349,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中高",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/longquan-celadon.png"
   },
   {
     "id": "jingdezhen-porcelain",
@@ -437,7 +437,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/jingdezhen-porcelain.png"
   },
   {
     "id": "rongchang-pottery",
@@ -522,7 +522,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/rongchang-pottery.png"
   },
   {
     "id": "suzhou-embroidery",
@@ -610,7 +610,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中高",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/su-embroidery.png"
   },
   {
     "id": "blue-calico",
@@ -697,7 +697,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中高",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/blue-calico.png"
   },
   {
     "id": "miao-embroidery",
@@ -783,7 +783,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/miao-embroidery.png"
   },
   {
     "id": "shaoxing-rice-wine",
@@ -869,7 +869,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/shaoxing-yellow-wine.png"
   },
   {
     "id": "zhoucun-sesame-cake",
@@ -955,7 +955,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/zhoucun-sesame-cake.png"
   },
   {
     "id": "doubanjiang",
@@ -1041,7 +1041,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/pixian-douban.png"
   },
   {
     "id": "paper-cut",
@@ -1127,7 +1127,7 @@
     "reviewStatus": "人工初审",
     "confidence": "高",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/paper-cutting.png"
   },
   {
     "id": "woodblock-new-year",
@@ -1214,7 +1214,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中高",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/woodblock-new-year-painting.png"
   },
   {
     "id": "kite-making",
@@ -1301,7 +1301,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/kite-making.png"
   },
   {
     "id": "dough-figurine",
@@ -1386,7 +1386,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/dough-sculpture.png"
   },
   {
     "id": "bamboo-weaving",
@@ -1473,7 +1473,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/bamboo-weaving.png"
   },
   {
     "id": "hanfu-makeup",
@@ -1560,7 +1560,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/traditional-makeup.png"
   },
   {
     "id": "silver-ornament",
@@ -1647,7 +1647,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/miao-silver.png"
   },
   {
     "id": "dragon-lantern",
@@ -1734,7 +1734,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/dragon-lantern.png"
   },
   {
     "id": "huizhou-ink",
@@ -1819,7 +1819,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/huizhou-ink.png"
   },
   {
     "id": "sugar-painting",
@@ -1904,7 +1904,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/sugar-painting.png"
   },
   {
     "id": "clay-figurine",
@@ -1989,7 +1989,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/clay-sculpture.png"
   },
   {
     "id": "lacquerware",
@@ -2074,7 +2074,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/lacquerware.png"
   },
   {
     "id": "xiangyunsha",
@@ -2159,7 +2159,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/xiangyunsha.png"
   },
   {
     "id": "paper-umbrella",
@@ -2246,7 +2246,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/oil-paper-umbrella.png"
   },
   {
     "id": "shadow-puppet",
@@ -2331,7 +2331,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/shadow-puppetry.png"
   },
   {
     "id": "seal-carving",
@@ -2417,7 +2417,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/seal-engraving.png"
   },
   {
     "id": "paper-making",
@@ -2503,7 +2503,7 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/traditional-paper-making.png"
   },
   {
     "id": "incense-making",
@@ -2588,6 +2588,6 @@
     "reviewStatus": "人工初审",
     "confidence": "中",
     "updatedAt": "2026-05-17",
-    "image": ""
+    "image": "/images/projects/traditional-incense.png"
   }
 ]
