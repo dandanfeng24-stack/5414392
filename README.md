@@ -33,7 +33,7 @@ Root Directory: /
 
 主要内容文件：
 
-- `data/themes.json`：六大主题
+- `data/themes.json`：非遗主题
 - `data/projects.json`：非遗项目与研究档案
 - `data/cases.json`：案例研究
 - `data/rankings.json`：产品化榜单
@@ -46,7 +46,8 @@ Root Directory: /
 ## 页面路由
 
 - `/`：首页
-- `/themes/[id]`：六大主题页
+- `/themes`：非遗主题总览
+- `/themes/[id]`：非遗主题页
 - `/database`：非遗产品化数据库
 - `/projects/[id]`：项目研究档案
 - `/cases`：案例列表

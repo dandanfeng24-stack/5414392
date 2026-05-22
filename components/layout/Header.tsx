@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Menu, Search } from "lucide-react";
 
 const nav = [
-  ["六大主题", "/#themes"],
+  ["非遗主题", "/themes"],
   ["数据库", "/database"],
   ["案例研究", "/cases"],
   ["AI初评", "/ai-assessment"],

@@ -22,7 +22,7 @@ export default async function ThemePage({ params }: { params: Promise<{ id: stri
   return (
     <div className="section-shell py-16">
       <div className="surface rounded p-8" style={{ background: `linear-gradient(135deg, ${theme.color}33, rgba(26,23,18,.36))` }}>
-        <div className="text-sm text-gold">六大主题</div>
+        <div className="text-sm text-gold">非遗主题</div>
         <h1 className="mt-4 font-serif text-5xl leading-tight text-paper">{theme.name}</h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-linen">{theme.description}</p>
         <div className="mt-6 flex flex-wrap gap-2">{theme.tags.map((tag) => <TagPill key={tag}>{tag}</TagPill>)}</div>
