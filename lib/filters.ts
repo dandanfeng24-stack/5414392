@@ -1,4 +1,5 @@
 import type { Project } from "./types";
+import { getProjectCommercialTags, getProjectGrade, getProjectScenes } from "./project-utils";
 
 export type ProjectFilters = {
   query?: string;
@@ -7,6 +8,7 @@ export type ProjectFilters = {
   targetUser?: string;
   businessTag?: string;
   riskTag?: string;
+  conversionGrade?: string;
 };
 
 export function filterProjects(projects: Project[], filters: ProjectFilters) {
@@ -16,12 +18,15 @@ export function filterProjects(projects: Project[], filters: ProjectFilters) {
     const text = [
       project.name,
       project.alias,
+      project.theme,
       project.summary,
       project.positioning,
       project.region,
+      project.province,
+      project.city,
       ...project.targetUsers,
-      ...project.scenes,
-      ...project.businessTags,
+      ...getProjectScenes(project),
+      ...getProjectCommercialTags(project),
       ...project.riskTags
     ]
       .join(" ")
@@ -29,11 +34,12 @@ export function filterProjects(projects: Project[], filters: ProjectFilters) {
 
     return (
       (!query || text.includes(query)) &&
-      (!filters.themeId || project.themeId === filters.themeId) &&
-      (!filters.scene || project.scenes.includes(filters.scene)) &&
+      (!filters.themeId || project.themeId === filters.themeId || project.theme === filters.themeId) &&
+      (!filters.scene || getProjectScenes(project).includes(filters.scene) || project.scenes.includes(filters.scene)) &&
       (!filters.targetUser || project.targetUsers.includes(filters.targetUser)) &&
-      (!filters.businessTag || project.businessTags.includes(filters.businessTag)) &&
-      (!filters.riskTag || project.riskTags.includes(filters.riskTag))
+      (!filters.businessTag || getProjectCommercialTags(project).includes(filters.businessTag)) &&
+      (!filters.riskTag || project.riskTags.includes(filters.riskTag)) &&
+      (!filters.conversionGrade || getProjectGrade(project) === filters.conversionGrade)
     );
   });
 }

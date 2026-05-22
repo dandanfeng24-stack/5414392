@@ -21,26 +21,61 @@ export type ProjectScores = {
   operation: number;
 };
 
+export type ProjectResearchScore = {
+  commercialization: number;
+  experience: number;
+  sceneFit: number;
+  spread: number;
+  gift: number;
+  operation: number;
+  total: number;
+};
+
 export type Project = {
   id: string;
   name: string;
   alias: string;
+  theme?: string;
   themeId: string;
   category: string;
+  officialCategory?: string;
+  subCategory?: string;
   region: string;
+  province?: string;
+  city?: string;
   heritageLevel: string;
+  level?: string;
   type: string;
+  protectionUnit?: string;
+  heritageCode?: string;
   summary: string;
   positioning: string;
+  conversionGrade?: "A" | "B" | "C" | "D";
+  priority?: string;
+  score?: ProjectResearchScore;
+  scoreReason?: string;
+  scoreDetails?: Record<string, string>;
   productDirections: string[];
   experienceDirections: string[];
   courseDirections: string[];
   giftDirections: string[];
+  bestScenes?: string[];
+  secondaryScenes?: string[];
+  avoidScenes?: string[];
   targetUsers: string[];
   scenes: string[];
+  commercialTags?: string[];
   businessTags: string[];
   spreadTags: string[];
   riskTags: string[];
+  riskLevel?: string;
+  riskExplanation?: string;
+  riskControl?: string[];
+  priceBands?: string[];
+  salesChannels?: string[];
+  supplyDifficulty?: string;
+  standardization?: string;
+  operationNotes?: string;
   operationTags: string[];
   scores: ProjectScores;
   totalScore: number;
@@ -50,10 +85,16 @@ export type Project = {
   risks: string[];
   cases: string[];
   sources: string[];
+  sourceLinks?: string[];
+  sourceNotes?: string;
+  relatedCases?: string[];
+  relatedPackages?: string[];
   image: string;
   imagePrompt: string;
   reviewStatus: string;
   confidence: string;
+  contentStatus?: "AI 初稿" | "人工初审" | "已复核" | "待补充" | "待核验";
+  contentStatusNote?: string;
   updatedAt: string;
 };
 

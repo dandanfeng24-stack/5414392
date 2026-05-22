@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+const heroCtas = [
+  { label: "获取非遗商业化诊断", href: "/ai-assessment", primary: true },
+  { label: "查看文旅转化案例", href: "/cases" },
+  { label: "下载资料包样张", href: "/packages" },
+  // TODO: connect target route later
+  { label: "预约项目咨询", href: "#" },
+];
+
 export function Hero() {
   return (
     <section className="hero-paper-texture relative min-h-[calc(100vh-64px)] overflow-hidden border-b border-paper/10">
@@ -19,22 +27,23 @@ export function Hero() {
               className="hero-title-image block select-none"
             />
           </h1>
-          <p className="mt-7 max-w-3xl font-serif text-3xl leading-[1.24] tracking-[0.025em] text-paper/90 drop-shadow-[0_1px_6px_rgba(0,0,0,0.35)] md:text-5xl">
-            中国非遗产品化与文旅转化研究平台
+          <p className="mt-8 max-w-2xl text-base leading-9 tracking-[0.03em] text-linen/88 drop-shadow-[0_1px_6px_rgba(0,0,0,0.35)] md:text-lg">
+            非遗造物面向政府、景区、历史街区、文旅公司、品牌与传承人，提供非遗产品化、文旅场景化、研学课程、互动体验和商业转化方案。
           </p>
-          <p className="mt-8 max-w-2xl whitespace-pre-line text-base leading-9 tracking-[0.03em] text-linen/88 drop-shadow-[0_1px_6px_rgba(0,0,0,0.35)] md:text-lg">
-            研究中国非遗如何转化为产品、{"\n"}空间、体验、研学与文旅消费场景。
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Link href="/database" className="rounded bg-gold px-8 py-3 text-sm text-ink transition hover:bg-paper">
-              进入数据库
-            </Link>
-            <Link
-              href="#themes"
-              className="rounded border border-paper/25 px-8 py-3 text-sm text-paper transition hover:border-gold hover:text-gold"
-            >
-              探索六大主题
-            </Link>
+          <div className="mt-10 grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
+            {heroCtas.map((cta) => (
+              <Link
+                key={cta.label}
+                href={cta.href}
+                className={
+                  cta.primary
+                    ? "rounded bg-gold px-6 py-3 text-center text-sm text-ink transition hover:bg-paper"
+                    : "rounded border border-paper/25 px-6 py-3 text-center text-sm text-paper transition hover:border-gold hover:text-gold"
+                }
+              >
+                {cta.label}
+              </Link>
+            ))}
           </div>
         </div>
 

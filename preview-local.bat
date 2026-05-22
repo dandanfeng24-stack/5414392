@@ -12,22 +12,31 @@ echo Preview URL:
 echo http://localhost:3000/
 echo.
 echo Starting local dev server...
-echo Keep this window open while previewing the site.
-echo Press Ctrl+C in this window to stop the server.
+echo A separate server window will stay open while previewing the site.
+echo Close that server window or press Ctrl+C inside it to stop previewing.
 echo.
 
-where npm.cmd >nul 2>nul
+where node.exe >nul 2>nul
 if errorlevel 1 (
-  echo [ERROR] npm.cmd was not found. Please install Node.js first.
+  echo [ERROR] node.exe was not found. Please install Node.js first.
   echo.
   pause
   exit /b 1
 )
 
+if not exist "node_modules\next\dist\bin\next" (
+  echo [ERROR] Next.js was not found in node_modules.
+  echo Please run npm.cmd install first.
+  echo.
+  pause
+  exit /b 1
+)
+
+start "Feiyi Zaowu Dev Server" /D "%~dp0" cmd /k "node.exe node_modules\next\dist\bin\next dev --hostname 127.0.0.1 --port 3000"
+ping 127.0.0.1 -n 6 >nul
 start "" "http://localhost:3000/"
-npm.cmd run dev -- --hostname 127.0.0.1 --port 3000
 
 echo.
-echo Local preview server stopped.
-echo.
-pause
+echo Preview opened: http://localhost:3000/
+echo You can close this helper window now.
+ping 127.0.0.1 -n 3 >nul
