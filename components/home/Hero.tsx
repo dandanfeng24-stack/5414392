@@ -4,8 +4,7 @@ const heroCtas = [
   { label: "获取非遗商业化诊断", href: "/ai-assessment", primary: true },
   { label: "查看文旅转化案例", href: "/cases" },
   { label: "下载资料包样张", href: "/packages" },
-  // TODO: connect target route later
-  { label: "预约项目咨询", href: "#" },
+  { label: "预约项目咨询", href: "/methodology#contact" },
 ];
 
 export function Hero() {
@@ -48,8 +47,8 @@ export function Hero() {
         </div>
 
         <div className="relative hidden min-h-[520px] lg:block">
-          <div className="absolute right-2 top-14 max-w-28 border-l border-paper/15 pl-5 text-xs leading-6 text-linen/80">
-            让非遗<br />走进当代生活<br />创造未来价值
+          <div className="absolute right-2 top-14 max-w-36 border-l border-gold/20 pl-5 font-serif text-sm leading-7 tracking-[0.12em] text-paper/82">
+            让非遗变成<br />产品、体验<br />空间与文旅收入
           </div>
         </div>
       </div>
