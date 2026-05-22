@@ -44,7 +44,7 @@ export function AiAssessmentPanel() {
         <div className="flex items-start justify-between gap-4">
           <div>
             <h2 className="font-serif text-2xl text-paper">结构化输出</h2>
-            <p className="mt-2 text-sm text-linen">本地规则模拟结果，不调用真实 AI API。</p>
+            <p className="mt-2 text-sm text-linen">基于非遗转化规则模型生成方向参考。</p>
           </div>
           <div className="text-right">
             <div className="text-sm text-linen">适配度</div>

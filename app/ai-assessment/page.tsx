@@ -5,9 +5,12 @@ export default function AiAssessmentPage() {
   return (
     <div className="section-shell py-16">
       <SectionHeading
-        title="AI项目初评演示"
-        description="东方专业工作台。左侧输入项目条件，右侧生成结构化判断；首版为本地规则模拟，不调用真实 AI API。"
+        title="非遗项目智能初评"
+        description="基于非遗产品化、体验化、研学化、礼品化和文旅场景转化规则，对项目进行快速方向判断。"
       />
+      <div className="mb-8 rounded border border-gold/[0.18] bg-gold/[0.06] p-5 text-sm leading-7 text-linen">
+        当前智能初评基于非遗转化规则模型进行快速判断，结果用于方向参考，不等同于完整项目诊断或商业策划。如需针对具体项目获得更深入建议，请提交项目诊断。
+      </div>
       <AiAssessmentPanel />
     </div>
   );

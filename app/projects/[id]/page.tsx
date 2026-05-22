@@ -248,9 +248,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           <p className="mt-5 text-sm leading-7 text-paper/60">{project.sourceNotes}</p>
         </div>
         <div>
-          <SectionHeading title="相关资料包或AI初评入口" />
+          <SectionHeading title="相关资料包或智能初评入口" />
           <div className="grid gap-5">{(relatedPackages.length ? relatedPackages : packages.slice(0, 1)).map((item) => <PackageCard key={item.id} item={item} />)}</div>
-          <Link href="/ai-assessment" className="mt-5 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">发起项目初评</Link>
+          <Link href="/ai-assessment" className="mt-5 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">发起智能初评</Link>
         </div>
       </section>
     </div>

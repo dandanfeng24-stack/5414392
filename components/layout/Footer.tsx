@@ -12,7 +12,7 @@ export function Footer() {
         </div>
         <div className="space-y-3 text-sm text-linen">
           <Link className="block hover:text-gold" href="/database">非遗产品化数据库</Link>
-          <Link className="block hover:text-gold" href="/ai-assessment">AI项目初评</Link>
+          <Link className="block hover:text-gold" href="/ai-assessment">智能初评</Link>
           <Link className="block hover:text-gold" href="/ai-factory">AI内容工厂预留</Link>
         </div>
         <div className="text-sm leading-7 text-linen">

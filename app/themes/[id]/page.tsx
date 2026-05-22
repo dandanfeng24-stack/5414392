@@ -55,7 +55,7 @@ export default async function ThemePage({ params }: { params: Promise<{ id: stri
       <section className="mt-16">
         <SectionHeading title="相关资料包入口" />
         <div className="grid gap-5 md:grid-cols-3">{packages.slice(0, 3).map((item) => <PackageCard key={item.id} item={item} />)}</div>
-        <Link href="/ai-assessment" className="mt-8 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">用 AI 初评当前主题</Link>
+        <Link href="/ai-assessment" className="mt-8 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">用智能初评当前主题</Link>
       </section>
     </div>
   );

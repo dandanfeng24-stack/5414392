@@ -39,7 +39,7 @@ Root Directory: /
 - `data/rankings.json`：产品化榜单
 - `data/tags.json`：标签体系
 - `data/packages.json`：资料包
-- `data/ai-rules.json`：AI 初评本地规则
+- `data/ai-rules.json`：智能初评本地规则
 
 修改 JSON 后重新运行开发服务器即可查看更新。数据类型定义在 `lib/types.ts`。
 
@@ -52,7 +52,7 @@ Root Directory: /
 - `/projects/[id]`：项目研究档案
 - `/cases`：案例列表
 - `/cases/[id]`：案例详情
-- `/ai-assessment`：AI 项目初评演示
+- `/ai-assessment`：非遗项目智能初评
 - `/packages`：资料包列表
 - `/packages/[id]`：资料包落地页
 - `/methodology`：关于与方法论
@@ -60,7 +60,7 @@ Root Directory: /
 
 ## MVP 边界
 
-首版不接支付系统、复杂会员、真实 AI API、爬虫、多用户后台和 APP。AI 初评为本地规则模拟，资料包只保留预约或样张入口。
+首版不接支付系统、复杂会员、真实 AI API、爬虫、多用户后台和 APP。智能初评为本地规则模拟，资料包只保留预约或样张入口。
 
 ## 部署说明
 
