@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const heroCtas = [
-  { label: "获取非遗商业化诊断", href: "/ai-assessment", primary: true },
+  { label: "获取非遗商业化诊断", href: "/diagnosis", primary: true },
   { label: "查看文旅转化案例", href: "/cases" },
   { label: "下载资料包样张", href: "/packages" },
   { label: "预约项目咨询", href: "/methodology#contact" },

@@ -7,7 +7,9 @@ const nav = [
   ["案例研究", "/cases"],
   ["AI初评", "/ai-assessment"],
   ["资料包", "/packages"],
-  ["方法论", "/methodology"]
+  ["方法论", "/methodology"],
+  ["服务与交付", "/services"],
+  ["项目诊断", "/diagnosis"]
 ];
 
 export function Header() {
