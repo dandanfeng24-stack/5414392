@@ -31,6 +31,50 @@ export type ProjectResearchScore = {
   total: number;
 };
 
+export type ProjectSku = {
+  name: string;
+  priceBand: string;
+  targetUser: string;
+  salesScene: string;
+  reason: string;
+};
+
+export type ProjectExperience = {
+  title: string;
+  duration: string;
+  capacity: string;
+  process: string[];
+  takeaway: string;
+  staffing: string;
+  riskNotes: string;
+};
+
+export type ProjectImplementationConditions = {
+  space: string;
+  staff: string;
+  materials: string;
+  equipment: string;
+  operationDifficulty: "低" | "中" | "高" | string;
+  minimumBudget: string;
+  preparationCycle: string;
+  notes: string;
+};
+
+export type ProjectRevenueModel = {
+  type: string;
+  description: string;
+  suitableScene: string;
+  difficulty: "低" | "中" | "高" | string;
+  notes: string;
+};
+
+export type ProjectOfficialVerification = {
+  status: "已核验" | "部分核验" | "待核验";
+  verifiedFields: string[];
+  pendingFields: string[];
+  notes: string;
+};
+
 export type Project = {
   id: string;
   name: string;
@@ -55,6 +99,12 @@ export type Project = {
   score?: ProjectResearchScore;
   scoreReason?: string;
   scoreDetails?: Record<string, string>;
+  uniqueValue?: string;
+  recommendedSkus?: ProjectSku[];
+  recommendedExperiences?: ProjectExperience[];
+  implementationConditions?: ProjectImplementationConditions;
+  revenueModels?: ProjectRevenueModel[];
+  officialVerification?: ProjectOfficialVerification;
   productDirections: string[];
   experienceDirections: string[];
   courseDirections: string[];

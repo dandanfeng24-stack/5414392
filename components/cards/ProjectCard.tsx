@@ -10,8 +10,13 @@ import {
   getProjectRegion,
   getProjectRisks,
   getProjectScenes,
+  getProjectExperienceCount,
+  getProjectRevenueCount,
+  getProjectSkuCount,
   getProjectTitle,
-  getProjectTotalScore
+  getProjectTotalScore,
+  getProjectUniqueValue,
+  getProjectVerificationStatus
 } from "@/lib/project-utils";
 
 export function ProjectCard({ project }: { project: Project }) {
@@ -39,9 +44,12 @@ export function ProjectCard({ project }: { project: Project }) {
           </div>
         </div>
         <p className="min-h-12 text-sm leading-6 text-linen">{getProjectJudgement(project)}</p>
+        <p className="mt-3 text-xs leading-5 text-paper/60">{getProjectUniqueValue(project)}</p>
         <div className="mt-4 grid gap-2 text-xs leading-5 text-paper/65">
           <div>最佳场景：<span className="text-paper/85">{scenes.slice(0, 2).join(" / ") || "待核验"}</span></div>
           <div>主要客群：<span className="text-paper/85">{project.targetUsers.slice(0, 2).join(" / ") || "待核验"}</span></div>
+          <div>建议内容：<span className="text-paper/85">{getProjectSkuCount(project)} 类产品建议 · {getProjectExperienceCount(project)} 个体验模型 · {getProjectRevenueCount(project)} 种收益路径</span></div>
+          <div>官方信息：<span className="text-paper/85">{getProjectVerificationStatus(project)}</span></div>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {commercialTags.slice(0, 3).map((tag) => (

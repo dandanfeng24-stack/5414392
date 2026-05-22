@@ -14,7 +14,9 @@ import {
   getProjectRelatedCases,
   getProjectRelatedPackages,
   getProjectScore,
-  getProjectTotalScore
+  getProjectTotalScore,
+  getProjectUniqueValue,
+  getProjectVerificationStatus
 } from "@/lib/project-utils";
 
 const fallbackImage = "/images/textures/dark-paper.png";
@@ -115,6 +117,89 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
         </div>
       </section>
 
+      <section className="mt-12 surface rounded p-6">
+        <h2 className="font-serif text-2xl text-paper">项目独特价值</h2>
+        <p className="mt-5 text-sm leading-7 text-linen">{getProjectUniqueValue(project)}</p>
+      </section>
+
+      <section className="mt-12 surface rounded p-6">
+        <h2 className="font-serif text-2xl text-paper">推荐产品 SKU</h2>
+        <div className="mt-5 grid gap-4 md:grid-cols-2">
+          {(project.recommendedSkus || []).map((sku) => (
+            <div key={sku.name} className="rounded border border-paper/10 bg-ink/35 p-4">
+              <h3 className="font-serif text-xl text-paper">{sku.name}</h3>
+              <dl className="mt-4 space-y-2 text-sm text-linen">
+                <Row label="价格带" value={sku.priceBand} />
+                <Row label="目标客群" value={sku.targetUser} />
+                <Row label="销售场景" value={sku.salesScene} />
+              </dl>
+              <p className="mt-4 text-sm leading-7 text-linen">{sku.reason}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-12 surface rounded p-6">
+        <h2 className="font-serif text-2xl text-paper">推荐体验设计</h2>
+        <div className="mt-5 grid gap-4 lg:grid-cols-2">
+          {(project.recommendedExperiences || []).map((experience) => (
+            <div key={experience.title} className="rounded border border-paper/10 bg-ink/35 p-4">
+              <h3 className="font-serif text-xl text-paper">{experience.title}</h3>
+              <dl className="mt-4 space-y-2 text-sm text-linen">
+                <Row label="时长" value={experience.duration} />
+                <Row label="人数" value={experience.capacity} />
+                <Row label="带走成果" value={experience.takeaway} />
+                <Row label="人员配置" value={experience.staffing} />
+              </dl>
+              <ol className="mt-4 space-y-2 text-sm leading-6 text-linen">
+                {experience.process.map((step, index) => <li key={step}>{index + 1}. {step}</li>)}
+              </ol>
+              <p className="mt-4 text-sm leading-7 text-paper/65">风险提示：{experience.riskNotes}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-12 grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="surface rounded p-6">
+          <h2 className="font-serif text-2xl text-paper">落地条件</h2>
+          <dl className="mt-5 space-y-3 text-sm text-linen">
+            <Row label="场地条件" value={project.implementationConditions?.space || "需结合项目场地继续核验"} />
+            <Row label="人员条件" value={project.implementationConditions?.staff || "需配置讲解或运营人员"} />
+            <Row label="材料供应" value={project.implementationConditions?.materials || "材料标准化需补充"} />
+            <Row label="设备条件" value={project.implementationConditions?.equipment || "设备条件需按场景补充"} />
+            <Row label="运营难度" value={project.implementationConditions?.operationDifficulty || "待核验"} />
+            <Row label="起步预算" value={project.implementationConditions?.minimumBudget || "需按方案测算"} />
+            <Row label="筹备周期" value={project.implementationConditions?.preparationCycle || "需按场地测算"} />
+          </dl>
+          <p className="mt-5 text-sm leading-7 text-linen">{project.implementationConditions?.notes || "落地备注需在项目沟通后补充。"}</p>
+        </div>
+        <div className="surface rounded p-6">
+          <h2 className="font-serif text-2xl text-paper">官方信息核验状态</h2>
+          <div className="mt-4 text-sm text-gold">官方信息：{getProjectVerificationStatus(project)}</div>
+          <SimpleList title="已核验字段" items={project.officialVerification?.verifiedFields || ["项目名称", "地区", "类别"]} />
+          <SimpleList title="待核验字段" items={project.officialVerification?.pendingFields || ["保护单位", "非遗编号", "名录批次", "官方来源链接"]} />
+          <p className="mt-5 text-sm leading-7 text-linen">{project.officialVerification?.notes || "官方信息需后续人工复核。"}</p>
+        </div>
+      </section>
+
+      <section className="mt-12 surface rounded p-6">
+        <h2 className="font-serif text-2xl text-paper">收益方式</h2>
+        <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {(project.revenueModels || []).map((model) => (
+            <div key={`${model.type}-${model.suitableScene}`} className="rounded border border-paper/10 bg-ink/35 p-4">
+              <h3 className="font-serif text-xl text-paper">{model.type}</h3>
+              <p className="mt-3 text-sm leading-7 text-linen">{model.description}</p>
+              <div className="mt-4 grid gap-2 text-sm text-paper/65">
+                <div>适合场景：<span className="text-paper/85">{model.suitableScene}</span></div>
+                <div>难度：<span className="text-paper/85">{model.difficulty}</span></div>
+                <div>备注：<span className="text-paper/85">{model.notes}</span></div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <div className="mt-12 grid gap-5 md:grid-cols-2">
         <ListBlock title="产品化路径" items={project.productDirections} />
         <ListBlock title="体验化路径" items={project.experienceDirections} />
@@ -182,5 +267,16 @@ function ListBlock({ title, items }: { title: string; items: string[] }) {
       <h2 className="font-serif text-2xl text-paper">{title}</h2>
       <ul className="mt-5 space-y-2 text-sm leading-6 text-linen">{items.map((item) => <li key={item}>· {item}</li>)}</ul>
     </section>
+  );
+}
+
+function SimpleList({ title, items }: { title: string; items: string[] }) {
+  return (
+    <div className="mt-5">
+      <h3 className="font-serif text-xl text-paper">{title}</h3>
+      <ul className="mt-3 flex flex-wrap gap-2 text-sm text-linen">
+        {items.map((item) => <li key={item} className="rounded border border-paper/10 bg-ink/35 px-3 py-2">{item}</li>)}
+      </ul>
+    </div>
   );
 }

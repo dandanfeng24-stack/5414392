@@ -68,3 +68,23 @@ export function getProjectJudgement(project: Project) {
 export function getProjectContentStatus(project: Project) {
   return [project.contentStatus || project.reviewStatus, project.contentStatusNote].filter(Boolean).join(" · ");
 }
+
+export function getProjectUniqueValue(project: Project) {
+  return project.uniqueValue || project.summary || project.positioning || "该项目的独特价值需结合材料、工艺和落地场景继续补充。";
+}
+
+export function getProjectSkuCount(project: Project) {
+  return project.recommendedSkus?.length ?? 0;
+}
+
+export function getProjectExperienceCount(project: Project) {
+  return project.recommendedExperiences?.length ?? 0;
+}
+
+export function getProjectRevenueCount(project: Project) {
+  return project.revenueModels?.length ?? 0;
+}
+
+export function getProjectVerificationStatus(project: Project) {
+  return project.officialVerification?.status || "待核验";
+}
