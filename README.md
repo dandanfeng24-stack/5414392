@@ -28,18 +28,6 @@ Root Directory: /
 
 环境变量无需填写。部署成功后，Vercel 项目页会显示可访问的 Preview/Production URL。
 
-## 本地开发预览
-
-```bash
-npm install
-npm run dev
-```
-
-本地开发时打开：
-
-[http://localhost:3000](http://localhost:3000)
-
-这个地址只在你的电脑上有效，不能用于线上分享。
 
 ## 数据修改
 
