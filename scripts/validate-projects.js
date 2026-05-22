@@ -6,12 +6,27 @@ const projects = JSON.parse(fs.readFileSync(path.join(root, "data/projects.json"
 const cases = JSON.parse(fs.readFileSync(path.join(root, "data/cases.json"), "utf8"));
 const packages = JSON.parse(fs.readFileSync(path.join(root, "data/packages.json"), "utf8"));
 
-const mode = process.argv.includes("--sample") ? "sample" : "full";
+const mode = process.argv.includes("--sample")
+  ? "sample"
+  : process.argv.includes("--market-sample")
+    ? "market-sample"
+    : "full";
+
 const allowedGrades = new Set(["A", "B", "C", "D"]);
 const allowedStatus = new Set(["AI 初稿", "人工初审", "已复核", "待补充", "待核验"]);
 const allowedVerification = new Set(["已核验", "部分核验", "待核验"]);
+const allowedMarketEvidence = new Set(["强证据", "中证据", "弱证据", "待核验"]);
 const bannedPlaceholders = ["TODO", "待填写", "Lorem", "example.com", "随便补充"];
 const coreTextFields = ["summary", "uniqueValue", "scoreReason", "scoreExplanation", "operationNotes", "riskExplanation"];
+const marketScoreWeights = {
+  commercialization: 0.2,
+  experience: 0.2,
+  sceneFit: 0.18,
+  spread: 0.16,
+  gift: 0.12,
+  operation: 0.14
+};
+const scoreKeys = Object.keys(marketScoreWeights);
 const expectedDistribution = {
   "茶文化": 12,
   "陶瓷器物": 14,
@@ -33,6 +48,18 @@ const sampleIds = [
   "hanfu-makeup",
   "dragon-lantern",
   "incense-making"
+];
+const marketSampleIds = [
+  "wuyi-rock-tea",
+  "jingdezhen-porcelain",
+  "suzhou-embroidery",
+  "blue-calico",
+  "zhoucun-sesame-cake",
+  "paper-cut",
+  "dragon-lantern",
+  "hanfu-makeup",
+  "nanjing-yunjin",
+  "iron-flower"
 ];
 
 const caseIds = new Set(cases.map((item) => item.id));
@@ -61,7 +88,95 @@ function checkNoPlaceholder(label, field, value) {
   for (const word of bannedPlaceholders) {
     if (value.includes(word)) fail(`${label}: ${field} contains placeholder word ${word}`);
   }
-  if (field !== "sourceNotes" && value.trim() === "待补充") fail(`${label}: ${field} should not use 待补充 as data content`);
+  if (field !== "sourceNotes" && value.trim() === "待补充") {
+    fail(`${label}: ${field} should not use 待补充 as data content`);
+  }
+}
+
+function looksLikeInvalidLink(url) {
+  return (
+    typeof url !== "string" ||
+    !/^https?:\/\//i.test(url) ||
+    /example\.com|localhost|127\.0\.0\.1|\s/i.test(url)
+  );
+}
+
+function weightedTotal(score) {
+  return Math.round(scoreKeys.reduce((sum, key) => sum + Number(score[key] || 0) * marketScoreWeights[key], 0));
+}
+
+function validateMarketEvidence(project, required) {
+  const label = project.id || project.name;
+  const evidence = project.marketEvidence;
+
+  if (!evidence) {
+    if (required) fail(`${label}: marketEvidence is required for market sample`);
+    return;
+  }
+
+  if (!hasText(evidence.summary)) fail(`${label}: marketEvidence.summary is required`);
+  if (!allowedMarketEvidence.has(evidence.evidenceLevel)) {
+    fail(`${label}: invalid marketEvidence.evidenceLevel ${evidence.evidenceLevel}`);
+  }
+  if (!isArray(evidence.sources)) fail(`${label}: marketEvidence.sources must be an array`);
+  for (const source of evidence.sources || []) {
+    if (looksLikeInvalidLink(source)) fail(`${label}: invalid marketEvidence source link ${source}`);
+  }
+
+  for (const key of scoreKeys) {
+    const dimension = evidence.dimensions && evidence.dimensions[key];
+    if (!dimension) {
+      fail(`${label}: marketEvidence.dimensions.${key} is required`);
+      continue;
+    }
+    if (!hasText(dimension.summary)) fail(`${label}: marketEvidence.dimensions.${key}.summary is required`);
+    if (!allowedMarketEvidence.has(dimension.evidenceLevel)) {
+      fail(`${label}: invalid marketEvidence.dimensions.${key}.evidenceLevel ${dimension.evidenceLevel}`);
+    }
+    if (!isArray(dimension.evidenceTypes) || dimension.evidenceTypes.length === 0) {
+      fail(`${label}: marketEvidence.dimensions.${key}.evidenceTypes must be a non-empty array`);
+    }
+    if (project.scoreDetails && hasText(project.scoreDetails[key])) {
+      const firstEvidencePhrase = String(dimension.summary).slice(0, 10);
+      if (!project.scoreDetails[key].includes(firstEvidencePhrase)) {
+        fail(`${label}: scoreDetails.${key} should cite its matching market evidence summary`);
+      }
+    }
+    if (project.score && project.score[key] > 85 && (!evidence.sources || evidence.sources.length === 0) && !/人工复核|已有项目资料/.test(dimension.summary)) {
+      fail(`${label}: score.${key} is over 85 but has no real source link or review note`);
+    }
+  }
+
+  if (project.score) {
+    const expectedTotal = weightedTotal(project.score);
+    if (project.score.total !== expectedTotal) {
+      fail(`${label}: score.total should be weighted market score ${expectedTotal}, got ${project.score.total}`);
+    }
+    if (project.totalScore !== expectedTotal) {
+      fail(`${label}: totalScore should equal weighted market score ${expectedTotal}, got ${project.totalScore}`);
+    }
+    const legacy = project.scores || {};
+    const legacyPairs = [
+      ["commodity", "commercialization"],
+      ["experience", "experience"],
+      ["scenario", "sceneFit"],
+      ["spread", "spread"],
+      ["gift", "gift"],
+      ["operation", "operation"]
+    ];
+    for (const [legacyKey, scoreKey] of legacyPairs) {
+      if (legacy[legacyKey] !== project.score[scoreKey]) {
+        fail(`${label}: scores.${legacyKey} must match score.${scoreKey}`);
+      }
+    }
+  }
+
+  const scoringText = [project.scoreReason, project.scoreExplanation, ...Object.values(project.scoreDetails || {})].join("");
+  for (const riskWord of ["风险", "扣分", "安全", "不稳定", "成本难以控制"]) {
+    if (scoringText.includes(riskWord) && riskWord !== "扣分") {
+      warn(`${label}: scoring text mentions "${riskWord}"; confirm it is evidence context, not risk-based scoring`);
+    }
+  }
 }
 
 function validateProject(project, index) {
@@ -78,6 +193,9 @@ function validateProject(project, index) {
     checkNoPlaceholder(label, field, project[field]);
   }
   if (!isArray(project.sourceLinks)) fail(`${label}: sourceLinks must be an array`);
+  for (const source of project.sourceLinks || []) {
+    if (looksLikeInvalidLink(source)) fail(`${label}: invalid sourceLinks item ${source}`);
+  }
   for (const key of ["productDirections", "experienceDirections", "bestScenes", "riskTags"]) {
     if (!isArray(project[key])) fail(`${label}: ${key} must be an array`);
   }
@@ -108,6 +226,9 @@ function validateProject(project, index) {
       checkNoPlaceholder(label, `recommendedExperiences.${field}`, experience[field]);
     }
     if (!isArray(experience.process) || experience.process.length < 3) fail(`${label}: recommendedExperiences process must contain at least 3 steps`);
+    for (const step of experience.process || []) {
+      if (/^\s*\d+[.、)]/.test(step)) fail(`${label}: recommendedExperiences process step should not start with numbering: ${step}`);
+    }
   }
   for (const model of project.revenueModels || []) {
     for (const field of ["type", "description", "suitableScene", "difficulty", "notes"]) {
@@ -125,6 +246,8 @@ function validateProject(project, index) {
   for (const id of project.relatedPackages || []) {
     if (!packageIds.has(id)) warn(`${label}: related package not found: ${id}`);
   }
+
+  validateMarketEvidence(project, mode === "market-sample" && marketSampleIds.includes(project.id));
 }
 
 if (mode === "full" && projects.length !== 100) fail(`projects.json must contain exactly 100 records, got ${projects.length}`);
@@ -135,10 +258,11 @@ for (const project of projects) {
   ids.add(project.id);
 }
 
-const targetProjects = mode === "sample" ? sampleIds.map((id) => projects.find((item) => item.id === id)) : projects;
-if (mode === "sample") {
+const targetIds = mode === "sample" ? sampleIds : mode === "market-sample" ? marketSampleIds : null;
+const targetProjects = targetIds ? targetIds.map((id) => projects.find((item) => item.id === id)) : projects;
+if (targetIds) {
   targetProjects.forEach((project, index) => {
-    if (!project) fail(`sample project missing: ${sampleIds[index]}`);
+    if (!project) fail(`${mode} project missing: ${targetIds[index]}`);
   });
 }
 targetProjects.filter(Boolean).forEach(validateProject);
@@ -153,7 +277,7 @@ if (mode === "full") {
     seenUniqueValue.set(project.uniqueValue, project.id);
   }
   const distribution = projects.reduce((acc, project) => {
-      acc[project.theme] = (acc[project.theme] || 0) + 1;
+    acc[project.theme] = (acc[project.theme] || 0) + 1;
     return acc;
   }, {});
   for (const [theme, count] of Object.entries(expectedDistribution)) {

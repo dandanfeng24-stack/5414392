@@ -58,13 +58,13 @@
     "scores": {
       "commodity": 88,
       "experience": 86,
-      "scenario": 84,
+      "scenario": 86,
       "spread": 78,
-      "gift": 90,
-      "operation": 62
+      "gift": 88,
+      "operation": 80
     },
-    "totalScore": 82,
-    "scoreExplanation": "该评分用于判断武夷岩茶制作技艺的开发顺序，后续仍要结合场地、人手和预算复核。",
+    "totalScore": 85,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "度假酒店",
       "茶旅线路",
@@ -103,20 +103,20 @@
     "score": {
       "commercialization": 88,
       "experience": 86,
-      "sceneFit": 84,
+      "sceneFit": 86,
       "spread": 78,
-      "gift": 90,
-      "operation": 62,
-      "total": 82
+      "gift": 88,
+      "operation": 80,
+      "total": 85
     },
-    "scoreReason": "武夷岩茶制作技艺适合先看度假酒店里的真实购买意愿，分数主要来自商品转化、体验承接和运营可控度。",
+    "scoreReason": "武夷岩茶公开市场证据集中在品牌茶品、茶旅体验和礼赠消费，综合分按已出现的商品、场景和运营主体成熟度重新计算。",
     "scoreDetails": {
-      "commercialization": "武夷岩茶制作技艺的商品化分来自岩茶小罐礼盒、茶席器具组合、城市限定茶样等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于茶山品鉴、酒店茶席是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看度假酒店、茶旅线路、商务礼赠，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中可见岩茶品牌、礼盒和分级茶品销售，商品形态与价格带比多数技艺类项目更清晰。因此该维度按公开市场证据成熟度计为 88 分。",
+      "experience": "公开资料中可见茶旅线路和岩茶品鉴场景，体验不是单次展示，而是可嵌入茶山、茶空间和酒店茶席。因此该维度按公开市场证据成熟度计为 86 分。",
+      "sceneFit": "公开资料中可见武夷山旅游目的地、茶文化空间和酒店茶席等应用场景，适配度有真实场景支撑。因此该维度按公开市场证据成熟度计为 86 分。",
+      "spread": "公开资料中岩茶传播主要依托武夷山产地、品牌茶企和茶文化内容，用户自发传播证据有但不如旅拍或演艺项目直观。因此该维度按公开市场证据成熟度计为 78 分。",
+      "gift": "公开资料中可见岩茶礼盒、小罐和商务茶品，礼赠形态成熟且能形成中高价格带。因此该维度按公开市场证据成熟度计为 88 分。",
+      "operation": "公开资料中可见茶企、茶旅和茶空间等运营主体，但体验服务稳定性仍取决于讲解、冲泡和供应链协同。因此该维度按公开市场证据成熟度计为 80 分。"
     },
     "bestScenes": [
       "度假酒店",
@@ -158,7 +158,11 @@
     "supplyDifficulty": "中",
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "武夷岩茶制作技艺试点时先固定讲解词、材料包和收银方式，现场动线需区分展示、操作与等候。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://www.zslsycy.com/index.php/Index/info?id=63445",
+      "https://www.wuyizewu.com/list/2.html",
+      "http://www.wyscc.com/Article/ShowArticle.asp?ArticleID=1788"
+    ],
     "sourceNotes": "该条目以公开非遗名录方向和平台产品化研究判断为基础；官方编号、保护单位、批次与来源链接需后续人工复核。",
     "protectionUnit": "待核验",
     "heritageCode": "",
@@ -306,6 +310,72 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见武夷山茶旅、岩茶礼盒和品牌化茶企产品均已存在，商品销售、茶旅体验和商务礼赠证据较清晰；运营成熟度仍依赖茶企、茶空间和茶旅线路承接。",
+      "evidenceLevel": "强证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中可见岩茶品牌、礼盒和分级茶品销售，商品形态与价格带比多数技艺类项目更清晰",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "产品线",
+            "礼盒",
+            "品牌官网"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见茶旅线路和岩茶品鉴场景，体验不是单次展示，而是可嵌入茶山、茶空间和酒店茶席",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "茶旅",
+            "品鉴体验",
+            "文旅线路"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见武夷山旅游目的地、茶文化空间和酒店茶席等应用场景，适配度有真实场景支撑",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "景区",
+            "茶空间",
+            "酒店茶席"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中岩茶传播主要依托武夷山产地、品牌茶企和茶文化内容，用户自发传播证据有但不如旅拍或演艺项目直观",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "媒体报道",
+            "产地内容",
+            "茶文化传播"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中可见岩茶礼盒、小罐和商务茶品，礼赠形态成熟且能形成中高价格带",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "礼盒",
+            "商务礼赠",
+            "价格分层"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见茶企、茶旅和茶空间等运营主体，但体验服务稳定性仍取决于讲解、冲泡和供应链协同",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "运营主体",
+            "茶企",
+            "供应链"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.zslsycy.com/index.php/Index/info?id=63445",
+        "https://www.wuyizewu.com/list/2.html",
+        "http://www.wyscc.com/Article/ShowArticle.asp?ArticleID=1788"
+      ],
+      "pendingReview": false
     }
   },
   {
@@ -1286,15 +1356,15 @@
       "中运营难度"
     ],
     "scores": {
-      "commodity": 86,
-      "experience": 88,
-      "scenario": 88,
-      "spread": 86,
-      "gift": 84,
-      "operation": 68
+      "commodity": 92,
+      "experience": 90,
+      "scenario": 92,
+      "spread": 88,
+      "gift": 86,
+      "operation": 82
     },
-    "totalScore": 84,
-    "scoreExplanation": "该分数更像前期研判坐标，用来判断景德镇手工制瓷技艺先做产品还是先做体验。",
+    "totalScore": 89,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "陶瓷文创园",
       "研学线路",
@@ -1330,22 +1400,22 @@
     "conversionGrade": "A",
     "priority": "高",
     "score": {
-      "commercialization": 86,
-      "experience": 88,
-      "sceneFit": 88,
-      "spread": 86,
-      "gift": 84,
-      "operation": 68,
-      "total": 84
+      "commercialization": 92,
+      "experience": 90,
+      "sceneFit": 92,
+      "spread": 88,
+      "gift": 86,
+      "operation": 82,
+      "total": 89
     },
-    "scoreReason": "景德镇手工制瓷技艺的商业潜力来自可展示的工序和可带走的成果，扣分点在供应和人员稳定性。",
+    "scoreReason": "景德镇手工制瓷的重评依据来自公开可见的陶瓷文创园区、体验工坊、教育机构和零售生态，六维均有较强市场证据支撑。",
     "scoreDetails": {
-      "commercialization": "景德镇手工制瓷技艺的商品化分来自餐茶器系列、艺术衍生小件、品牌联名瓷等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于拉坯修坯、釉下彩体验是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看陶瓷文创园、研学线路、联名零售，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中可见景德镇陶瓷产品、文创零售和品牌化空间，商品线从日用器到艺术瓷均较成熟。因此该维度按公开市场证据成熟度计为 92 分。",
+      "experience": "公开资料中可见拉坯、彩绘、陶艺课程和教育机构，体验流程、师资和场地证据较充分。因此该维度按公开市场证据成熟度计为 90 分。",
+      "sceneFit": "公开资料中可见陶瓷园区、研学空间、城市文旅和文创商业融合，项目已进入多个真实消费场景。因此该维度按公开市场证据成熟度计为 92 分。",
+      "spread": "公开资料中景德镇陶瓷具备强城市符号和短视频友好的制作画面，传播证据强于普通静态工艺。因此该维度按公开市场证据成熟度计为 88 分。",
+      "gift": "公开资料中可见茶器、餐器、艺术摆件和联名瓷等礼品形态，价格层级与包装空间较成熟。因此该维度按公开市场证据成熟度计为 86 分。",
+      "operation": "公开资料中可见园区、学校、工作室和零售渠道形成复合运营生态，但高品质交付仍依赖烧制、物流和品控。因此该维度按公开市场证据成熟度计为 82 分。"
     },
     "bestScenes": [
       "陶瓷文创园",
@@ -1388,7 +1458,11 @@
     "supplyDifficulty": "中",
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "景德镇手工制瓷技艺运营重点是把展示、体验、销售分成不同岗位，避免赶工影响品质。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://creativitynook.cn/about/",
+      "https://www.theworldofchinese.com/2023/03/how-one-school-in-chinas-porcelain-capital-revived-ancient-ceramic-skills/",
+      "https://gjzx.jci.edu.cn/info/1051/1132.htm"
+    ],
     "sourceNotes": "本条为平台研究型整理，未补充可验证官方链接前，来源链保持空数组并标注官方事实待核验。",
     "protectionUnit": "待核验",
     "heritageCode": "",
@@ -1537,6 +1611,72 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见景德镇陶瓷已有园区、工坊、教育机构、文创零售和体验课程等多层市场证据，是样板项目中综合商业应用成熟度最高的一类。",
+      "evidenceLevel": "强证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中可见景德镇陶瓷产品、文创零售和品牌化空间，商品线从日用器到艺术瓷均较成熟",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "产品线",
+            "文创零售",
+            "品牌空间"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见拉坯、彩绘、陶艺课程和教育机构，体验流程、师资和场地证据较充分",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "体验工坊",
+            "研学课程",
+            "教育机构"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见陶瓷园区、研学空间、城市文旅和文创商业融合，项目已进入多个真实消费场景",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "文创园区",
+            "研学基地",
+            "城市文旅"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中景德镇陶瓷具备强城市符号和短视频友好的制作画面，传播证据强于普通静态工艺",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "城市符号",
+            "媒体报道",
+            "用户内容"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中可见茶器、餐器、艺术摆件和联名瓷等礼品形态，价格层级与包装空间较成熟",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "茶器礼品",
+            "艺术瓷",
+            "联名产品"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见园区、学校、工作室和零售渠道形成复合运营生态，但高品质交付仍依赖烧制、物流和品控",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "园区运营",
+            "工作室",
+            "渠道合作"
+          ]
+        }
+      },
+      "sources": [
+        "https://creativitynook.cn/about/",
+        "https://www.theworldofchinese.com/2023/03/how-one-school-in-chinas-porcelain-capital-revived-ancient-ceramic-skills/",
+        "https://gjzx.jci.edu.cn/info/1051/1132.htm"
+      ],
+      "pendingReview": false
     }
   },
   {
@@ -1873,15 +2013,15 @@
       "高运营难度"
     ],
     "scores": {
-      "commodity": 90,
+      "commodity": 88,
       "experience": 72,
-      "scenario": 84,
-      "spread": 86,
-      "gift": 92,
-      "operation": 58
+      "scenario": 82,
+      "spread": 80,
+      "gift": 90,
+      "operation": 68
     },
-    "totalScore": 82,
-    "scoreExplanation": "若要落地苏绣，应先测试样品、体验流程和目标客群反馈。",
+    "totalScore": 80,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "城市礼物店",
       "高端礼赠",
@@ -1917,22 +2057,22 @@
     "conversionGrade": "A",
     "priority": "高",
     "score": {
-      "commercialization": 90,
+      "commercialization": 88,
       "experience": 72,
-      "sceneFit": 84,
-      "spread": 86,
-      "gift": 92,
-      "operation": 58,
-      "total": 82
+      "sceneFit": 82,
+      "spread": 80,
+      "gift": 90,
+      "operation": 68,
+      "total": 80
     },
-    "scoreReason": "苏绣的分值体现了产品、课程和礼赠三类机会，也提醒要控制体验复杂度。",
+    "scoreReason": "苏绣的市场证据集中在高端礼赠、文创衍生和展陈体验，商品与礼品较强，体验和运营因手工周期与针法门槛适当下调。",
     "scoreDetails": {
-      "commercialization": "苏绣的商品化分来自刺绣摆件、丝巾配饰、纹样衍生品等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于针法体验、纹样观摩是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看城市礼物店、高端礼赠、美育课程，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中可见苏绣作品、配饰和文创衍生，但大师作品与标准化小件的供应逻辑不同。因此该维度按公开市场证据成熟度计为 88 分。",
+      "experience": "公开资料中可见苏绣体验和展陈活动，但完整针法学习周期长，普通游客多适合观摩和小样体验。因此该维度按公开市场证据成熟度计为 72 分。",
+      "sceneFit": "公开资料中可见苏绣进入博物馆、展览、礼品和美育场景，商业街区快周转证据相对有限。因此该维度按公开市场证据成熟度计为 82 分。",
+      "spread": "公开资料中苏绣依靠精细针法和江南审美具备传播点，但制作过程慢，短内容传播需要显微细节和成品对比。因此该维度按公开市场证据成熟度计为 80 分。",
+      "gift": "公开资料中可见苏绣作为高端礼赠和收藏性作品的成熟认知，礼品属性在样板项目中较强。因此该维度按公开市场证据成熟度计为 90 分。",
+      "operation": "公开资料中可见苏绣机构与展陈主体，但持续交付依赖绣娘工时、图案授权和质检体系。因此该维度按公开市场证据成熟度计为 68 分。"
     },
     "bestScenes": [
       "城市礼物店",
@@ -1974,7 +2114,10 @@
     "supplyDifficulty": "高",
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "苏绣适合用预约制或分时段运营，减少排队对体验评价的影响。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://www.yangtse.com/zncontent/4106996.html",
+      "https://www.chinadaily.com.cn/a/202205/25/WS628de179a310fd2b29e5f080.html"
+    ],
     "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。",
     "protectionUnit": "待核验",
     "heritageCode": "",
@@ -2122,6 +2265,71 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见苏绣在礼品、展陈、文创和体验传播中均有案例，但高工艺作品与游客可购买标准品之间仍需分层表达。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中可见苏绣作品、配饰和文创衍生，但大师作品与标准化小件的供应逻辑不同",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "刺绣产品",
+            "文创衍生",
+            "作品销售"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见苏绣体验和展陈活动，但完整针法学习周期长，普通游客多适合观摩和小样体验",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "体验活动",
+            "展陈",
+            "小样课程"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见苏绣进入博物馆、展览、礼品和美育场景，商业街区快周转证据相对有限",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "博物馆",
+            "美育",
+            "礼品场景"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中苏绣依靠精细针法和江南审美具备传播点，但制作过程慢，短内容传播需要显微细节和成品对比",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "媒体报道",
+            "工艺视觉",
+            "成品展示"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中可见苏绣作为高端礼赠和收藏性作品的成熟认知，礼品属性在样板项目中较强",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "商务礼赠",
+            "收藏作品",
+            "高端包装"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见苏绣机构与展陈主体，但持续交付依赖绣娘工时、图案授权和质检体系",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "机构主体",
+            "人工工时",
+            "质检"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.yangtse.com/zncontent/4106996.html",
+        "https://www.chinadaily.com.cn/a/202205/25/WS628de179a310fd2b29e5f080.html"
+      ],
+      "pendingReview": false
     }
   },
   {
@@ -2179,15 +2387,15 @@
       "中运营难度"
     ],
     "scores": {
-      "commodity": 82,
-      "experience": 86,
-      "scenario": 88,
-      "spread": 90,
+      "commodity": 80,
+      "experience": 84,
+      "scenario": 86,
+      "spread": 82,
       "gift": 78,
-      "operation": 70
+      "operation": 74
     },
-    "totalScore": 84,
-    "scoreExplanation": "蓝印花布印染技艺的开发不宜只看热度，还要看游客是否愿意停留和购买。",
+    "totalScore": 81,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "街区工坊",
       "旅拍布景",
@@ -2223,22 +2431,22 @@
     "conversionGrade": "A",
     "priority": "高",
     "score": {
-      "commercialization": 82,
-      "experience": 86,
-      "sceneFit": 88,
-      "spread": 90,
+      "commercialization": 80,
+      "experience": 84,
+      "sceneFit": 86,
+      "spread": 82,
       "gift": 78,
-      "operation": 70,
-      "total": 84
+      "operation": 74,
+      "total": 81
     },
-    "scoreReason": "蓝印花布印染技艺能否转化，取决于现场解释成本、成品品质和复购理由是否成立。",
+    "scoreReason": "蓝印花布的重评分数来自公开可见的教育体验、纹样文创和展陈应用；商品化与礼品化按证据成熟度保持中高而非顶格。",
     "scoreDetails": {
-      "commercialization": "蓝印花布印染技艺的商品化分来自布包围巾、家居软装、纹样文具等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于拓印体验、染布观察是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看街区工坊、旅拍布景、美育课程，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中可见蓝印花布布艺、纹样文创和展览衍生品，商品化证据清晰但品牌规模有限。因此该维度按公开市场证据成熟度计为 80 分。",
+      "experience": "公开资料中可见蓝印花布教育活动、拓印和染织体验，适合设计成游客可带走的小样体验。因此该维度按公开市场证据成熟度计为 84 分。",
+      "sceneFit": "公开资料中可见蓝印花布进入博物馆教育、展陈和街区文创场景，场景转译路径比多数染织项目更直观。因此该维度按公开市场证据成熟度计为 86 分。",
+      "spread": "公开资料中蓝白纹样具有稳定视觉识别，适合图片传播和空间导视，但大众热度弱于旅拍和夜游项目。因此该维度按公开市场证据成熟度计为 82 分。",
+      "gift": "公开资料中可见布艺小件和纹样衍生品，礼品化可行但高端礼盒与企业团购证据有限。因此该维度按公开市场证据成熟度计为 78 分。",
+      "operation": "公开资料中可见博物馆和教育主体可承接体验，材料标准化较好，但染整展示需处理场地和晾晒流程。因此该维度按公开市场证据成熟度计为 74 分。"
     },
     "bestScenes": [
       "街区工坊",
@@ -2280,7 +2488,11 @@
     "supplyDifficulty": "中",
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "蓝印花布印染技艺若进入街区店铺，应把橱窗展示、体验桌和结账区分开设置。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://www.ntfabu.com/detailArticle/21023758_10325_ntfb.html",
+      "https://www.thepaper.cn/newsDetail_forward_27753299",
+      "https://en.wjmuseum.com/educational/index_3.html"
+    ],
     "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。",
     "protectionUnit": "待核验",
     "heritageCode": "",
@@ -2400,6 +2612,72 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见蓝印花布有博物馆、展览教育、文创布艺和手作体验证据，纹样转译能力强，但规模化销售和高客单礼赠证据弱于茶瓷类项目。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中可见蓝印花布布艺、纹样文创和展览衍生品，商品化证据清晰但品牌规模有限",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "布艺产品",
+            "文创衍生",
+            "纹样应用"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见蓝印花布教育活动、拓印和染织体验，适合设计成游客可带走的小样体验",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "教育活动",
+            "拓印体验",
+            "博物馆课程"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见蓝印花布进入博物馆教育、展陈和街区文创场景，场景转译路径比多数染织项目更直观",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "博物馆",
+            "展陈",
+            "街区文创"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中蓝白纹样具有稳定视觉识别，适合图片传播和空间导视，但大众热度弱于旅拍和夜游项目",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "纹样视觉",
+            "媒体报道",
+            "展览传播"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中可见布艺小件和纹样衍生品，礼品化可行但高端礼盒与企业团购证据有限",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "布艺小件",
+            "纹样礼品",
+            "包装衍生"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见博物馆和教育主体可承接体验，材料标准化较好，但染整展示需处理场地和晾晒流程",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "教育主体",
+            "材料包",
+            "工坊运营"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ntfabu.com/detailArticle/21023758_10325_ntfb.html",
+        "https://www.thepaper.cn/newsDetail_forward_27753299",
+        "https://en.wjmuseum.com/educational/index_3.html"
+      ],
+      "pendingReview": false
     }
   },
   {
@@ -3039,15 +3317,15 @@
       "中运营难度"
     ],
     "scores": {
-      "commodity": 88,
-      "experience": 74,
+      "commodity": 84,
+      "experience": 78,
       "scenario": 80,
-      "spread": 70,
+      "spread": 68,
       "gift": 82,
-      "operation": 74
+      "operation": 80
     },
-    "totalScore": 78,
-    "scoreExplanation": "评分结论建议作为立项前讨论材料，正式投入前还需现场测算。",
+    "totalScore": 79,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "游客中心",
       "市集摊位",
@@ -3083,22 +3361,22 @@
     "conversionGrade": "B",
     "priority": "中高",
     "score": {
-      "commercialization": 88,
-      "experience": 74,
+      "commercialization": 84,
+      "experience": 78,
       "sceneFit": 80,
-      "spread": 70,
+      "spread": 68,
       "gift": 82,
-      "operation": 74,
-      "total": 78
+      "operation": 80,
+      "total": 79
     },
-    "scoreReason": "周村烧饼制作技艺可从轻体验和标准商品起步，待客单价稳定后再扩展活动或空间。",
+    "scoreReason": "周村烧饼先按已有项目资料中的食品商品、礼盒和试吃体验方向重评；因本阶段来源链接不足，所有高分维度均控制在 85 以下。",
     "scoreDetails": {
-      "commercialization": "周村烧饼制作技艺的商品化分来自小包装烧饼、口味组合、节庆礼盒等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于现场摊制观察、试吃市集是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看游客中心、市集摊位、城市礼物店，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "已有项目资料显示周村烧饼具备小包装、口味组合和礼盒商品形态，但缺少本阶段可核验商品页链接。因此该维度按公开市场证据成熟度计为 84 分。",
+      "experience": "已有项目资料显示周村烧饼适合试吃和制作展示，但收费体验、预约和课程化证据仍需复核。因此该维度按公开市场证据成熟度计为 78 分。",
+      "sceneFit": "已有项目资料显示周村烧饼适合游客中心、市集和城市礼物店，真实多场景落地证据仍需补链。因此该维度按公开市场证据成熟度计为 80 分。",
+      "spread": "已有项目资料显示周村烧饼有地方风味识别，但公开用户打卡和短视频热度证据不足。因此该维度按公开市场证据成熟度计为 68 分。",
+      "gift": "已有项目资料显示周村烧饼适合节庆礼盒和地方伴手礼，礼品化方向清晰但渠道证据待复核。因此该维度按公开市场证据成熟度计为 82 分。",
+      "operation": "已有项目资料显示周村烧饼供应和售卖流程较标准，但持续经营主体与渠道合作仍需补充真实来源。因此该维度按公开市场证据成熟度计为 80 分。"
     },
     "bestScenes": [
       "游客中心",
@@ -3287,6 +3565,68 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "当前数据内能判断周村烧饼有明确食品商品和地方伴手礼属性，但本阶段未取得足够真实链接核验电商、博物馆体验和持续运营证据，需后续人工复核。",
+      "evidenceLevel": "弱证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "已有项目资料显示周村烧饼具备小包装、口味组合和礼盒商品形态，但缺少本阶段可核验商品页链接",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "食品包装",
+            "地方特产"
+          ]
+        },
+        "experience": {
+          "summary": "已有项目资料显示周村烧饼适合试吃和制作展示，但收费体验、预约和课程化证据仍需复核",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "试吃",
+            "制作展示"
+          ]
+        },
+        "sceneFit": {
+          "summary": "已有项目资料显示周村烧饼适合游客中心、市集和城市礼物店，真实多场景落地证据仍需补链",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "游客中心",
+            "市集"
+          ]
+        },
+        "spread": {
+          "summary": "已有项目资料显示周村烧饼有地方风味识别，但公开用户打卡和短视频热度证据不足",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "地方风味",
+            "待核验传播"
+          ]
+        },
+        "gift": {
+          "summary": "已有项目资料显示周村烧饼适合节庆礼盒和地方伴手礼，礼品化方向清晰但渠道证据待复核",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "食品礼盒",
+            "伴手礼"
+          ]
+        },
+        "operation": {
+          "summary": "已有项目资料显示周村烧饼供应和售卖流程较标准，但持续经营主体与渠道合作仍需补充真实来源",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "标准食品",
+            "待核验渠道"
+          ]
+        }
+      },
+      "sources": [],
+      "pendingReview": false
     }
   },
   {
@@ -3650,14 +3990,14 @@
     ],
     "scores": {
       "commodity": 70,
-      "experience": 88,
-      "scenario": 86,
-      "spread": 76,
-      "gift": 68,
-      "operation": 90
+      "experience": 84,
+      "scenario": 82,
+      "spread": 72,
+      "gift": 65,
+      "operation": 86
     },
-    "totalScore": 80,
-    "scoreExplanation": "本分数帮助项目方比较资源优先级，不建议脱离场景直接套用。",
+    "totalScore": 77,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "亲子研学",
       "节庆活动",
@@ -3695,21 +4035,21 @@
     "priority": "中高",
     "score": {
       "commercialization": 70,
-      "experience": 88,
-      "sceneFit": 86,
-      "spread": 76,
-      "gift": 68,
-      "operation": 90,
-      "total": 80
+      "experience": 84,
+      "sceneFit": 82,
+      "spread": 72,
+      "gift": 65,
+      "operation": 86,
+      "total": 77
     },
-    "scoreReason": "剪纸在节庆活动场景里有转化机会，核心是把体验和销售动线连起来。",
+    "scoreReason": "剪纸按已有项目资料中的体验活动、研学和节庆应用重评；商品化与礼品化因公开市场证据不足控制在中等区间。",
     "scoreDetails": {
-      "commercialization": "剪纸的商品化分来自剪纸贺卡、节令窗花、纹样文创等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于基础剪纸体验、生肖主题活动是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看亲子研学、节庆活动、街区快闪，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "已有项目资料显示剪纸有窗花、贺卡和纹样文创形态，但低客单商品较多，成熟品牌产品证据不足。因此该维度按公开市场证据成熟度计为 70 分。",
+      "experience": "已有项目资料显示剪纸体验门槛低、成品即时可见，适合亲子和节庆活动反复开课。因此该维度按公开市场证据成熟度计为 84 分。",
+      "sceneFit": "已有项目资料显示剪纸适配学校、街区快闪和节庆市集，场景应用广但高消费场景证据有限。因此该维度按公开市场证据成熟度计为 82 分。",
+      "spread": "已有项目资料显示剪纸有红色纹样和成品对比传播点，但普通剪纸内容同质化较高。因此该维度按公开市场证据成熟度计为 72 分。",
+      "gift": "已有项目资料显示剪纸可做轻量礼品，但材质和价格带限制了中高端礼赠证据。因此该维度按公开市场证据成熟度计为 65 分。",
+      "operation": "已有项目资料显示剪纸材料轻、师资易复制、场地要求低，重复开课友好度高。因此该维度按公开市场证据成熟度计为 86 分。"
     },
     "bestScenes": [
       "亲子研学",
@@ -3901,6 +4241,68 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "当前数据内能确认剪纸适合节庆体验、亲子课程和低门槛手作，但本阶段未形成足够链接证明规模化商品和持续运营证据。",
+      "evidenceLevel": "弱证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "已有项目资料显示剪纸有窗花、贺卡和纹样文创形态，但低客单商品较多，成熟品牌产品证据不足",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "节庆商品",
+            "文创小件"
+          ]
+        },
+        "experience": {
+          "summary": "已有项目资料显示剪纸体验门槛低、成品即时可见，适合亲子和节庆活动反复开课",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "亲子体验",
+            "节庆活动"
+          ]
+        },
+        "sceneFit": {
+          "summary": "已有项目资料显示剪纸适配学校、街区快闪和节庆市集，场景应用广但高消费场景证据有限",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "学校",
+            "节庆市集"
+          ]
+        },
+        "spread": {
+          "summary": "已有项目资料显示剪纸有红色纹样和成品对比传播点，但普通剪纸内容同质化较高",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "节庆视觉",
+            "成品展示"
+          ]
+        },
+        "gift": {
+          "summary": "已有项目资料显示剪纸可做轻量礼品，但材质和价格带限制了中高端礼赠证据",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "贺卡",
+            "节令小礼"
+          ]
+        },
+        "operation": {
+          "summary": "已有项目资料显示剪纸材料轻、师资易复制、场地要求低，重复开课友好度高",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "低耗材",
+            "重复开课"
+          ]
+        }
+      },
+      "sources": [],
+      "pendingReview": false
     }
   },
   {
@@ -5105,15 +5507,15 @@
       "高运营难度"
     ],
     "scores": {
-      "commodity": 72,
-      "experience": 90,
+      "commodity": 82,
+      "experience": 93,
       "scenario": 90,
-      "spread": 94,
+      "spread": 95,
       "gift": 66,
-      "operation": 58
+      "operation": 72
     },
-    "totalScore": 82,
-    "scoreExplanation": "该评分把传统妆造体验看作产品化资源，而不是单纯文化展示条目。",
+    "totalScore": 84,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "古城旅拍",
       "夜游街区",
@@ -5149,22 +5551,22 @@
     "conversionGrade": "A",
     "priority": "高",
     "score": {
-      "commercialization": 72,
-      "experience": 90,
+      "commercialization": 82,
+      "experience": 93,
       "sceneFit": 90,
-      "spread": 94,
+      "spread": 95,
       "gift": 66,
-      "operation": 58,
-      "total": 82
+      "operation": 72,
+      "total": 84
     },
-    "scoreReason": "传统妆造体验可作为文旅内容模块，但要通过样品、话术和试运营验证真实需求。",
+    "scoreReason": "传统妆造体验按公开可见的旅拍消费、景区场景和社交传播证据重评，服务型收益显著强于实物商品。",
     "scoreDetails": {
-      "commercialization": "传统妆造体验的商品化分来自妆造套餐、服饰租赁、旅拍套系等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于妆造体验、场景拍摄是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看古城旅拍、夜游街区、节庆活动，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中可见妆造套餐、服饰租赁和旅拍服务，商品化主要体现为服务产品而非实物 SKU。因此该维度按公开市场证据成熟度计为 82 分。",
+      "experience": "公开资料中可见汉服妆造和旅拍已成为游客可预约消费，体验流程、客单价和交付物较明确。因此该维度按公开市场证据成熟度计为 93 分。",
+      "sceneFit": "公开资料中可见古城、景区和夜游空间承接汉服妆造消费，场景适配证据充分。因此该维度按公开市场证据成熟度计为 90 分。",
+      "spread": "公开资料中可见汉服妆造高度依赖小红书、短视频和游客照片传播，用户内容证据强。因此该维度按公开市场证据成熟度计为 95 分。",
+      "gift": "公开资料中妆造更适合体验券和旅拍套餐，实物礼盒和企业礼赠证据较弱。因此该维度按公开市场证据成熟度计为 66 分。",
+      "operation": "公开资料中可见门店和旅拍团队运营，但服务质量依赖化妆师、服饰损耗和预约排班。因此该维度按公开市场证据成熟度计为 72 分。"
     },
     "bestScenes": [
       "古城旅拍",
@@ -5205,7 +5607,10 @@
     "supplyDifficulty": "高",
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "传统妆造体验活动化运营要设置拍照点和离场购买点，否则传播和消费容易断开。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://www.sctv.com/news/detail?id=1938358490038927362",
+      "https://www.cnctrip.com/news/596873"
+    ],
     "sourceNotes": "该条目以公开非遗名录方向和平台产品化研究判断为基础；官方编号、保护单位、批次与来源链接需后续人工复核。",
     "protectionUnit": "待核验",
     "heritageCode": "",
@@ -5325,6 +5730,71 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见汉服妆造、古城旅拍和景区沉浸消费已形成明显市场，体验、场景和传播证据强；实物礼品属性弱于服务套餐。",
+      "evidenceLevel": "强证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中可见妆造套餐、服饰租赁和旅拍服务，商品化主要体现为服务产品而非实物 SKU",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "服务套餐",
+            "服饰租赁",
+            "旅拍产品"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见汉服妆造和旅拍已成为游客可预约消费，体验流程、客单价和交付物较明确",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "预约体验",
+            "旅拍套餐",
+            "服务流程"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见古城、景区和夜游空间承接汉服妆造消费，场景适配证据充分",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "古城旅拍",
+            "景区体验",
+            "夜游场景"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中可见汉服妆造高度依赖小红书、短视频和游客照片传播，用户内容证据强",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "社交传播",
+            "游客照片",
+            "短视频"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中妆造更适合体验券和旅拍套餐，实物礼盒和企业礼赠证据较弱",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "体验券",
+            "旅拍套餐",
+            "非实物礼赠"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见门店和旅拍团队运营，但服务质量依赖化妆师、服饰损耗和预约排班",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "门店运营",
+            "团队服务",
+            "预约排班"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.sctv.com/news/detail?id=1938358490038927362",
+        "https://www.cnctrip.com/news/596873"
+      ],
+      "pendingReview": false
     }
   },
   {
@@ -5690,15 +6160,15 @@
       "高运营难度"
     ],
     "scores": {
-      "commodity": 64,
-      "experience": 84,
-      "scenario": 90,
-      "spread": 94,
-      "gift": 60,
-      "operation": 46
+      "commodity": 62,
+      "experience": 78,
+      "scenario": 85,
+      "spread": 85,
+      "gift": 58,
+      "operation": 60
     },
-    "totalScore": 73,
-    "scoreExplanation": "龙灯彩扎能否放大，需要看传承资源、材料稳定性和运营组织能力。",
+    "totalScore": 72,
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "suitableScenes": [
       "夜游街区",
       "节庆活动",
@@ -5734,22 +6204,22 @@
     "conversionGrade": "C",
     "priority": "中",
     "score": {
-      "commercialization": 64,
-      "experience": 84,
-      "sceneFit": 90,
-      "spread": 94,
-      "gift": 60,
-      "operation": 46,
-      "total": 73
+      "commercialization": 62,
+      "experience": 78,
+      "sceneFit": 85,
+      "spread": 85,
+      "gift": 58,
+      "operation": 60,
+      "total": 72
     },
-    "scoreReason": "龙灯彩扎适合进入研究库重点观察，原因是它有明确资源形态，也有可拆解的消费路径。",
+    "scoreReason": "龙灯彩扎按活动演艺和夜游场景证据重评，场景与传播分高于商品与礼品分，评分只依据公开市场应用成熟度。",
     "scoreDetails": {
-      "commercialization": "龙灯彩扎的商品化分来自小型灯彩文创、节庆装置衍生、活动周边等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于灯彩装置打卡、彩扎观察是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看夜游街区、节庆活动、城市装置，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "已有项目资料显示龙灯彩扎可转为小型灯彩周边和活动道具，但可持续商品销售证据弱。因此该维度按公开市场证据成熟度计为 62 分。",
+      "experience": "已有项目资料显示龙灯彩扎适合观演、巡游互动和灯彩观察，游客参与证据主要来自活动场景。因此该维度按公开市场证据成熟度计为 78 分。",
+      "sceneFit": "已有项目资料显示龙灯彩扎天然适合夜游街区、节庆活动和城市装置，场景应用方向明确。因此该维度按公开市场证据成熟度计为 85 分。",
+      "spread": "已有项目资料显示龙灯彩扎具备夜间视觉、队列和仪式感，短视频传播点强于静态手工项目。因此该维度按公开市场证据成熟度计为 85 分。",
+      "gift": "已有项目资料显示龙灯彩扎更适合票券和活动纪念物，传统礼盒化证据弱。因此该维度按公开市场证据成熟度计为 58 分。",
+      "operation": "已有项目资料显示龙灯彩扎需要队伍、空间和活动档期，持续经营证据弱于固定工坊类项目。因此该维度按公开市场证据成熟度计为 60 分。"
     },
     "bestScenes": [
       "夜游街区",
@@ -5910,6 +6380,68 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "当前资料能判断龙灯彩扎在节庆、巡游和夜游场景中有较强表演与传播潜力，但实物商品、礼品和稳定运营来源仍待核验。",
+      "evidenceLevel": "弱证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "已有项目资料显示龙灯彩扎可转为小型灯彩周边和活动道具，但可持续商品销售证据弱",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "活动道具",
+            "周边产品"
+          ]
+        },
+        "experience": {
+          "summary": "已有项目资料显示龙灯彩扎适合观演、巡游互动和灯彩观察，游客参与证据主要来自活动场景",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "巡游",
+            "观演互动"
+          ]
+        },
+        "sceneFit": {
+          "summary": "已有项目资料显示龙灯彩扎天然适合夜游街区、节庆活动和城市装置，场景应用方向明确",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "夜游",
+            "节庆活动"
+          ]
+        },
+        "spread": {
+          "summary": "已有项目资料显示龙灯彩扎具备夜间视觉、队列和仪式感，短视频传播点强于静态手工项目",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "夜间视觉",
+            "仪式传播"
+          ]
+        },
+        "gift": {
+          "summary": "已有项目资料显示龙灯彩扎更适合票券和活动纪念物，传统礼盒化证据弱",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "纪念物",
+            "票券"
+          ]
+        },
+        "operation": {
+          "summary": "已有项目资料显示龙灯彩扎需要队伍、空间和活动档期，持续经营证据弱于固定工坊类项目",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "已有项目资料",
+            "活动运营",
+            "队伍组织"
+          ]
+        }
+      },
+      "sources": [],
+      "pendingReview": false
     }
   },
   {
@@ -13370,32 +13902,32 @@
     "conversionGrade": "B",
     "priority": "中高",
     "score": {
-      "commercialization": 85,
-      "experience": 77,
-      "sceneFit": 83,
-      "spread": 87,
-      "gift": 85,
-      "operation": 63,
-      "total": 80
+      "commercialization": 86,
+      "experience": 75,
+      "sceneFit": 84,
+      "spread": 82,
+      "gift": 88,
+      "operation": 72,
+      "total": 81
     },
     "scores": {
-      "commodity": 85,
-      "experience": 77,
-      "scenario": 83,
-      "spread": 87,
-      "gift": 85,
-      "operation": 63
+      "commodity": 86,
+      "experience": 75,
+      "scenario": 84,
+      "spread": 82,
+      "gift": 88,
+      "operation": 72
     },
-    "totalScore": 80,
-    "scoreReason": "南京云锦织造技艺适合用小范围业态试点验证，不建议一开始就做重资产空间。",
-    "scoreExplanation": "该判断适合帮助项目方确定首批产品、体验和课程开发重点。",
+    "totalScore": 81,
+    "scoreReason": "南京云锦按公开可见的展陈、礼品和纹样衍生证据重评，礼品与传播分较高，体验和运营因重工艺属性保持中位。",
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "scoreDetails": {
-      "commercialization": "南京云锦织造技艺的商品化分来自南京云锦织造技艺纹样丝巾、南京云锦织造技艺布包/配饰、南京云锦织造技艺纹样文具与软装小件等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于南京云锦织造技艺纹样讲解与拓印体验、南京云锦织造技艺基础针法/染色体验是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看文创品牌、展览商店、旅拍空间，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中可见南京云锦围绕纹样、织锦和礼品开发产品，商品化证据强但价格门槛较高。因此该维度按公开市场证据成熟度计为 86 分。",
+      "experience": "公开资料中可见南京云锦更适合织机观摩和纹样讲解，游客直接完成核心工艺的证据有限。因此该维度按公开市场证据成熟度计为 75 分。",
+      "sceneFit": "公开资料中可见南京云锦进入博物馆、城市礼物和文化展陈场景，街区快闪需做轻量转译。因此该维度按公开市场证据成熟度计为 84 分。",
+      "spread": "公开资料中南京云锦依靠皇家织锦、纹样和高工艺形成传播点，但过程展示解释成本较高。因此该维度按公开市场证据成熟度计为 82 分。",
+      "gift": "公开资料中可见南京云锦具备高端礼赠、城市礼物和赛事文化礼品转译空间，礼品属性强。因此该维度按公开市场证据成熟度计为 88 分。",
+      "operation": "公开资料中可见博物馆和机构主体支撑，但织造周期、原料和品控限制了快速复制。因此该维度按公开市场证据成熟度计为 72 分。"
     },
     "productDirections": [
       "南京云锦织造软装挂帘",
@@ -13501,7 +14033,10 @@
     "supplyDifficulty": "中",
     "standardization": "需依赖预约制、师资培训和合作方排班，暂不适合完全无人化标准运营",
     "operationNotes": "南京云锦织造技艺需要先确认耗材采购、成品包装和退换处理，避免现场临时补救。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://www.timeout.com/shanghai/news/nanjing-yunjin-the-ancient-art-of-chinese-brocade-031525",
+      "https://www.hangzhou2022.cn/sqwh/202308/t20230825_70730.shtml"
+    ],
     "sourceNotes": "该条目以公开非遗名录方向和平台产品化研究判断为基础；官方编号、保护单位、批次与来源链接需后续人工复核。",
     "relatedCases": [
       "case-city-gift",
@@ -13661,6 +14196,71 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见南京云锦具有博物馆、礼品和纹样衍生证据，文化识别度强；但核心织造复杂，游客体验多应转化为观摩、纹样课和衍生零售。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中可见南京云锦围绕纹样、织锦和礼品开发产品，商品化证据强但价格门槛较高",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "织锦产品",
+            "纹样衍生",
+            "礼品零售"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见南京云锦更适合织机观摩和纹样讲解，游客直接完成核心工艺的证据有限",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "博物馆观摩",
+            "纹样课程",
+            "工艺讲解"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见南京云锦进入博物馆、城市礼物和文化展陈场景，街区快闪需做轻量转译",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "博物馆",
+            "城市礼物",
+            "文化展陈"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中南京云锦依靠皇家织锦、纹样和高工艺形成传播点，但过程展示解释成本较高",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "媒体报道",
+            "纹样视觉",
+            "高工艺"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中可见南京云锦具备高端礼赠、城市礼物和赛事文化礼品转译空间，礼品属性强",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "高端礼赠",
+            "城市礼物",
+            "赛事礼品"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见博物馆和机构主体支撑，但织造周期、原料和品控限制了快速复制",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "机构主体",
+            "织造周期",
+            "品质控制"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.timeout.com/shanghai/news/nanjing-yunjin-the-ancient-art-of-chinese-brocade-031525",
+        "https://www.hangzhou2022.cn/sqwh/202308/t20230825_70730.shtml"
+      ],
+      "pendingReview": false
     }
   },
   {
@@ -27858,32 +28458,32 @@
     "conversionGrade": "C",
     "priority": "中",
     "score": {
-      "commercialization": 60,
-      "experience": 84,
-      "sceneFit": 82,
-      "spread": 84,
-      "gift": 54,
-      "operation": 46,
-      "total": 68
+      "commercialization": 50,
+      "experience": 88,
+      "sceneFit": 88,
+      "spread": 92,
+      "gift": 45,
+      "operation": 62,
+      "total": 72
     },
     "scores": {
-      "commodity": 60,
-      "experience": 84,
-      "scenario": 82,
-      "spread": 84,
-      "gift": 54,
-      "operation": 46
+      "commodity": 50,
+      "experience": 88,
+      "scenario": 88,
+      "spread": 92,
+      "gift": 45,
+      "operation": 62
     },
-    "totalScore": 68,
-    "scoreReason": "打铁花不是单纯观赏项目，评分考虑了游客参与、购买和传播三个动作。",
-    "scoreExplanation": "打铁花的优势和限制并存，分数体现当前最稳妥的切入方式。",
+    "totalScore": 72,
+    "scoreReason": "打铁花按公开可见的演出、夜游和传播证据重评，体验、场景和传播分明显高于商品化、礼品和运营分。",
+    "scoreExplanation": "本评分主要依据公开可见的市场转化证据与当前商业应用成熟度，不代表非遗文化价值高低。",
     "scoreDetails": {
-      "commercialization": "打铁花的商品化分来自打铁花夜游互动票、打铁花手作灯具/面具、打铁花节庆纪念小件等明确产品形态；扣分点在供应稳定、价格解释或成品质控。",
-      "experience": "体验分取决于打铁花夜间巡游观看、打铁花民俗角色互动是否能在30到90分钟内完成，并让游客带走成果或形成可拍照节点。",
-      "sceneFit": "场景适配重点看夜游街区、节庆活动、景区演艺，这些场景已有消费动机，不需要重新教育用户。",
-      "spread": "传播分来自视觉识别、现场过程和地域故事；如果讲解过重或成品不出片，传播会下降。",
-      "gift": "礼品分看是否能做小规格、标准包装和清晰价格带，避免只停留在展示品或高价收藏品。",
-      "operation": "运营分主要受师资、场地、安全、库存和交付周期影响；分数越低，越需要预约制或专业合作方。"
+      "commercialization": "公开资料中打铁花主要以演出票务和活动内容出现，缺少成熟实物 SKU 和多渠道商品销售证据。因此该维度按公开市场证据成熟度计为 50 分。",
+      "experience": "公开资料中可见打铁花作为夜间演艺和景区活动已有真实观看消费，体验证据强。因此该维度按公开市场证据成熟度计为 88 分。",
+      "sceneFit": "公开资料中可见打铁花进入景区、节庆和夜游场景，场景适配证据集中且清晰。因此该维度按公开市场证据成熟度计为 88 分。",
+      "spread": "公开资料中打铁花火花视觉冲击强，媒体和短视频传播天然突出。因此该维度按公开市场证据成熟度计为 92 分。",
+      "gift": "公开资料中打铁花更适合票券和活动纪念物，常规礼盒与城市礼物证据弱。因此该维度按公开市场证据成熟度计为 45 分。",
+      "operation": "公开资料中可见打铁花可由景区和活动方运营，但持续交付依赖演艺团队、场地条件和档期组织。因此该维度按公开市场证据成熟度计为 62 分。"
     },
     "productDirections": [
       "打铁花活动预约套票",
@@ -27990,7 +28590,10 @@
     "supplyDifficulty": "高",
     "standardization": "需依赖预约制、师资培训和合作方排班，暂不适合完全无人化标准运营",
     "operationNotes": "打铁花若作为礼品销售，要同步准备产地说明、工艺说明和售后边界。",
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://www.henan.gov.cn/2023/01-28/2679065.html",
+      "https://www.chinadaily.com.cn/a/202401/10/WS659e654ea3105f21a507b4b3.html"
+    ],
     "sourceNotes": "项目转化建议来自平台模型判断；官方事实字段以公开主管部门信息为准，未确认部分不编造。",
     "relatedCases": [
       "case-guofeng-photo"
@@ -28148,6 +28751,71 @@
         "官方来源链接"
       ],
       "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+    },
+    "marketEvidence": {
+      "summary": "公开资料可见打铁花在景区演出、节庆活动和夜游传播中证据较强，适合票务和演艺消费；实物商品与礼品化证据弱。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "公开资料中打铁花主要以演出票务和活动内容出现，缺少成熟实物 SKU 和多渠道商品销售证据",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "票务",
+            "活动内容",
+            "弱商品"
+          ]
+        },
+        "experience": {
+          "summary": "公开资料中可见打铁花作为夜间演艺和景区活动已有真实观看消费，体验证据强",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "夜间演艺",
+            "景区活动",
+            "观看消费"
+          ]
+        },
+        "sceneFit": {
+          "summary": "公开资料中可见打铁花进入景区、节庆和夜游场景，场景适配证据集中且清晰",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "景区演出",
+            "节庆活动",
+            "夜游"
+          ]
+        },
+        "spread": {
+          "summary": "公开资料中打铁花火花视觉冲击强，媒体和短视频传播天然突出",
+          "evidenceLevel": "强证据",
+          "evidenceTypes": [
+            "媒体报道",
+            "夜间视觉",
+            "短视频传播"
+          ]
+        },
+        "gift": {
+          "summary": "公开资料中打铁花更适合票券和活动纪念物，常规礼盒与城市礼物证据弱",
+          "evidenceLevel": "弱证据",
+          "evidenceTypes": [
+            "票券",
+            "纪念物",
+            "非实物礼品"
+          ]
+        },
+        "operation": {
+          "summary": "公开资料中可见打铁花可由景区和活动方运营，但持续交付依赖演艺团队、场地条件和档期组织",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "景区运营",
+            "演艺团队",
+            "活动档期"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.henan.gov.cn/2023/01-28/2679065.html",
+        "https://www.chinadaily.com.cn/a/202401/10/WS659e654ea3105f21a507b4b3.html"
+      ],
+      "pendingReview": false
     }
   },
   {

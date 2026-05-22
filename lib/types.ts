@@ -31,6 +31,29 @@ export type ProjectResearchScore = {
   total: number;
 };
 
+export type MarketEvidenceLevel = "强证据" | "中证据" | "弱证据" | "待核验";
+
+export type MarketEvidenceDimension = {
+  summary: string;
+  evidenceLevel: MarketEvidenceLevel;
+  evidenceTypes: string[];
+};
+
+export type ProjectMarketEvidence = {
+  summary: string;
+  evidenceLevel: MarketEvidenceLevel;
+  dimensions: {
+    commercialization: MarketEvidenceDimension;
+    experience: MarketEvidenceDimension;
+    sceneFit: MarketEvidenceDimension;
+    spread: MarketEvidenceDimension;
+    gift: MarketEvidenceDimension;
+    operation: MarketEvidenceDimension;
+  };
+  sources: string[];
+  pendingReview?: boolean;
+};
+
 export type ProjectSku = {
   name: string;
   priceBand: string;
@@ -99,6 +122,7 @@ export type Project = {
   score?: ProjectResearchScore;
   scoreReason?: string;
   scoreDetails?: Record<string, string>;
+  marketEvidence?: ProjectMarketEvidence;
   uniqueValue?: string;
   recommendedSkus?: ProjectSku[];
   recommendedExperiences?: ProjectExperience[];
@@ -203,34 +227,80 @@ export type PackageItem = {
 
 export type AiRules = {
   inputOptions: Record<string, string[]>;
-  matchingRules: Array<{
-    when: Record<string, string>;
-    recommendThemes: string[];
-    recommendProjects: string[];
-    risks: string[];
+  scoringWeights: Record<AiAssessmentDimension, number>;
+  scoringRules: Array<{
+    field: keyof AiAssessmentInput;
+    match: string;
+    effects: Partial<Record<AiAssessmentDimension, number>>;
+    reason: string;
+    factorType: "positive" | "negative" | "neutral";
   }>;
-  scoringWeights: Record<string, number>;
-  riskRules: Array<{ keyword: string; risk: string }>;
+  packageRules: Array<{
+    packageId: string;
+    matchAny: string[];
+    reason: string;
+  }>;
+  outputTemplates: {
+    paths: Array<{ matchAny: string[]; text: string; priority: number }>;
+    notRecommended: Array<{ matchAny: string[]; text: string }>;
+    conditions: Array<{ matchAny: string[]; text: string }>;
+  };
+  riskRules: Array<{ keyword: string; risk: string; penalty: number }>;
   recommendationTemplates: Record<string, string>;
   upgradePrompts: string[];
 };
 
+export type AiAssessmentDimension =
+  | "productization"
+  | "experience"
+  | "course"
+  | "gift"
+  | "scene"
+  | "operation"
+  | "riskControl";
+
 export type AiAssessmentInput = {
   region: string;
-  projectType: string;
-  targetUsers: string;
-  budget: string;
-  goal: string;
+  city: string;
+  heritageType: string;
+  projectStage: string;
+  userRole: string;
+  conversionGoals: string[];
+  applicationScenario: string;
+  targetUsers: string[];
+  expectedOutputs: string[];
+  existingConditions: string[];
+  productFoundation: string;
+  experienceFoundation: string;
+  courseFoundation: string;
+  giftFoundation: string;
+  businessFoundation: string;
+  budgetStage: string;
+  timeline: string;
+  riskFactors: string[];
   localResources: string;
 };
 
+export type AiAssessmentEvidence = {
+  option: string;
+  dimension: AiAssessmentDimension;
+  delta: number;
+  reason: string;
+};
+
 export type AiAssessmentResult = {
-  conclusion: string;
+  totalScore: number;
   score: number;
-  recommendedThemes: string[];
-  recommendedProjects: Project[];
+  grade: string;
+  gradeNote: string;
+  conclusion: string;
+  dimensionScores: Record<AiAssessmentDimension, number>;
+  evidence: AiAssessmentEvidence[];
+  positiveFactors: string[];
+  negativeFactors: string[];
+  recommendedPaths: string[];
+  notRecommendedDirections: string[];
   risks: string[];
-  sceneSuggestions: string[];
-  recommendedCases: CaseStudy[];
-  recommendedPackages: PackageItem[];
+  conditionsToImprove: string[];
+  recommendedPackages: Array<Pick<PackageItem, "id" | "title"> & { reason: string }>;
 };
