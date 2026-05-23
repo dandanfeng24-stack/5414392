@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AccessGate } from "@/components/access/AccessGate";
+import { LockedContent } from "@/components/access/LockedContent";
+import { UpgradeCTA } from "@/components/access/UpgradeCTA";
 import { CaseCard } from "@/components/cards/CaseCard";
 import { PackageCard } from "@/components/cards/PackageCard";
 import { RiskBadge } from "@/components/ui/RiskBadge";
@@ -105,74 +108,156 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
         </section>
       </div>
 
-      <section className="mt-12 surface rounded p-6">
-        <h2 className="font-serif text-2xl text-paper">六维评分详细理由</h2>
+      <section className="mt-8 surface rounded p-6">
+        <h2 className="font-serif text-2xl text-paper">基础转化方向</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-2">
-          {scoreEntries.map(([label, value, reason]) => (
-            <div key={label} className="rounded border border-paper/10 bg-ink/35 p-4">
-              <div className="mb-2 flex justify-between text-sm text-paper"><span>{label}</span><span className="text-gold">{value}</span></div>
-              <p className="text-sm leading-6 text-linen">{reason || "该维度需后续人工补充详细说明。"}</p>
-            </div>
-          ))}
+          <SimpleList title="产品化摘要" items={(project.productDirections || []).slice(0, 2)} />
+          <SimpleList title="体验化摘要" items={(project.experienceDirections || []).slice(0, 2)} />
+        </div>
+        <div className="mt-6 flex flex-wrap gap-4">
+          <UpgradeCTA label="发起智能初评" href="/ai-assessment" variant="secondary" />
+          <UpgradeCTA label="提交项目诊断获取定制建议" href="/diagnosis" />
+          <UpgradeCTA label="预约咨询获取完整落地方案" href="/services" variant="secondary" />
         </div>
       </section>
 
       <section className="mt-12 surface rounded p-6">
-        <h2 className="font-serif text-2xl text-paper">项目独特价值</h2>
-        <p className="mt-5 text-sm leading-7 text-linen">{getProjectUniqueValue(project)}</p>
+        <AccessGate
+          requiredTier="registered"
+          fallback={
+            <LockedContent
+              requiredTier="registered"
+              title="登录后查看完整评分理由"
+              description="完整六维评分理由、公开市场证据摘要、主要短板和基础产品化 / 体验化建议将在登录后开放。当前游客可先查看综合分和六维评分概览。"
+              ctaLabel="登录 / 注册"
+              ctaHref="/login"
+            />
+          }
+        >
+          <h2 className="font-serif text-2xl text-paper">六维评分详细理由</h2>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
+            {scoreEntries.map(([label, value, reason]) => (
+              <div key={label} className="rounded border border-paper/10 bg-ink/35 p-4">
+                <div className="mb-2 flex justify-between text-sm text-paper"><span>{label}</span><span className="text-gold">{value}</span></div>
+                <p className="text-sm leading-6 text-linen">{reason || "该维度需后续人工补充详细说明。"}</p>
+              </div>
+            ))}
+          </div>
+        </AccessGate>
       </section>
 
       <section className="mt-12 surface rounded p-6">
-        <h2 className="font-serif text-2xl text-paper">推荐产品 SKU</h2>
-        <div className="mt-5 grid gap-4 md:grid-cols-2">
-          {(project.recommendedSkus || []).map((sku) => (
-            <div key={sku.name} className="rounded border border-paper/10 bg-ink/35 p-4">
-              <h3 className="font-serif text-xl text-paper">{sku.name}</h3>
-              <dl className="mt-4 space-y-2 text-sm text-linen">
-                <Row label="价格带" value={sku.priceBand} />
-                <Row label="目标客群" value={sku.targetUser} />
-                <Row label="销售场景" value={sku.salesScene} />
-              </dl>
-              <p className="mt-4 text-sm leading-7 text-linen">{sku.reason}</p>
-            </div>
-          ))}
-        </div>
+        <AccessGate
+          requiredTier="registered"
+          fallback={
+            <LockedContent
+              requiredTier="registered"
+              title="登录后查看适合转化方向"
+              description="项目独特价值、部分公开市场证据摘要、适合转化方向和主要短板将在登录后开放。"
+              ctaLabel="登录后查看"
+              ctaHref="/login"
+            />
+          }
+        >
+          <h2 className="font-serif text-2xl text-paper">项目独特价值</h2>
+          <p className="mt-5 text-sm leading-7 text-linen">{getProjectUniqueValue(project)}</p>
+          <div className="mt-5 rounded border border-paper/10 bg-ink/35 p-4">
+            <h3 className="font-serif text-xl text-paper">公开市场证据摘要</h3>
+            <p className="mt-3 text-sm leading-7 text-linen">{project.marketEvidence?.summary || "该项目公开市场证据需后续人工复核。"}</p>
+          </div>
+        </AccessGate>
       </section>
 
       <section className="mt-12 surface rounded p-6">
-        <h2 className="font-serif text-2xl text-paper">推荐体验设计</h2>
-        <div className="mt-5 grid gap-4 lg:grid-cols-2">
-          {(project.recommendedExperiences || []).map((experience) => (
-            <div key={experience.title} className="rounded border border-paper/10 bg-ink/35 p-4">
-              <h3 className="font-serif text-xl text-paper">{experience.title}</h3>
-              <dl className="mt-4 space-y-2 text-sm text-linen">
-                <Row label="时长" value={experience.duration} />
-                <Row label="人数" value={experience.capacity} />
-                <Row label="带走成果" value={experience.takeaway} />
-                <Row label="人员配置" value={experience.staffing} />
-              </dl>
-              <ol className="mt-4 space-y-2 text-sm leading-6 text-linen">
-                {experience.process.map((step, index) => <li key={step}>{index + 1}. {step}</li>)}
-              </ol>
-              <p className="mt-4 text-sm leading-7 text-paper/65">风险提示：{experience.riskNotes}</p>
-            </div>
-          ))}
-        </div>
+        <AccessGate
+          requiredTier="paid"
+          fallback={
+            <LockedContent
+              requiredTier="paid"
+              title="升级后查看产品与体验方案"
+              description="推荐产品 SKU、价格带、销售场景和体验模型属于深度产品化内容，升级后开放。"
+              ctaLabel="查看会员权益"
+              ctaHref="/account/membership"
+            />
+          }
+        >
+          <h2 className="font-serif text-2xl text-paper">推荐产品 SKU</h2>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
+            {(project.recommendedSkus || []).map((sku) => (
+              <div key={sku.name} className="rounded border border-paper/10 bg-ink/35 p-4">
+                <h3 className="font-serif text-xl text-paper">{sku.name}</h3>
+                <dl className="mt-4 space-y-2 text-sm text-linen">
+                  <Row label="价格带" value={sku.priceBand} />
+                  <Row label="目标客群" value={sku.targetUser} />
+                  <Row label="销售场景" value={sku.salesScene} />
+                </dl>
+                <p className="mt-4 text-sm leading-7 text-linen">{sku.reason}</p>
+              </div>
+            ))}
+          </div>
+        </AccessGate>
+      </section>
+
+      <section className="mt-12 surface rounded p-6">
+        <AccessGate
+          requiredTier="paid"
+          fallback={
+            <LockedContent
+              requiredTier="paid"
+              title="升级后查看产品与体验方案"
+              description="体验时长、人数、流程、人员配置和带走成果属于深度体验设计内容，升级后开放。"
+              ctaLabel="查看会员权益"
+              ctaHref="/account/membership"
+            />
+          }
+        >
+          <h2 className="font-serif text-2xl text-paper">推荐体验设计</h2>
+          <div className="mt-5 grid gap-4 lg:grid-cols-2">
+            {(project.recommendedExperiences || []).map((experience) => (
+              <div key={experience.title} className="rounded border border-paper/10 bg-ink/35 p-4">
+                <h3 className="font-serif text-xl text-paper">{experience.title}</h3>
+                <dl className="mt-4 space-y-2 text-sm text-linen">
+                  <Row label="时长" value={experience.duration} />
+                  <Row label="人数" value={experience.capacity} />
+                  <Row label="带走成果" value={experience.takeaway} />
+                  <Row label="人员配置" value={experience.staffing} />
+                </dl>
+                <ol className="mt-4 space-y-2 text-sm leading-6 text-linen">
+                  {experience.process.map((step, index) => <li key={step}>{index + 1}. {step}</li>)}
+                </ol>
+                <p className="mt-4 text-sm leading-7 text-paper/65">风险提示：{experience.riskNotes}</p>
+              </div>
+            ))}
+          </div>
+        </AccessGate>
       </section>
 
       <section className="mt-12 grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="surface rounded p-6">
-          <h2 className="font-serif text-2xl text-paper">落地条件</h2>
-          <dl className="mt-5 space-y-3 text-sm text-linen">
-            <Row label="场地条件" value={project.implementationConditions?.space || "需结合项目场地继续核验"} />
-            <Row label="人员条件" value={project.implementationConditions?.staff || "需配置讲解或运营人员"} />
-            <Row label="材料供应" value={project.implementationConditions?.materials || "材料标准化需补充"} />
-            <Row label="设备条件" value={project.implementationConditions?.equipment || "设备条件需按场景补充"} />
-            <Row label="运营难度" value={project.implementationConditions?.operationDifficulty || "待核验"} />
-            <Row label="起步预算" value={project.implementationConditions?.minimumBudget || "需按方案测算"} />
-            <Row label="筹备周期" value={project.implementationConditions?.preparationCycle || "需按场地测算"} />
-          </dl>
-          <p className="mt-5 text-sm leading-7 text-linen">{project.implementationConditions?.notes || "落地备注需在项目沟通后补充。"}</p>
+          <AccessGate
+            requiredTier="paid"
+            fallback={
+              <LockedContent
+                requiredTier="paid"
+                title="升级后查看产品与体验方案"
+                description="落地条件、起步预算、筹备周期和运营要求属于深度落地方案内容，升级后开放。"
+                ctaLabel="查看会员权益"
+                ctaHref="/account/membership"
+              />
+            }
+          >
+            <h2 className="font-serif text-2xl text-paper">落地条件</h2>
+            <dl className="mt-5 space-y-3 text-sm text-linen">
+              <Row label="场地条件" value={project.implementationConditions?.space || "需结合项目场地继续核验"} />
+              <Row label="人员条件" value={project.implementationConditions?.staff || "需配置讲解或运营人员"} />
+              <Row label="材料供应" value={project.implementationConditions?.materials || "材料标准化需补充"} />
+              <Row label="设备条件" value={project.implementationConditions?.equipment || "设备条件需按场景补充"} />
+              <Row label="运营难度" value={project.implementationConditions?.operationDifficulty || "待核验"} />
+              <Row label="起步预算" value={project.implementationConditions?.minimumBudget || "需按方案测算"} />
+              <Row label="筹备周期" value={project.implementationConditions?.preparationCycle || "需按场地测算"} />
+            </dl>
+            <p className="mt-5 text-sm leading-7 text-linen">{project.implementationConditions?.notes || "落地备注需在项目沟通后补充。"}</p>
+          </AccessGate>
         </div>
         <div className="surface rounded p-6">
           <h2 className="font-serif text-2xl text-paper">官方信息核验状态</h2>
@@ -184,27 +269,55 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
       </section>
 
       <section className="mt-12 surface rounded p-6">
-        <h2 className="font-serif text-2xl text-paper">收益方式</h2>
-        <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {(project.revenueModels || []).map((model) => (
-            <div key={`${model.type}-${model.suitableScene}`} className="rounded border border-paper/10 bg-ink/35 p-4">
-              <h3 className="font-serif text-xl text-paper">{model.type}</h3>
-              <p className="mt-3 text-sm leading-7 text-linen">{model.description}</p>
-              <div className="mt-4 grid gap-2 text-sm text-paper/65">
-                <div>适合场景：<span className="text-paper/85">{model.suitableScene}</span></div>
-                <div>难度：<span className="text-paper/85">{model.difficulty}</span></div>
-                <div>备注：<span className="text-paper/85">{model.notes}</span></div>
+        <AccessGate
+          requiredTier="paid"
+          fallback={
+            <LockedContent
+              requiredTier="paid"
+              title="升级后查看产品与体验方案"
+              description="收益方式、收费路径和运营备注属于深度商业化内容，升级后开放。"
+              ctaLabel="查看会员权益"
+              ctaHref="/account/membership"
+            />
+          }
+        >
+          <h2 className="font-serif text-2xl text-paper">收益方式</h2>
+          <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {(project.revenueModels || []).map((model) => (
+              <div key={`${model.type}-${model.suitableScene}`} className="rounded border border-paper/10 bg-ink/35 p-4">
+                <h3 className="font-serif text-xl text-paper">{model.type}</h3>
+                <p className="mt-3 text-sm leading-7 text-linen">{model.description}</p>
+                <div className="mt-4 grid gap-2 text-sm text-paper/65">
+                  <div>适合场景：<span className="text-paper/85">{model.suitableScene}</span></div>
+                  <div>难度：<span className="text-paper/85">{model.difficulty}</span></div>
+                  <div>备注：<span className="text-paper/85">{model.notes}</span></div>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </AccessGate>
       </section>
 
       <div className="mt-12 grid gap-5 md:grid-cols-2">
-        <ListBlock title="产品化路径" items={project.productDirections} />
-        <ListBlock title="体验化路径" items={project.experienceDirections} />
-        <ListBlock title="课程化路径" items={project.courseDirections} />
-        <ListBlock title="礼品化路径" items={project.giftDirections} />
+        <AccessGate
+          requiredTier="registered"
+          fallback={
+            <LockedContent
+              requiredTier="registered"
+              title="登录后查看完整评分理由"
+              description="完整产品化、体验化、课程化和礼品化路径将在登录后开放。"
+              ctaLabel="登录后查看"
+              ctaHref="/login"
+            />
+          }
+        >
+          <div className="grid gap-5 md:grid-cols-2">
+            <ListBlock title="产品化路径" items={project.productDirections} />
+            <ListBlock title="体验化路径" items={project.experienceDirections} />
+            <ListBlock title="课程化路径" items={project.courseDirections} />
+            <ListBlock title="礼品化路径" items={project.giftDirections} />
+          </div>
+        </AccessGate>
       </div>
 
       <section className="mt-12 grid gap-5 md:grid-cols-3">
@@ -214,8 +327,23 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
       </section>
 
       <section className="mt-12 grid gap-5 md:grid-cols-3">
-        <ListBlock title="价格带建议" items={project.priceBands || []} />
-        <ListBlock title="销售渠道" items={project.salesChannels || []} />
+        <AccessGate
+          requiredTier="paid"
+          fallback={
+            <LockedContent
+              requiredTier="paid"
+              title="升级后查看产品与体验方案"
+              description="价格带建议、销售渠道和运营条件属于付费深度字段，升级后开放。"
+              ctaLabel="查看会员权益"
+              ctaHref="/account/membership"
+            />
+          }
+        >
+          <div className="grid gap-5 md:col-span-2 md:grid-cols-2">
+            <ListBlock title="价格带建议" items={project.priceBands || []} />
+            <ListBlock title="销售渠道" items={project.salesChannels || []} />
+          </div>
+        </AccessGate>
         <div className="surface rounded p-6">
           <h2 className="font-serif text-2xl text-paper">运营条件</h2>
           <dl className="mt-5 space-y-3 text-sm text-linen">
@@ -233,7 +361,20 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           <div className="mt-4 flex flex-wrap gap-2">{project.riskTags.map((risk) => <RiskBadge key={risk}>{risk}</RiskBadge>)}</div>
           <p className="mt-5 text-sm leading-7 text-linen">{project.riskExplanation}</p>
         </div>
-        <ListBlock title="规避建议" items={project.riskControl || project.risks} />
+        <AccessGate
+          requiredTier="paid"
+          fallback={
+            <LockedContent
+              requiredTier="paid"
+              title="升级后查看产品与体验方案"
+              description="完整风险规避建议属于落地方案内容，升级后开放。游客仍可查看基础风险摘要。"
+              ctaLabel="查看会员权益"
+              ctaHref="/account/membership"
+            />
+          }
+        >
+          <ListBlock title="规避建议" items={project.riskControl || project.risks} />
+        </AccessGate>
       </section>
 
       <section className="mt-16">
@@ -243,14 +384,52 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
       <section className="mt-16 grid gap-8 md:grid-cols-[1fr_1fr]">
         <div className="surface rounded p-6">
-          <h2 className="font-serif text-2xl text-paper">来源链</h2>
-          <ul className="mt-5 space-y-2 text-sm leading-6 text-linen">{[...(project.sources || []), ...(project.sourceLinks || [])].map((source) => <li key={source}>· {source}</li>)}</ul>
-          <p className="mt-5 text-sm leading-7 text-paper/60">{project.sourceNotes}</p>
+          <AccessGate
+            requiredTier="paid"
+            fallback={
+              <LockedContent
+                requiredTier="paid"
+                title="升级后查看产品与体验方案"
+                description="完整公开市场证据和来源链属于深度研究支撑，升级后开放。"
+                ctaLabel="查看会员权益"
+                ctaHref="/account/membership"
+              />
+            }
+          >
+            <h2 className="font-serif text-2xl text-paper">来源链</h2>
+            <ul className="mt-5 space-y-2 text-sm leading-6 text-linen">{[...(project.sources || []), ...(project.sourceLinks || [])].map((source) => <li key={source}>· {source}</li>)}</ul>
+            <p className="mt-5 text-sm leading-7 text-paper/60">{project.sourceNotes}</p>
+          </AccessGate>
         </div>
         <div>
-          <SectionHeading title="相关资料包或智能初评入口" />
-          <div className="grid gap-5">{(relatedPackages.length ? relatedPackages : packages.slice(0, 1)).map((item) => <PackageCard key={item.id} item={item} />)}</div>
-          <Link href="/ai-assessment" className="mt-5 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">发起智能初评</Link>
+          <AccessGate
+            requiredTier="registered"
+            fallback={
+              <LockedContent
+                requiredTier="registered"
+                title="登录后查看完整评分理由"
+                description="推荐资料包和收藏项目入口将在登录后开放。你也可以先发起智能初评或提交项目诊断。"
+                ctaLabel="登录后查看"
+                ctaHref="/login"
+              />
+            }
+          >
+            <SectionHeading title="相关资料包或智能初评入口" />
+            <div className="grid gap-5">{(relatedPackages.length ? relatedPackages : packages.slice(0, 1)).map((item) => <PackageCard key={item.id} item={item} />)}</div>
+            <Link href="/ai-assessment" className="mt-5 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">发起智能初评</Link>
+          </AccessGate>
+        </div>
+      </section>
+
+      <section className="mt-12 surface rounded p-6">
+        <h2 className="font-serif text-2xl text-paper">服务承接</h2>
+        <p className="mt-4 max-w-3xl text-sm leading-7 text-linen">
+          如果需要围绕该项目形成具体产品、体验、空间或收入路径，可以提交项目诊断或预约咨询，进入定制化策划沟通。
+        </p>
+        <div className="mt-6 flex flex-wrap gap-4">
+          <UpgradeCTA label="提交项目诊断获取定制建议" href="/diagnosis" />
+          <UpgradeCTA label="预约咨询获取完整落地方案" href="/services" variant="secondary" />
+          <UpgradeCTA label="申请该项目商业化策划" href="/diagnosis" variant="secondary" />
         </div>
       </section>
     </div>

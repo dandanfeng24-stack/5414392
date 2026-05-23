@@ -39,6 +39,15 @@ export type MarketEvidenceDimension = {
   evidenceTypes: string[];
 };
 
+export type MarketSearchVisibility = {
+  level: "高" | "中" | "低" | "极低" | string;
+  resultDensity: string;
+  sourceDiversity: string[];
+  commercialSignal: "强" | "中" | "弱" | "无" | string;
+  experienceSignal: "强" | "中" | "弱" | "无" | string;
+  notes: string;
+};
+
 export type ProjectMarketEvidence = {
   summary: string;
   evidenceLevel: MarketEvidenceLevel;
@@ -51,6 +60,7 @@ export type ProjectMarketEvidence = {
     operation: MarketEvidenceDimension;
   };
   sources: string[];
+  searchVisibility?: MarketSearchVisibility;
   pendingReview?: boolean;
 };
 

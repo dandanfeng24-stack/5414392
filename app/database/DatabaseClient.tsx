@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { AccessGate } from "@/components/access/AccessGate";
+import { LockedContent } from "@/components/access/LockedContent";
 import { ProjectCard } from "@/components/cards/ProjectCard";
 import { FilterGroup } from "@/components/ui/FilterGroup";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -79,6 +81,50 @@ export function DatabaseClient({ projects, themes }: { projects: Project[]; them
         <p className="mt-5 rounded border border-gold/20 bg-gold/[0.05] p-4 text-xs leading-6 text-paper/68">
           本数据库为《非遗造物》围绕非遗产品化、体验化、课程化、礼品化与文旅场景适配建立的研究型数据库。部分内容为平台研究判断，不等同于官方结论；涉及非遗级别、保护单位、项目编号等信息，以官方公开资料为准。
         </p>
+        <div className="mt-5 grid gap-4 md:grid-cols-3">
+          <AccessGate
+            requiredTier="registered"
+            fallback={
+              <LockedContent
+                requiredTier="registered"
+                title="登录后查看完整评分理由"
+                description="登录后可查看项目卡片中的完整评分理由、部分公开市场证据摘要和收藏入口。"
+                ctaLabel="登录后查看"
+                ctaHref="/login"
+              />
+            }
+          >
+            <div className="surface rounded p-4 text-sm text-linen">完整评分理由已开放。</div>
+          </AccessGate>
+          <AccessGate
+            requiredTier="paid"
+            fallback={
+              <LockedContent
+                requiredTier="paid"
+                title="升级后查看产品与体验方案"
+                description="高级筛选、项目对比和产品/体验方案摘要将在会员层级开放。"
+                ctaLabel="查看会员权益"
+                ctaHref="/account/membership"
+              />
+            }
+          >
+            <div className="surface rounded p-4 text-sm text-linen">高级筛选与项目对比已开放。</div>
+          </AccessGate>
+          <AccessGate
+            requiredTier="paid"
+            fallback={
+              <LockedContent
+                requiredTier="paid"
+                title="升级后导出对比表"
+                description="导出对比表属于深度研究功能，后续会员体系接入后开放。"
+                ctaLabel="查看会员权益"
+                ctaHref="/account/membership"
+              />
+            }
+          >
+            <div className="surface rounded p-4 text-sm text-linen">导出对比表已开放。</div>
+          </AccessGate>
+        </div>
       </div>
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3 text-sm text-linen">
         <div>共筛选出 <span className="text-gold">{result.length}</span> 个方向</div>

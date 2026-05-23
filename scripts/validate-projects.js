@@ -27,6 +27,12 @@ const marketScoreWeights = {
   operation: 0.14
 };
 const scoreKeys = Object.keys(marketScoreWeights);
+function derivedGrade(total) {
+  if (total >= 88) return "A";
+  if (total >= 78) return "B";
+  if (total >= 65) return "C";
+  return "D";
+}
 const expectedDistribution = {
   "茶文化": 12,
   "陶瓷器物": 14,
@@ -122,6 +128,19 @@ function validateMarketEvidence(project, required) {
   for (const source of evidence.sources || []) {
     if (looksLikeInvalidLink(source)) fail(`${label}: invalid marketEvidence source link ${source}`);
   }
+  if (!evidence.searchVisibility || typeof evidence.searchVisibility !== "object") {
+    fail(`${label}: marketEvidence.searchVisibility is required`);
+  } else {
+    for (const field of ["level", "resultDensity", "commercialSignal", "experienceSignal", "notes"]) {
+      if (!hasText(evidence.searchVisibility[field])) fail(`${label}: marketEvidence.searchVisibility.${field} is required`);
+    }
+    if (!isArray(evidence.searchVisibility.sourceDiversity) || evidence.searchVisibility.sourceDiversity.length === 0) {
+      fail(`${label}: marketEvidence.searchVisibility.sourceDiversity must be a non-empty array`);
+    }
+  }
+  if ((evidence.sources || []).length === 0 && project.score && project.score.total >= 80) {
+    fail(`${label}: no-source project should not score 80 or above under L1 search rules`);
+  }
 
   for (const key of scoreKeys) {
     const dimension = evidence.dimensions && evidence.dimensions[key];
@@ -186,6 +205,9 @@ function validateProject(project, index) {
   }
   if (!allowedGrades.has(project.conversionGrade)) fail(`${label}: invalid conversionGrade ${project.conversionGrade}`);
   if (!project.score || typeof project.score.total !== "number") fail(`${label}: score.total must be a number`);
+  if (project.score && project.conversionGrade !== derivedGrade(project.score.total)) {
+    fail(`${label}: conversionGrade ${project.conversionGrade} should match score.total derived grade ${derivedGrade(project.score.total)}`);
+  }
   if (!project.contentStatus) fail(`${label}: contentStatus is required`);
   if (project.contentStatus && !allowedStatus.has(project.contentStatus)) fail(`${label}: invalid contentStatus ${project.contentStatus}`);
   for (const field of coreTextFields) {
@@ -247,7 +269,7 @@ function validateProject(project, index) {
     if (!packageIds.has(id)) warn(`${label}: related package not found: ${id}`);
   }
 
-  validateMarketEvidence(project, mode === "market-sample" && marketSampleIds.includes(project.id));
+  validateMarketEvidence(project, mode === "full" || (mode === "market-sample" && marketSampleIds.includes(project.id)));
 }
 
 if (mode === "full" && projects.length !== 100) fail(`projects.json must contain exactly 100 records, got ${projects.length}`);

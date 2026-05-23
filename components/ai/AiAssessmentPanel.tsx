@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { AccessGate } from "@/components/access/AccessGate";
+import { LockedContent } from "@/components/access/LockedContent";
 import { assessProject } from "@/lib/ai-assessment";
 import { aiRules } from "@/lib/data";
 import type { AiAssessmentDimension, AiAssessmentInput } from "@/lib/types";
@@ -226,31 +228,57 @@ function AssessmentResult({ input, onRestart }: { input: AiAssessmentInput; onRe
               <span className="font-serif text-xl text-gold">{score}</span>
             </div>
             <div className="mt-3 h-1.5 overflow-hidden rounded bg-paper/10">
-              <div className="h-full rounded bg-gold" style={{ width: `${score}%` }} />
+              <div className="h-full rounded bg-gold" style={{ width: score + "%" }} />
             </div>
           </div>
         ))}
       </div>
 
-      <ResultList title="主要加分项" items={result.positiveFactors} />
-      <ResultList title="主要扣分项" items={result.negativeFactors} />
-      <ResultList title="推荐转化路径" items={result.recommendedPaths} />
-      <ResultList title="不建议优先做的方向" items={result.notRecommendedDirections} />
-      <ResultList title="风险提示" items={result.risks} />
-      <ResultList title="建议先补齐的条件" items={result.conditionsToImprove} />
+      <AccessGate
+        requiredTier="registered"
+        fallback={
+          <LockedContent
+            requiredTier="registered"
+            title="登录后查看完整初评解释"
+            description="综合分、等级和基础评分概览已开放；完整加分项、扣分项、推荐路径、风险提示和补齐条件需要登录后查看。"
+            ctaLabel="登录 / 注册后查看"
+            ctaHref="/login"
+          />
+        }
+      >
+        <ResultList title="主要加分项" items={result.positiveFactors} />
+        <ResultList title="主要扣分项" items={result.negativeFactors} />
+        <ResultList title="推荐转化路径" items={result.recommendedPaths} />
+        <ResultList title="不建议优先做的方向" items={result.notRecommendedDirections} />
+        <ResultList title="风险提示" items={result.risks} />
+        <ResultList title="建议先补齐的条件" items={result.conditionsToImprove} />
+      </AccessGate>
 
-      <div className="mt-7">
-        <h3 className="font-serif text-xl text-paper">推荐资料包</h3>
-        <div className="mt-4 grid gap-3">
-          {result.recommendedPackages.length ? result.recommendedPackages.map((item) => (
-            <div key={item.id} className="rounded border border-paper/10 bg-ink/45 p-4">
-              <div className="text-sm font-medium text-paper">{item.title}</div>
-              <p className="mt-2 text-sm leading-6 text-linen">{item.reason}</p>
-              <Link href={`/packages/${item.id}`} className="mt-3 inline-flex text-sm text-gold hover:text-paper">查看资料包</Link>
-            </div>
-          )) : <p className="text-sm text-linen">暂未匹配到明确资料包，建议先提交项目诊断进一步梳理。</p>}
+      <AccessGate
+        requiredTier="paid"
+        fallback={
+          <LockedContent
+            requiredTier="paid"
+            title="升级后查看推荐资料包"
+            description="推荐资料包及匹配理由属于深度解释内容。你也可以先提交项目诊断，获取更具体的项目建议。"
+            ctaLabel="查看会员权益"
+            ctaHref="/account/membership"
+          />
+        }
+      >
+        <div className="mt-7">
+          <h3 className="font-serif text-xl text-paper">推荐资料包</h3>
+          <div className="mt-4 grid gap-3">
+            {result.recommendedPackages.length ? result.recommendedPackages.map((item) => (
+              <div key={item.id} className="rounded border border-paper/10 bg-ink/45 p-4">
+                <div className="text-sm font-medium text-paper">{item.title}</div>
+                <p className="mt-2 text-sm leading-6 text-linen">{item.reason}</p>
+                <Link href={"/packages/" + item.id} className="mt-3 inline-flex text-sm text-gold hover:text-paper">查看资料包</Link>
+              </div>
+            )) : <p className="text-sm text-linen">暂未匹配到明确资料包，建议先提交项目诊断进一步梳理。</p>}
+          </div>
         </div>
-      </div>
+      </AccessGate>
 
       <div className="mt-8 flex flex-wrap gap-3 border-t border-paper/10 pt-5">
         <button type="button" onClick={onRestart} className="rounded border border-paper/20 px-5 py-2 text-sm text-paper transition hover:border-gold hover:text-gold">

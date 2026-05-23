@@ -28,10 +28,9 @@ export function getProjectTotalScore(project: Project) {
 }
 
 export function getProjectGrade(project: Project) {
-  if (project.conversionGrade) return project.conversionGrade;
   const total = getProjectTotalScore(project);
-  if (total >= 82) return "A";
-  if (total >= 74) return "B";
+  if (total >= 88) return "A";
+  if (total >= 78) return "B";
   if (total >= 65) return "C";
   return "D";
 }
