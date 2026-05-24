@@ -81,10 +81,23 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           <h2 className="font-serif text-2xl text-paper">官方事实与内容状态</h2>
           <dl className="mt-5 space-y-3 text-sm text-linen">
             <Row label="官方门类" value={project.officialCategory || "待核验"} />
-            <Row label="保护单位" value={project.protectionUnit || "待核验"} />
-            <Row label="非遗编号" value={project.heritageCode || "待核验"} />
+            <Row label="保护单位" value={project.officialInfo?.protectionUnit || project.officialInfo?.protectionUnits?.join("、") || project.protectionUnit || "待核验"} />
+            <Row label="非遗编号" value={project.officialInfo?.heritageNumber || project.heritageCode || "待核验"} />
+            <Row label="名录批次" value={project.officialInfo?.listBatch || "待核验"} />
+            <Row label="代表性地区" value={project.officialInfo?.representativeRegion || project.officialInfo?.representativeRegions?.join("、") || project.region || "待核验"} />
+            <Row label="核验状态" value={project.officialInfo?.verificationStatus || getProjectVerificationStatus(project)} />
             <Row label="内容状态" value={getProjectContentStatus(project)} />
           </dl>
+          {project.officialInfo?.verificationNote ? <p className="mt-5 text-sm leading-7 text-linen">{project.officialInfo.verificationNote}</p> : null}
+          {project.officialInfo?.officialSources?.length ? (
+            <div className="mt-5 space-y-2 text-sm">
+              {project.officialInfo.officialSources.map((source, index) => (
+                <a key={source} href={source} target="_blank" rel="noreferrer" className="block text-gold transition hover:text-paper">
+                  官方来源 {index + 1}
+                </a>
+              ))}
+            </div>
+          ) : null}
         </div>
       </section>
 

@@ -164,8 +164,8 @@
       "http://www.wyscc.com/Article/ShowArticle.asp?ArticleID=1788"
     ],
     "sourceNotes": "该条目以公开非遗名录方向和平台产品化研究判断为基础；官方编号、保护单位、批次与来源链接需后续人工复核。",
-    "protectionUnit": "待核验",
-    "heritageCode": "",
+    "protectionUnit": "武夷山市文化馆",
+    "heritageCode": "Ⅷ-63",
     "relatedCases": [
       "case-tea-hotel"
     ],
@@ -297,19 +297,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "已核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
+        "类别",
+        "保护级别",
         "非遗编号",
         "名录批次",
+        "代表性地区",
+        "保护单位",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [],
+      "notes": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；市场转化证据仍以 marketEvidence / sourceLinks 中的商业与文旅来源单独判断。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -400,7 +400,23 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
-    }
+    },
+    "officialInfo": {
+      "protectionUnit": "武夷山市文化馆",
+      "heritageNumber": "Ⅷ-63",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "福建省武夷山市",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "已核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/project_details/14373.html"
+      ],
+      "verificationNote": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；市场转化证据仍以 marketEvidence / sourceLinks 中的商业与文旅来源单独判断。"
+    },
+    "directoryBatch": "2006（第一批）",
+    "representativeRegion": "福建省武夷山市"
   },
   {
     "id": "jingshan-tea",
@@ -1740,8 +1756,8 @@
       "https://gjzx.jci.edu.cn/info/1051/1132.htm"
     ],
     "sourceNotes": "本条为平台研究型整理，未补充可验证官方链接前，来源链保持空数组并标注官方事实待核验。",
-    "protectionUnit": "待核验",
-    "heritageCode": "",
+    "protectionUnit": "景德镇市手工制瓷技艺研究保护中心",
+    "heritageCode": "Ⅷ-7",
     "relatedCases": [
       "case-district-workshop"
     ],
@@ -1874,19 +1890,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "已核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
+        "类别",
+        "保护级别",
         "非遗编号",
         "名录批次",
+        "代表性地区",
+        "保护单位",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [],
+      "notes": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；未用商业页面反推官方编号。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -1977,7 +1993,23 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
-    }
+    },
+    "officialInfo": {
+      "protectionUnit": "景德镇市手工制瓷技艺研究保护中心",
+      "heritageNumber": "Ⅷ-7",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "江西省景德镇市",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "已核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/project_details/14270.html"
+      ],
+      "verificationNote": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；未用商业页面反推官方编号。"
+    },
+    "directoryBatch": "2006（第一批）",
+    "representativeRegion": "江西省景德镇市"
   },
   {
     "id": "rongchang-pottery",
@@ -2508,8 +2540,8 @@
       "https://www.chinadaily.com.cn/a/202205/25/WS628de179a310fd2b29e5f080.html"
     ],
     "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。",
-    "protectionUnit": "待核验",
-    "heritageCode": "",
+    "protectionUnit": "苏州刺绣研究所有限公司",
+    "heritageCode": "Ⅶ-18",
     "relatedCases": [
       "case-city-gift"
     ],
@@ -2641,19 +2673,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "已核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
+        "类别",
+        "保护级别",
         "非遗编号",
         "名录批次",
+        "代表性地区",
+        "保护单位",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [],
+      "notes": "已依据中国非物质文化遗产网项目页核验苏绣的项目编号、批次、类别、申报地区和保护单位；商业礼品与传播证据仍与官方核验来源分开。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -2743,7 +2775,23 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
-    }
+    },
+    "officialInfo": {
+      "protectionUnit": "苏州刺绣研究所有限公司",
+      "heritageNumber": "Ⅶ-18",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "江苏省苏州市",
+      "category": "传统美术",
+      "protectionLevel": "国家级",
+      "verificationStatus": "已核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/project_details/13978/"
+      ],
+      "verificationNote": "已依据中国非物质文化遗产网项目页核验苏绣的项目编号、批次、类别、申报地区和保护单位；商业礼品与传播证据仍与官方核验来源分开。"
+    },
+    "directoryBatch": "2006（第一批）",
+    "representativeRegion": "江苏省苏州市"
   },
   {
     "id": "blue-calico",
@@ -2907,8 +2955,8 @@
       "https://en.wjmuseum.com/educational/index_3.html"
     ],
     "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。",
-    "protectionUnit": "待核验",
-    "heritageCode": "",
+    "protectionUnit": "南通蓝印花布艺术馆",
+    "heritageCode": "Ⅷ-24",
     "relatedCases": [
       "case-guofeng-photo"
     ],
@@ -3012,19 +3060,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "已核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
+        "类别",
+        "保护级别",
         "非遗编号",
         "名录批次",
+        "代表性地区",
+        "保护单位",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [],
+      "notes": "已依据中国非物质文化遗产网项目页核验南通蓝印花布印染技艺的官方字段；本条数据仍以南通版本为代表，不概括所有蓝印花布地域版本。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -3115,7 +3163,23 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
-    }
+    },
+    "officialInfo": {
+      "protectionUnit": "南通蓝印花布艺术馆",
+      "heritageNumber": "Ⅷ-24",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "江苏省南通市",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "已核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/project_details/14296/"
+      ],
+      "verificationNote": "已依据中国非物质文化遗产网项目页核验南通蓝印花布印染技艺的官方字段；本条数据仍以南通版本为代表，不概括所有蓝印花布地域版本。"
+    },
+    "directoryBatch": "2006（第一批）",
+    "representativeRegion": "江苏省南通市"
   },
   {
     "id": "miao-embroidery",
@@ -4019,8 +4083,8 @@
     "operationNotes": "周村烧饼制作技艺适合先做周末场次，记录客流、成交、耗材和讲解时长后再常态化。",
     "sourceLinks": [],
     "sourceNotes": "项目转化建议来自平台模型判断；官方事实字段以公开主管部门信息为准，未确认部分不编造。",
-    "protectionUnit": "待核验",
-    "heritageCode": "",
+    "protectionUnit": "山东周村烧饼有限公司",
+    "heritageCode": "Ⅷ-162",
     "relatedCases": [
       "case-food-market"
     ],
@@ -4152,19 +4216,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "已核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
+        "类别",
+        "保护级别",
         "非遗编号",
         "名录批次",
+        "代表性地区",
+        "保护单位",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [],
+      "notes": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；食品销售与渠道证据不与官方核验来源混用。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -4237,7 +4301,23 @@
         "experienceSignal": "弱证据",
         "notes": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。"
       }
-    }
+    },
+    "officialInfo": {
+      "protectionUnit": "山东周村烧饼有限公司",
+      "heritageNumber": "Ⅷ-162",
+      "listBatch": "2008（第二批）",
+      "representativeRegion": "山东省淄博市",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "已核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/project_details/14649/"
+      ],
+      "verificationNote": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；食品销售与渠道证据不与官方核验来源混用。"
+    },
+    "directoryBatch": "2008（第二批）",
+    "representativeRegion": "山东省淄博市"
   },
   {
     "id": "doubanjiang",
@@ -4928,19 +5008,20 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "部分核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
-        "非遗编号",
-        "名录批次",
+        "类别",
+        "保护级别",
+        "代表性地区",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [
+        "唯一保护单位",
+        "唯一非遗编号",
+        "唯一名录批次"
+      ],
+      "notes": "剪纸在国家级名录中存在多个地域版本，本数据库条目为概括型入口；本轮仅核验到若干代表性官方项目页，不将其压缩为唯一保护单位、唯一编号或唯一地区。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -5013,6 +5094,30 @@
         "experienceSignal": "弱证据",
         "notes": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。"
       }
+    },
+    "officialInfo": {
+      "protectionUnits": [],
+      "heritageNumber": "多版本项目，不设单一编号",
+      "listBatch": "多批次",
+      "representativeRegions": [
+        "福建省漳浦县",
+        "福建省柘荣县",
+        "江西省瑞昌市",
+        "山东省高密市",
+        "甘肃省庆阳市等"
+      ],
+      "category": "传统美术",
+      "protectionLevel": "国家级多地区项目",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/project_details/13950.html",
+        "https://www.ihchina.cn/project_details/13951.html",
+        "https://www.ihchina.cn/project_details/13952.html",
+        "https://www.ihchina.cn/project_details/13954.html",
+        "https://www.ihchina.cn/project_details/13965.html"
+      ],
+      "verificationNote": "剪纸在国家级名录中存在多个地域版本，本数据库条目为概括型入口；本轮仅核验到若干代表性官方项目页，不将其压缩为唯一保护单位、唯一编号或唯一地区。"
     }
   },
   {
@@ -6718,16 +6823,16 @@
       "status": "待核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
+        "平台转化主题属性"
       ],
       "pendingFields": [
+        "官方名录对应关系",
         "保护单位",
         "非遗编号",
         "名录批次",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "notes": "传统妆造体验是平台按国风旅拍、妆发服务和文旅体验整理的转化方向，不等同于单一官方非遗名录项目；不得填写保护单位、非遗编号或名录批次。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -6817,6 +6922,18 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
+    },
+    "officialInfo": {
+      "protectionUnits": [],
+      "heritageNumber": "",
+      "listBatch": "",
+      "representativeRegions": [],
+      "category": "平台转化主题",
+      "protectionLevel": "非官方名录项",
+      "verificationStatus": "非官方名录项 / 平台转化主题",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [],
+      "verificationNote": "传统妆造体验是平台按国风旅拍、妆发服务和文旅体验整理的转化方向，不等同于单一官方非遗名录项目；不得填写保护单位、非遗编号或名录批次。"
     }
   },
   {
@@ -7464,16 +7581,16 @@
       "status": "待核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
+        "概括型条目属性"
       ],
       "pendingFields": [
+        "具体代表版本",
         "保护单位",
         "非遗编号",
         "名录批次",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "notes": "龙灯彩扎可能对应多个地方龙灯、彩扎或灯彩类项目；本轮按一分钟规则未取得可核验官方项目页，暂不填写唯一编号、保护单位或批次，需后续人工确认具体代表版本。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -7546,6 +7663,20 @@
         "experienceSignal": "弱证据",
         "notes": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。"
       }
+    },
+    "officialInfo": {
+      "protectionUnits": [],
+      "heritageNumber": "",
+      "listBatch": "",
+      "representativeRegions": [
+        "重庆铜梁等龙灯彩扎相关地区"
+      ],
+      "category": "传统美术 / 民俗相关",
+      "protectionLevel": "待人工确认",
+      "verificationStatus": "待人工确认",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [],
+      "verificationNote": "龙灯彩扎可能对应多个地方龙灯、彩扎或灯彩类项目；本轮按一分钟规则未取得可核验官方项目页，暂不填写唯一编号、保护单位或批次，需后续人工确认具体代表版本。"
     }
   },
   {
@@ -16799,8 +16930,8 @@
     "heritageLevel": "待核验",
     "level": "待核验",
     "type": "待核验",
-    "protectionUnit": "待核验",
-    "heritageCode": "",
+    "protectionUnit": "南京云锦研究所有限公司",
+    "heritageCode": "Ⅷ-13",
     "summary": "南京云锦织造技艺适合把地域故事、材料特征和体验成果组合成轻量服务。",
     "positioning": "B级转化方向：以文创品牌为主场，先做南京云锦织造技艺纹样讲解与拓印体验和南京云锦织造技艺基础针法/染色体验，再延伸到丝巾礼盒、企业纹样定制礼。",
     "conversionGrade": "B",
@@ -17087,19 +17218,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "已核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
-      ],
-      "pendingFields": [
-        "保护单位",
+        "类别",
+        "保护级别",
         "非遗编号",
         "名录批次",
+        "代表性地区",
+        "保护单位",
         "官方来源链接"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "pendingFields": [],
+      "notes": "已依据中国非物质文化遗产网项目页核验南京云锦木机妆花手工织造技艺的官方字段；本条项目以南京云锦织造技艺为数据库展示名称。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -17189,7 +17320,23 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
-    }
+    },
+    "officialInfo": {
+      "protectionUnit": "南京云锦研究所有限公司",
+      "heritageNumber": "Ⅷ-13",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "江苏省南京市",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "已核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.ihchina.cn/art/detail/id/14276.html"
+      ],
+      "verificationNote": "已依据中国非物质文化遗产网项目页核验南京云锦木机妆花手工织造技艺的官方字段；本条项目以南京云锦织造技艺为数据库展示名称。"
+    },
+    "directoryBatch": "2006（第一批）",
+    "representativeRegion": "江苏省南京市"
   },
   {
     "id": "chengdu-shujin",
@@ -35050,19 +35197,19 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "部分核验",
       "verifiedFields": [
         "项目名称",
-        "地区",
-        "类别"
+        "代表性地区线索",
+        "地方官方来源链接"
       ],
       "pendingFields": [
+        "国家级名录对应关系",
         "保护单位",
         "非遗编号",
-        "名录批次",
-        "官方来源链接"
+        "名录批次"
       ],
-      "notes": "当前仅用于平台研究判断；未取得可核对官方链接前，不推定保护单位、编号和批次。"
+      "notes": "打铁花存在确山铁花等代表性版本，本轮使用河南省政府公开资料作为地方官方线索；尚未核定唯一国家级项目编号、保护单位和批次，不以文旅演出报道替代官方名录核验。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -35152,6 +35299,22 @@
         "experienceSignal": "中",
         "notes": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。"
       }
+    },
+    "officialInfo": {
+      "protectionUnits": [],
+      "heritageNumber": "多版本或关联项目，待人工确认",
+      "listBatch": "",
+      "representativeRegions": [
+        "河南省确山县等打铁花相关地区"
+      ],
+      "category": "民俗 / 传统技艺相关",
+      "protectionLevel": "部分核验",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-05-23",
+      "officialSources": [
+        "https://www.henan.gov.cn/2023/01-28/2679065.html"
+      ],
+      "verificationNote": "打铁花存在确山铁花等代表性版本，本轮使用河南省政府公开资料作为地方官方线索；尚未核定唯一国家级项目编号、保护单位和批次，不以文旅演出报道替代官方名录核验。"
     }
   },
   {

@@ -10,7 +10,9 @@ const mode = process.argv.includes("--sample")
   ? "sample"
   : process.argv.includes("--market-sample")
     ? "market-sample"
-    : "full";
+    : process.argv.includes("--verify-top-a")
+      ? "verify-top-a"
+      : "full";
 
 const allowedGrades = new Set(["A", "B", "C", "D"]);
 const allowedStatus = new Set(["AI 初稿", "人工初审", "已复核", "待补充", "待核验"]);
@@ -56,6 +58,19 @@ const sampleIds = [
   "incense-making"
 ];
 const marketSampleIds = [
+  "wuyi-rock-tea",
+  "jingdezhen-porcelain",
+  "suzhou-embroidery",
+  "blue-calico",
+  "zhoucun-sesame-cake",
+  "paper-cut",
+  "dragon-lantern",
+  "hanfu-makeup",
+  "nanjing-yunjin",
+  "iron-flower"
+];
+
+const topAOfficialIds = [
   "wuyi-rock-tea",
   "jingdezhen-porcelain",
   "suzhou-embroidery",
@@ -198,6 +213,34 @@ function validateMarketEvidence(project, required) {
   }
 }
 
+function validateOfficialInfo(project, required) {
+  const label = project.id || project.name;
+  const info = project.officialInfo;
+  if (!info) {
+    if (required) fail(`${label}: officialInfo is required for top A verification`);
+    return;
+  }
+  if (!hasText(info.verificationStatus)) fail(`${label}: officialInfo.verificationStatus is required`);
+  if (!isArray(info.officialSources)) fail(`${label}: officialInfo.officialSources must be an array`);
+  if (!hasText(info.verificationNote)) fail(`${label}: officialInfo.verificationNote is required`);
+  for (const source of info.officialSources || []) {
+    if (looksLikeInvalidLink(source)) fail(`${label}: invalid officialInfo official source ${source}`);
+  }
+  const isPlatformTheme = /平台转化主题|非官方名录项/.test(`${info.verificationStatus} ${info.verificationNote || ""}`);
+  if (isPlatformTheme && (hasText(info.heritageNumber) || hasText(info.protectionUnit) || hasText(info.listBatch))) {
+    fail(`${label}: platform theme should not fill official heritage number, protection unit, or list batch`);
+  }
+  if (!isPlatformTheme && info.verificationStatus === "已核验") {
+    for (const field of ["heritageNumber", "listBatch", "representativeRegion", "category", "protectionLevel"]) {
+      if (!hasText(info[field])) fail(`${label}: verified officialInfo.${field} is required`);
+    }
+    if (!hasText(info.protectionUnit) && (!isArray(info.protectionUnits) || info.protectionUnits.length === 0)) {
+      fail(`${label}: verified officialInfo protection unit is required`);
+    }
+    if ((info.officialSources || []).length === 0) fail(`${label}: verified officialInfo must include official source`);
+  }
+}
+
 function validateProject(project, index) {
   const label = project.id || project.name || `index ${index}`;
   for (const key of ["id", "name", "theme", "summary", "conversionGrade", "score"]) {
@@ -270,6 +313,7 @@ function validateProject(project, index) {
   }
 
   validateMarketEvidence(project, mode === "full" || (mode === "market-sample" && marketSampleIds.includes(project.id)));
+  validateOfficialInfo(project, mode === "verify-top-a" && topAOfficialIds.includes(project.id));
 }
 
 if (mode === "full" && projects.length !== 100) fail(`projects.json must contain exactly 100 records, got ${projects.length}`);

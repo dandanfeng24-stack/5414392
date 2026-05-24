@@ -108,6 +108,21 @@ export type ProjectOfficialVerification = {
   notes: string;
 };
 
+export type ProjectOfficialInfo = {
+  protectionUnit?: string;
+  protectionUnits?: string[];
+  heritageNumber?: string;
+  listBatch?: string;
+  representativeRegion?: string;
+  representativeRegions?: string[];
+  category?: string;
+  protectionLevel?: string;
+  verificationStatus: string;
+  verifiedAt?: string;
+  officialSources: string[];
+  verificationNote?: string;
+};
+
 export type Project = {
   id: string;
   name: string;
@@ -138,6 +153,7 @@ export type Project = {
   recommendedExperiences?: ProjectExperience[];
   implementationConditions?: ProjectImplementationConditions;
   revenueModels?: ProjectRevenueModel[];
+  officialInfo?: ProjectOfficialInfo;
   officialVerification?: ProjectOfficialVerification;
   productDirections: string[];
   experienceDirections: string[];
