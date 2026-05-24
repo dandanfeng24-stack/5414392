@@ -12,6 +12,8 @@ const mode = process.argv.includes("--sample")
     ? "market-sample"
     : process.argv.includes("--verify-top-a")
       ? "verify-top-a"
+      : process.argv.includes("--verify-official-all")
+        ? "verify-official-all"
       : "full";
 
 const allowedGrades = new Set(["A", "B", "C", "D"]);
@@ -313,7 +315,7 @@ function validateProject(project, index) {
   }
 
   validateMarketEvidence(project, mode === "full" || (mode === "market-sample" && marketSampleIds.includes(project.id)));
-  validateOfficialInfo(project, mode === "verify-top-a" && topAOfficialIds.includes(project.id));
+  validateOfficialInfo(project, mode === "full" || mode === "verify-official-all" || (mode === "verify-top-a" && topAOfficialIds.includes(project.id)));
 }
 
 if (mode === "full" && projects.length !== 100) fail(`projects.json must contain exactly 100 records, got ${projects.length}`);
