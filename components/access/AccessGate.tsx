@@ -1,9 +1,12 @@
+"use client";
+
 import type { ReactNode } from "react";
-import { canAccess, defaultUserTier, type UserTier } from "@/lib/access";
+import { canAccess, type UserTier } from "@/lib/access";
+import { useAuth } from "@/components/auth/AuthProvider";
 import { LockedContent } from "./LockedContent";
 
 export function AccessGate({
-  currentTier = defaultUserTier,
+  currentTier,
   requiredTier,
   children,
   fallback
@@ -13,7 +16,10 @@ export function AccessGate({
   children: ReactNode;
   fallback?: ReactNode;
 }) {
-  if (canAccess(currentTier, requiredTier)) {
+  const auth = useAuth();
+  const effectiveTier = currentTier ?? auth.tier;
+
+  if (canAccess(effectiveTier, requiredTier)) {
     return <>{children}</>;
   }
 

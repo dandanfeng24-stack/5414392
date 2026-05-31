@@ -1,5 +1,7 @@
 node_modules/
 .next/
+.next.backup-*/
+.npm-cache/
 out/
 .vercel/
 
@@ -7,6 +9,7 @@ out/
 !.env.example
 
 *.log
+tsconfig.tsbuildinfo
 .next-dev.log
 .next-dev.err.log
 

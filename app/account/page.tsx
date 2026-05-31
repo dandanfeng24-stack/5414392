@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { tierLabels, type UserTier } from "@/lib/access";
+import { getCurrentUser } from "@/lib/current-user";
 
 const tiers: Array<{ tier: UserTier; description: string }> = [
   { tier: "guest", description: "可浏览公开页面、数据库摘要和示例内容。" },
@@ -14,15 +16,33 @@ const entries = [
   ["服务记录", "/account/services", "未来展示诊断、咨询、交付和沟通记录。"]
 ];
 
-export default function AccountPage() {
+export const dynamic = "force-dynamic";
+
+export default async function AccountPage() {
+  const user = await getCurrentUser();
+
+  if (!user) {
+    redirect("/login?next=/account");
+  }
+
   return (
     <div className="section-shell py-16">
       <section className="surface rounded p-8 md:p-10">
         <div className="text-sm text-gold">用户中心</div>
         <h1 className="mt-4 font-serif text-4xl leading-tight text-paper md:text-6xl">用户中心</h1>
         <p className="mt-6 max-w-3xl text-base leading-8 text-linen">
-          当前为账号体系前端占位，用于展示未来的订单、会员权益和服务记录入口。现阶段不读取用户状态，不创建真实账号。
+          这里显示当前登录账号的基础信息和权限等级。订单、服务记录和资料权限将围绕该账号继续扩展。
         </p>
+      </section>
+
+      <section className="mt-10 surface rounded p-6 md:p-8">
+        <h2 className="font-serif text-2xl text-paper">账号信息</h2>
+        <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <AccountField label="邮箱" value={user.email} />
+          <AccountField label="昵称" value={user.displayName || "未设置"} />
+          <AccountField label="用户等级" value={tierLabels[user.tier]} />
+          <AccountField label="注册时间" value={formatDate(user.createdAt)} />
+        </div>
       </section>
 
       <section className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
@@ -46,4 +66,23 @@ export default function AccountPage() {
       </section>
     </div>
   );
+}
+
+function AccountField({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded border border-paper/10 bg-ink/45 p-4">
+      <div className="text-xs text-gold">{label}</div>
+      <div className="mt-2 break-words text-sm leading-6 text-paper/88">{value}</div>
+    </div>
+  );
+}
+
+function formatDate(value: string) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  }).format(new Date(value));
 }

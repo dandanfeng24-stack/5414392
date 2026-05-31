@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { useAuth } from "@/components/auth/AuthProvider";
 
 const nav = [
   ["非遗主题", "/themes"],
@@ -17,6 +18,7 @@ const nav = [
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { user } = useAuth();
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
@@ -40,18 +42,37 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <Link
-            href="/login"
-            className="hidden rounded border border-paper/[0.22] bg-transparent px-4 py-2 text-sm text-paper/82 transition-colors duration-200 hover:border-gold/45 hover:text-gold/90 sm:inline-flex"
-          >
-            登录
-          </Link>
-          <Link
-            href="/register"
-            className="hidden rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper sm:inline-flex"
-          >
-            注册
-          </Link>
+          {user ? (
+            <>
+              <Link
+                href="/account"
+                className="hidden rounded border border-paper/[0.22] bg-transparent px-4 py-2 text-sm text-paper/82 transition-colors duration-200 hover:border-gold/45 hover:text-gold/90 sm:inline-flex"
+              >
+                用户中心
+              </Link>
+              <Link
+                href="/logout"
+                className="hidden rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper sm:inline-flex"
+              >
+                退出
+              </Link>
+            </>
+          ) : (
+            <>
+              <Link
+                href="/login"
+                className="hidden rounded border border-paper/[0.22] bg-transparent px-4 py-2 text-sm text-paper/82 transition-colors duration-200 hover:border-gold/45 hover:text-gold/90 sm:inline-flex"
+              >
+                登录
+              </Link>
+              <Link
+                href="/register"
+                className="hidden rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper sm:inline-flex"
+              >
+                注册
+              </Link>
+            </>
+          )}
           <button
             type="button"
             className="inline-flex h-9 w-9 items-center justify-center rounded border border-paper/[0.16] text-paper/64 transition-colors duration-200 hover:border-gold/40 hover:text-gold/85 md:hidden"
@@ -77,20 +98,41 @@ export function Header() {
               </Link>
             ))}
             <div className="mt-2 grid grid-cols-2 gap-3 border-t border-paper/[0.10] pt-4">
-              <Link
-                href="/login"
-                className="rounded border border-paper/[0.22] px-4 py-2 text-center text-paper/82 transition-colors duration-200 hover:border-gold/45 hover:text-gold/90"
-                onClick={closeMenu}
-              >
-                登录
-              </Link>
-              <Link
-                href="/register"
-                className="rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
-                onClick={closeMenu}
-              >
-                注册
-              </Link>
+              {user ? (
+                <>
+                  <Link
+                    href="/account"
+                    className="rounded border border-paper/[0.22] px-4 py-2 text-center text-paper/82 transition-colors duration-200 hover:border-gold/45 hover:text-gold/90"
+                    onClick={closeMenu}
+                  >
+                    用户中心
+                  </Link>
+                  <Link
+                    href="/logout"
+                    className="rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
+                    onClick={closeMenu}
+                  >
+                    退出
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <Link
+                    href="/login"
+                    className="rounded border border-paper/[0.22] px-4 py-2 text-center text-paper/82 transition-colors duration-200 hover:border-gold/45 hover:text-gold/90"
+                    onClick={closeMenu}
+                  >
+                    登录
+                  </Link>
+                  <Link
+                    href="/register"
+                    className="rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
+                    onClick={closeMenu}
+                  >
+                    注册
+                  </Link>
+                </>
+              )}
             </div>
           </nav>
         </div>
