@@ -19,6 +19,10 @@ export function AccessGate({
   const auth = useAuth();
   const effectiveTier = currentTier ?? auth.tier;
 
+  if (!currentTier && auth.isLoading) {
+    return null;
+  }
+
   if (canAccess(effectiveTier, requiredTier)) {
     return <>{children}</>;
   }
