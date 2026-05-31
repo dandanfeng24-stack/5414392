@@ -25,7 +25,7 @@ export async function POST(request: Request) {
   }
 
   await setSessionCookie(user.id);
-  return NextResponse.redirect(new URL(nextPath, request.url), 303);
+  return redirectTo(nextPath);
 }
 
 function sanitizeNextPath(value: string) {
@@ -33,9 +33,16 @@ function sanitizeNextPath(value: string) {
   return value;
 }
 
-function redirectWithError(requestUrl: string, nextPath: string, error: string) {
-  const url = new URL("/login", requestUrl);
-  url.searchParams.set("error", error);
-  url.searchParams.set("next", nextPath);
-  return NextResponse.redirect(url, 303);
+function redirectWithError(_requestUrl: string, nextPath: string, error: string) {
+  const params = new URLSearchParams({ error, next: nextPath });
+  return redirectTo(`/login?${params.toString()}`);
+}
+
+function redirectTo(path: string) {
+  return new NextResponse(null, {
+    status: 303,
+    headers: {
+      Location: path
+    }
+  });
 }

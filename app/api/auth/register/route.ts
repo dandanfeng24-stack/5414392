@@ -40,7 +40,7 @@ export async function POST(request: Request) {
     return redirectWithError(request.url, "注册失败，请稍后再试");
   }
 
-  return NextResponse.redirect(new URL("/account", request.url), 303);
+  return redirectTo("/account");
 }
 
 function isValidEmail(email: string) {
@@ -51,8 +51,16 @@ function isUniqueViolation(error: unknown) {
   return typeof error === "object" && error !== null && "code" in error && error.code === "23505";
 }
 
-function redirectWithError(requestUrl: string, error: string) {
-  const url = new URL("/register", requestUrl);
-  url.searchParams.set("error", error);
-  return NextResponse.redirect(url, 303);
+function redirectWithError(_requestUrl: string, error: string) {
+  const params = new URLSearchParams({ error });
+  return redirectTo(`/register?${params.toString()}`);
+}
+
+function redirectTo(path: string) {
+  return new NextResponse(null, {
+    status: 303,
+    headers: {
+      Location: path
+    }
+  });
 }
