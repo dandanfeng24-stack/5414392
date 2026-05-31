@@ -1,6 +1,12 @@
 import { RegisterForm } from "@/components/auth/RegisterForm";
 
-export default function RegisterPage() {
+export default async function RegisterPage({
+  searchParams
+}: {
+  searchParams?: Promise<{ error?: string }>;
+}) {
+  const params = await searchParams;
+
   return (
     <div className="section-shell py-16">
       <section className="surface rounded p-8 md:p-10">
@@ -11,7 +17,7 @@ export default function RegisterPage() {
         </p>
       </section>
 
-      <RegisterForm />
+      <RegisterForm error={params?.error} />
     </div>
   );
 }

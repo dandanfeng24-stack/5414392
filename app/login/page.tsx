@@ -3,10 +3,11 @@ import { LoginForm } from "@/components/auth/LoginForm";
 export default async function LoginPage({
   searchParams
 }: {
-  searchParams?: Promise<{ next?: string }>;
+  searchParams?: Promise<{ next?: string; error?: string }>;
 }) {
   const params = await searchParams;
   const nextPath = sanitizeNextPath(params?.next ?? "/account");
+  const error = params?.error;
 
   return (
     <div className="section-shell py-16">
@@ -18,7 +19,7 @@ export default async function LoginPage({
         </p>
       </section>
 
-      <LoginForm nextPath={nextPath} />
+      <LoginForm nextPath={nextPath} error={error} />
     </div>
   );
 }
