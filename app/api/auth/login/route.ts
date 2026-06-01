@@ -14,18 +14,25 @@ export async function POST(request: Request) {
   const nextPath = sanitizeNextPath(String(formData.get("next") ?? ""));
 
   if (!email || !password) {
-    return redirectWithError(request.url, nextPath, "请填写邮箱和密码");
+    return errorResponse("请填写邮箱和密码");
   }
 
   const result = await query<LoginRow>("SELECT id, password_hash FROM users WHERE email = $1 LIMIT 1", [email]);
   const user = result.rows[0];
 
   if (!user || !(await verifyPassword(password, user.password_hash))) {
-    return redirectWithError(request.url, nextPath, "邮箱或密码不正确");
+    return errorResponse("邮箱或密码不正确");
   }
 
   await setSessionCookie(user.id);
-  return redirectTo(nextPath);
+  return NextResponse.json(
+    { ok: true, next: nextPath },
+    {
+      headers: {
+        "Cache-Control": "no-store"
+      }
+    }
+  );
 }
 
 function sanitizeNextPath(value: string) {
@@ -33,16 +40,14 @@ function sanitizeNextPath(value: string) {
   return value;
 }
 
-function redirectWithError(_requestUrl: string, nextPath: string, error: string) {
-  const params = new URLSearchParams({ error, next: nextPath });
-  return redirectTo(`/login?${params.toString()}`);
-}
-
-function redirectTo(path: string) {
-  return new NextResponse(null, {
-    status: 303,
-    headers: {
-      Location: path
+function errorResponse(error: string) {
+  return NextResponse.json(
+    { ok: false, error },
+    {
+      status: 400,
+      headers: {
+        "Cache-Control": "no-store"
+      }
     }
-  });
+  );
 }

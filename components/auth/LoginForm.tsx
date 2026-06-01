@@ -1,11 +1,37 @@
 "use client";
 
 import Link from "next/link";
+import { useState, type FormEvent } from "react";
 
 export function LoginForm({ nextPath, error }: { nextPath: string; error?: string }) {
+  const [formError, setFormError] = useState(error);
+  const [isPending, setIsPending] = useState(false);
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setIsPending(true);
+    setFormError(undefined);
+
+    const response = await fetch("/api/auth/login", {
+      method: "POST",
+      body: new FormData(event.currentTarget),
+      credentials: "same-origin",
+      cache: "no-store"
+    });
+    const data = await response.json().catch(() => null);
+
+    if (!response.ok || !data?.ok) {
+      setFormError(data?.error ?? "登录失败，请稍后再试");
+      setIsPending(false);
+      return;
+    }
+
+    window.location.assign(data.next || nextPath || "/account");
+  }
+
   return (
     <section className="mx-auto mt-10 max-w-xl surface rounded p-6 md:p-8">
-      <form action="/api/auth/login" method="post" className="grid gap-5">
+      <form onSubmit={handleSubmit} className="grid gap-5">
         <input type="hidden" name="next" value={nextPath} />
         <label className="grid gap-2 text-sm text-linen">
           邮箱
@@ -29,13 +55,14 @@ export function LoginForm({ nextPath, error }: { nextPath: string; error?: strin
             className="rounded border border-paper/15 bg-ink/60 px-4 py-3 text-paper outline-none placeholder:text-linen/45 focus:border-gold"
           />
         </label>
-        {error ? (
-          <p className="rounded border border-red-400/25 bg-red-500/10 px-4 py-3 text-sm text-red-100">{error}</p>
+        {formError ? (
+          <p className="rounded border border-red-400/25 bg-red-500/10 px-4 py-3 text-sm text-red-100">{formError}</p>
         ) : null}
         <button
+          disabled={isPending}
           className="rounded bg-gold px-5 py-3 text-sm text-ink transition-colors hover:bg-paper disabled:cursor-not-allowed disabled:opacity-60"
         >
-          登录
+          {isPending ? "登录中..." : "登录"}
         </button>
       </form>
       <div className="mt-6 flex flex-wrap gap-4 border-t border-paper/10 pt-6 text-sm">

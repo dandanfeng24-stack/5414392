@@ -14,15 +14,15 @@ export async function POST(request: Request) {
   const displayName = String(formData.get("displayName") ?? "").trim() || null;
 
   if (!isValidEmail(email)) {
-    return redirectWithError(request.url, "请填写有效邮箱");
+    return errorResponse("请填写有效邮箱");
   }
 
   if (password.length < 8) {
-    return redirectWithError(request.url, "密码至少需要 8 位");
+    return errorResponse("密码至少需要 8 位");
   }
 
   if (password !== confirmPassword) {
-    return redirectWithError(request.url, "两次输入的密码不一致");
+    return errorResponse("两次输入的密码不一致");
   }
 
   try {
@@ -34,13 +34,20 @@ export async function POST(request: Request) {
     await setSessionCookie(result.rows[0].id);
   } catch (error) {
     if (isUniqueViolation(error)) {
-      return redirectWithError(request.url, "该邮箱已注册，请直接登录");
+      return errorResponse("该邮箱已注册，请直接登录");
     }
 
-    return redirectWithError(request.url, "注册失败，请稍后再试");
+    return errorResponse("注册失败，请稍后再试");
   }
 
-  return redirectTo("/account");
+  return NextResponse.json(
+    { ok: true, next: "/account" },
+    {
+      headers: {
+        "Cache-Control": "no-store"
+      }
+    }
+  );
 }
 
 function isValidEmail(email: string) {
@@ -51,16 +58,14 @@ function isUniqueViolation(error: unknown) {
   return typeof error === "object" && error !== null && "code" in error && error.code === "23505";
 }
 
-function redirectWithError(_requestUrl: string, error: string) {
-  const params = new URLSearchParams({ error });
-  return redirectTo(`/register?${params.toString()}`);
-}
-
-function redirectTo(path: string) {
-  return new NextResponse(null, {
-    status: 303,
-    headers: {
-      Location: path
+function errorResponse(error: string) {
+  return NextResponse.json(
+    { ok: false, error },
+    {
+      status: 400,
+      headers: {
+        "Cache-Control": "no-store"
+      }
     }
-  });
+  );
 }

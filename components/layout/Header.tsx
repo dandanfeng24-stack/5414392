@@ -20,6 +20,14 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { user } = useAuth();
   const closeMenu = () => setIsMenuOpen(false);
+  const handleLogout = async () => {
+    await fetch("/logout", {
+      method: "POST",
+      credentials: "same-origin",
+      cache: "no-store"
+    }).catch(() => null);
+    window.location.assign("/");
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-gold/[0.14] bg-warmblack/[0.86] backdrop-blur-sm">
@@ -50,14 +58,13 @@ export function Header() {
               >
                 用户中心
               </Link>
-              <form action="/logout" method="post" className="hidden sm:inline-flex">
-                <button
-                  type="submit"
-                  className="rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
-                >
-                  退出
-                </button>
-              </form>
+              <button
+                type="button"
+                className="hidden rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper sm:inline-flex"
+                onClick={handleLogout}
+              >
+                退出
+              </button>
             </>
           ) : (
             <>
@@ -109,15 +116,16 @@ export function Header() {
                   >
                     用户中心
                   </Link>
-                  <form action="/logout" method="post">
-                    <button
-                      type="submit"
-                      className="w-full rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
-                      onClick={closeMenu}
-                    >
-                      退出
-                    </button>
-                  </form>
+                  <button
+                    type="button"
+                    className="w-full rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
+                    onClick={() => {
+                      closeMenu();
+                      void handleLogout();
+                    }}
+                  >
+                    退出
+                  </button>
                 </>
               ) : (
                 <>

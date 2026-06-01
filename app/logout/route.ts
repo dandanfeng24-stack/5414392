@@ -6,7 +6,15 @@ export async function GET() {
 }
 
 export async function POST() {
-  return logout();
+  await clearSessionCookie();
+  return NextResponse.json(
+    { ok: true, next: "/" },
+    {
+      headers: {
+        "Cache-Control": "no-store"
+      }
+    }
+  );
 }
 
 async function logout() {
