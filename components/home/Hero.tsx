@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const heroCtas = [
-  { label: "获取非遗商业化诊断", href: "/diagnosis", primary: true },
+  { label: "提交项目诊断", href: "/diagnosis?from=home", primary: true },
   { label: "查看文旅转化案例", href: "/cases" },
-  { label: "下载资料包样张", href: "/packages" },
-  { label: "预约项目咨询", href: "/methodology#contact" },
+  { label: "查看样张说明", href: "/packages" },
+  { label: "查看服务与交付", href: "/services" },
 ];
 
 export function Hero() {

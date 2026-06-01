@@ -129,9 +129,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           <SimpleList title="体验化摘要" items={(project.experienceDirections || []).slice(0, 2)} />
         </div>
         <div className="mt-6 flex flex-wrap gap-4">
-          <UpgradeCTA label="发起智能初评" href="/ai-assessment" variant="secondary" />
-          <UpgradeCTA label="提交项目诊断获取定制建议" href={diagnosisHref} />
-          <UpgradeCTA label="预约咨询获取完整落地方案" href="/services" variant="secondary" />
+          <UpgradeCTA label="完成智能初评" href="/ai-assessment" variant="secondary" />
+          <UpgradeCTA label="提交项目诊断" href={diagnosisHref} />
+          <UpgradeCTA label="查看服务与交付" href="/services" variant="secondary" />
         </div>
       </section>
 
@@ -434,7 +434,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
               <LockedContent
                 requiredTier="registered"
                 title="登录后查看完整评分理由"
-                description="推荐资料包和收藏项目入口将在登录后开放。你也可以先发起智能初评或提交项目诊断。"
+                description="推荐资料包和收藏项目入口将在登录后开放。你也可以先完成智能初评或提交项目诊断。"
                 ctaLabel="登录 / 注册后查看"
                 ctaHref={`/login?next=/projects/${id}`}
               />
@@ -442,7 +442,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           >
             <SectionHeading title="相关资料包或智能初评入口" />
             <div className="grid gap-5">{(relatedPackages.length ? relatedPackages : packages.slice(0, 1)).map((item) => <PackageCard key={item.id} item={item} />)}</div>
-            <Link href="/ai-assessment" className="mt-5 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">发起智能初评</Link>
+            <Link href="/ai-assessment" className="mt-5 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">完成智能初评</Link>
           </AccessGate>
         </div>
       </section>

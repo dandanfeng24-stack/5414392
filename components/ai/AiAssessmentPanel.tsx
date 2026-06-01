@@ -275,7 +275,7 @@ function AssessmentResult({ input, onRestart }: { input: AiAssessmentInput; onRe
               <div key={item.id} className="rounded border border-paper/10 bg-ink/45 p-4">
                 <div className="text-sm font-medium text-paper">{item.title}</div>
                 <p className="mt-2 text-sm leading-6 text-linen">{item.reason}</p>
-                <Link href={"/packages/" + item.id} className="mt-3 inline-flex text-sm text-gold hover:text-paper">查看资料包</Link>
+                <Link href={"/packages/" + item.id} className="mt-3 inline-flex text-sm text-gold hover:text-paper">查看样张说明</Link>
               </div>
             )) : <p className="text-sm text-linen">暂未匹配到明确资料包，建议先提交项目诊断进一步梳理。</p>}
           </div>

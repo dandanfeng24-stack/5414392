@@ -68,9 +68,9 @@ const customers = [
   ["文旅策划公司、运营公司与项目投资方", "适合前期判断项目可行性、投入重点和风险边界。"]
 ];
 
-const primaryCta = { label: "提交项目诊断", href: "/diagnosis" };
+const primaryCta = { label: "提交项目诊断", href: "/diagnosis?from=services" };
 // TODO: replace with real consultation entry later
-const consultationCta = { label: "预约项目咨询", href: "/ai-assessment" };
+const consultationCta = { label: "完成智能初评", href: "/ai-assessment" };
 
 export default function ServicesPage() {
   return (

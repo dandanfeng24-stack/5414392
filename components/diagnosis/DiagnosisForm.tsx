@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, type ChangeEvent, type FormEvent } from "react";
 
 type DiagnosisFormState = {
@@ -281,7 +282,7 @@ export function DiagnosisForm() {
         </div>
       </form>
 
-      {submitted ? <SubmissionResult data={submitted} /> : null}
+      {submitted ? <SubmissionResult data={submitted} onEdit={() => setSubmitted(null)} /> : null}
     </section>
   );
 }
@@ -358,27 +359,29 @@ function SelectInput({
   );
 }
 
-function SubmissionResult({ data }: { data: DiagnosisFormState }) {
+const nextStepCards = [
+  ["查看服务与交付", "/services", "了解后续可能涉及的服务内容、交付方式和服务边界。"],
+  ["查看项目库参考", "/database", "继续参考其他非遗项目的评分、转化路径和风险提示。"],
+  ["查看服务记录入口", "/account/services", "当前不会显示假服务记录。后续如接入真实记录能力，相关服务记录可集中在这里查看。"]
+];
+
+function SubmissionResult({ data, onEdit }: { data: DiagnosisFormState; onEdit: () => void }) {
   const summary = [
     ["项目名称", data.projectName],
-    ["所在城市", data.city],
+    ["所在城市 / 地区", data.city],
     ["项目类型", data.projectType],
-    ["非遗类别", data.heritageCategory],
-    ["已有场地", data.hasVenue],
-    ["产品或体验", data.hasProduct],
+    ["当前资源情况", [data.heritageCategory, data.hasVenue, data.hasProduct].filter(Boolean).join(" / ")],
+    ["目标方向", data.expectedHelp.length ? data.expectedHelp.join("、") : "未选择"],
     ["当前困难", data.mainProblem],
-    ["预算区间", data.budgetRange || "未填写"],
-    ["期望帮助", data.expectedHelp.length ? data.expectedHelp.join("、") : "未选择"],
-    ["联系人", data.contactName],
-    ["联系方式", data.contactInfo],
+    ["联系方式", [data.contactName, data.contactInfo].filter(Boolean).join(" / ")],
     ["补充说明", data.description || "未填写"]
   ];
 
   return (
-    <div className="mt-8 rounded border border-gold/25 bg-gold/[0.08] p-5">
-      <h3 className="font-serif text-2xl text-paper">已收到你的项目诊断需求</h3>
+    <div className="mt-8 rounded border border-gold/25 bg-gold/[0.08] p-5 md:p-6">
+      <h3 className="font-serif text-2xl text-paper">已生成诊断需求摘要</h3>
       <p className="mt-3 text-sm leading-7 text-linen">
-        当前版本为轻量表单结构，请后续接入真实表单工具、邮箱或客户管理表。你也可以先复制表单内容，通过微信或邮箱发送给项目方。
+        以下内容是根据你刚刚填写的信息生成的页面摘要。当前第一版暂不保存真实诊断记录，也不代表已经进入人工服务流程；后续如接入真实记录、通知或服务跟进能力，可在账号服务记录中集中查看。
       </p>
       <div className="mt-5 grid gap-3 text-sm md:grid-cols-2">
         {summary.map(([label, value]) => (
@@ -388,6 +391,27 @@ function SubmissionResult({ data }: { data: DiagnosisFormState }) {
           </div>
         ))}
       </div>
+
+      <div className="mt-7 border-t border-paper/10 pt-6">
+        <div className="font-serif text-2xl text-paper">下一步可以做什么</div>
+        <div className="mt-5 grid gap-4 md:grid-cols-3">
+          {nextStepCards.map(([title, href, description]) => (
+            <Link key={href} href={href} className="rounded border border-paper/10 bg-ink/45 p-4 transition-colors hover:border-gold/45">
+              <div className="font-serif text-xl text-paper">{title}</div>
+              <p className="mt-3 text-sm leading-7 text-linen">{description}</p>
+              <div className="mt-4 text-sm text-gold">{title}</div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      <button
+        type="button"
+        onClick={onEdit}
+        className="mt-6 rounded border border-paper/20 px-5 py-2 text-sm text-paper transition hover:border-gold hover:text-gold"
+      >
+        返回修改
+      </button>
     </div>
   );
 }

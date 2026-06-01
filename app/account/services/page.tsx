@@ -10,7 +10,7 @@ const diagnosisFitItems = [
 ];
 
 const nextStepEntries = [
-  ["查看项目库", "/database", "先参考不同非遗方向的评分、场景和风险提示。"],
+  ["查看项目库参考", "/database", "先参考不同非遗方向的评分、场景和风险提示。"],
   ["完成智能初评", "/ai-assessment", "用规则模型快速判断项目大致适配方向。"],
   ["提交项目诊断", "/diagnosis?from=account-services", "填写真实项目资料，进入后续人工沟通准备。"]
 ];

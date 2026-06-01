@@ -98,7 +98,7 @@ export default function DiagnosisPage() {
             查看服务与交付
           </Link>
           <Link href="/packages" className="rounded border border-paper/25 px-6 py-3 text-sm text-paper hover:border-gold hover:text-gold">
-            查看资料包
+            查看样张说明
           </Link>
         </div>
       </section>
