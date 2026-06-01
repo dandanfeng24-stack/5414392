@@ -50,12 +50,14 @@ export function Header() {
               >
                 用户中心
               </Link>
-              <Link
-                href="/logout"
-                className="hidden rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper sm:inline-flex"
-              >
-                退出
-              </Link>
+              <form action="/logout" method="post" className="hidden sm:inline-flex">
+                <button
+                  type="submit"
+                  className="rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-sm text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
+                >
+                  退出
+                </button>
+              </form>
             </>
           ) : (
             <>
@@ -107,13 +109,15 @@ export function Header() {
                   >
                     用户中心
                   </Link>
-                  <Link
-                    href="/logout"
-                    className="rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
-                    onClick={closeMenu}
-                  >
-                    退出
-                  </Link>
+                  <form action="/logout" method="post">
+                    <button
+                      type="submit"
+                      className="w-full rounded border border-gold/[0.38] bg-gold/[0.16] px-4 py-2 text-center text-gold/95 transition-colors duration-200 hover:border-gold/55 hover:bg-gold/[0.24] hover:text-paper"
+                      onClick={closeMenu}
+                    >
+                      退出
+                    </button>
+                  </form>
                 </>
               ) : (
                 <>
