@@ -45,6 +45,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
     ["礼品属性", score.gift, project.scoreDetails?.gift],
     ["运营友好", score.operation, project.scoreDetails?.operation]
   ] as const;
+  const diagnosisHref = `/diagnosis?from=project&project=${id}`;
 
   return (
     <div className="section-shell py-16">
@@ -129,7 +130,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
         </div>
         <div className="mt-6 flex flex-wrap gap-4">
           <UpgradeCTA label="发起智能初评" href="/ai-assessment" variant="secondary" />
-          <UpgradeCTA label="提交项目诊断获取定制建议" href="/diagnosis" />
+          <UpgradeCTA label="提交项目诊断获取定制建议" href={diagnosisHref} />
           <UpgradeCTA label="预约咨询获取完整落地方案" href="/services" variant="secondary" />
         </div>
       </section>
@@ -180,6 +181,18 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           </div>
         </AccessGate>
       </section>
+
+      <AccessGate requiredTier="registered" fallback={null}>
+        <section className="mt-8 rounded border border-gold/25 bg-gold/[0.06] p-6">
+          <h2 className="font-serif text-2xl text-paper">看完评分理由后，也可以判断自己的项目</h2>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-linen">
+            如果你也有类似非遗项目、文旅资源或地方文化内容，可以提交项目诊断，判断更适合从产品化、体验化、课程化、礼品化还是文旅场景方向切入。
+          </p>
+          <Link href={diagnosisHref} className="mt-5 inline-flex rounded bg-gold px-5 py-3 text-sm text-ink transition-colors hover:bg-paper">
+            提交项目诊断
+          </Link>
+        </section>
+      </AccessGate>
 
       <section className="mt-12 surface rounded p-6">
         <AccessGate
@@ -435,14 +448,13 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
       </section>
 
       <section className="mt-12 surface rounded p-6">
-        <h2 className="font-serif text-2xl text-paper">服务承接</h2>
+        <h2 className="font-serif text-2xl text-paper">想判断你的项目是否适合类似方向？</h2>
         <p className="mt-4 max-w-3xl text-sm leading-7 text-linen">
-          如果需要围绕该项目形成具体产品、体验、空间或收入路径，可以提交项目诊断或预约咨询，进入定制化策划沟通。
+          你可以参考当前项目的评分理由、转化路径与风险提示，提交自己的非遗项目或文旅资源，进行初步商业化方向判断。
         </p>
         <div className="mt-6 flex flex-wrap gap-4">
-          <UpgradeCTA label="提交项目诊断获取定制建议" href="/diagnosis" />
-          <UpgradeCTA label="预约咨询获取完整落地方案" href="/services" variant="secondary" />
-          <UpgradeCTA label="申请该项目商业化策划" href="/diagnosis" variant="secondary" />
+          <UpgradeCTA label="提交项目诊断" href={diagnosisHref} />
+          <UpgradeCTA label="查看服务与交付" href="/services" variant="secondary" />
         </div>
       </section>
     </div>

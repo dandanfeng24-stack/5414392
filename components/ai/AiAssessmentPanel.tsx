@@ -220,6 +220,8 @@ function AssessmentResult({ input, onRestart }: { input: AiAssessmentInput; onRe
         {result.gradeNote && <p className="mt-2 text-sm leading-7 text-gold/85">{result.gradeNote}</p>}
       </div>
 
+      <NextStepAdvice result={result} />
+
       <div className="mt-6 grid gap-3 md:grid-cols-2">
         {(Object.entries(result.dimensionScores) as Array<[AiAssessmentDimension, number]>).map(([dimension, score]) => (
           <div key={dimension} className="rounded border border-paper/10 bg-ink/45 p-4">
@@ -284,12 +286,67 @@ function AssessmentResult({ input, onRestart }: { input: AiAssessmentInput; onRe
         <button type="button" onClick={onRestart} className="rounded border border-paper/20 px-5 py-2 text-sm text-paper transition hover:border-gold hover:text-gold">
           重新测评
         </button>
-        <Link href="/diagnosis" className="rounded bg-gold px-5 py-2 text-sm text-ink transition hover:bg-paper">
+        <Link href="/diagnosis?from=ai-assessment" className="rounded bg-gold px-5 py-2 text-sm text-ink transition hover:bg-paper">
           提交项目诊断
         </Link>
       </div>
     </div>
   );
+}
+
+function NextStepAdvice({ result }: { result: ReturnType<typeof assessProject> }) {
+  const advice = getNextStepAdvice(result);
+  const focusItems = [
+    ...result.recommendedPaths.slice(0, 1),
+    ...result.conditionsToImprove.slice(0, 1),
+    ...result.risks.slice(0, 1)
+  ].slice(0, 3);
+
+  return (
+    <section className="mt-6 rounded border border-gold/20 bg-gold/[0.06] p-5">
+      <div className="text-sm text-gold">下一步建议</div>
+      <h3 className="mt-3 font-serif text-2xl text-paper">{advice.title}</h3>
+      <p className="mt-4 text-sm leading-7 text-linen">{advice.description}</p>
+      {focusItems.length ? (
+        <ul className="mt-4 space-y-2 text-xs leading-6 text-paper/68">
+          {focusItems.map((item) => <li key={item}>· {item}</li>)}
+        </ul>
+      ) : null}
+      <div className="mt-5 flex flex-wrap items-center gap-4">
+        <Link href={advice.href} className="rounded border border-gold/45 px-4 py-2 text-sm text-gold transition hover:bg-gold hover:text-ink">
+          {advice.linkLabel}
+        </Link>
+        <span className="text-xs leading-6 text-linen/75">需要补充真实项目资料时，可使用结果底部的“提交项目诊断”入口。</span>
+      </div>
+    </section>
+  );
+}
+
+function getNextStepAdvice(result: ReturnType<typeof assessProject>) {
+  if (result.totalScore >= 75) {
+    return {
+      title: "适配度较好，适合进入下一步判断",
+      description: "当前项目初步适配度较好，可以结合推荐方向查看相关资料包样张，并提交项目诊断，补充项目资料后再做进一步人工判断或方案沟通。",
+      linkLabel: "查看相关资料包",
+      href: "/packages"
+    };
+  }
+
+  if (result.totalScore >= 60) {
+    return {
+      title: "具备转化潜力，建议先补齐关键条件",
+      description: "当前项目具备一定转化潜力，但仍需要先补齐产品基础、体验条件、传播素材或落地资源。建议先小规模测试，再提交项目诊断进一步判断。",
+      linkLabel: "查看项目库参考",
+      href: "/database"
+    };
+  }
+
+  return {
+    title: "暂缓重度投入，先降低试错成本",
+    description: "当前项目暂不建议直接投入重度商业化，应优先查看风险提示，补齐基础条件，或寻找更轻量的替代转化方向。",
+    linkLabel: "查看方法论",
+    href: "/methodology"
+  };
 }
 
 type StepProps = {
