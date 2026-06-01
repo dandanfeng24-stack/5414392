@@ -20,7 +20,7 @@ export default function CasesPage() {
               title="登录后查看案例方法拆解"
               description="游客可浏览案例基础信息；成功因素、基础方法拆解、风险问题摘要和相关资料包样张需要登录后查看。"
               ctaLabel="登录 / 注册后查看"
-              ctaHref="/login"
+              ctaHref="/login?next=/cases"
             />
           }
         >

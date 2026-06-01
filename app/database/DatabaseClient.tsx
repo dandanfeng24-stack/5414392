@@ -89,8 +89,8 @@ export function DatabaseClient({ projects, themes }: { projects: Project[]; them
                 requiredTier="registered"
                 title="登录后查看完整评分理由"
                 description="登录后可查看项目卡片中的完整评分理由、部分公开市场证据摘要和收藏入口。"
-                ctaLabel="登录后查看"
-                ctaHref="/login"
+                ctaLabel="登录 / 注册后查看"
+                ctaHref="/login?next=/database"
               />
             }
           >

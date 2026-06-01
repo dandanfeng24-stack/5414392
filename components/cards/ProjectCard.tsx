@@ -21,7 +21,7 @@ import {
   getProjectVerificationStatus
 } from "@/lib/project-utils";
 
-export function ProjectCard({ project }: { project: Project }) {
+export function ProjectCard({ project, loginNextPath = "/database" }: { project: Project; loginNextPath?: string }) {
   const image = getProjectImage(project);
   const scenes = getProjectScenes(project);
   const commercialTags = getProjectCommercialTags(project);
@@ -61,7 +61,7 @@ export function ProjectCard({ project }: { project: Project }) {
               <div className="text-gold">登录后查看完整评分理由</div>
               <p className="mt-1 text-paper/62">公开市场证据摘要、主要短板和收藏入口将在登录后开放。</p>
               <div className="mt-3">
-                <UpgradeCTA label="登录后查看" href="/login" variant="secondary" />
+                <UpgradeCTA label="登录 / 注册后查看" href={`/login?next=${loginNextPath}`} variant="secondary" />
               </div>
             </div>
           }

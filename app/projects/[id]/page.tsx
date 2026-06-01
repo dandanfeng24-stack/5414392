@@ -142,8 +142,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
               requiredTier="registered"
               title="登录后查看完整评分理由"
               description="完整六维评分理由、公开市场证据摘要、主要短板和基础产品化 / 体验化建议将在登录后开放。当前游客可先查看综合分和六维评分概览。"
-              ctaLabel="登录 / 注册"
-              ctaHref="/login"
+              ctaLabel="登录 / 注册后查看"
+              ctaHref={`/login?next=/projects/${id}`}
             />
           }
         >
@@ -167,8 +167,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
               requiredTier="registered"
               title="登录后查看适合转化方向"
               description="项目独特价值、部分公开市场证据摘要、适合转化方向和主要短板将在登录后开放。"
-              ctaLabel="登录后查看"
-              ctaHref="/login"
+              ctaLabel="登录 / 注册后查看"
+              ctaHref={`/login?next=/projects/${id}`}
             />
           }
         >
@@ -319,8 +319,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
               requiredTier="registered"
               title="登录后查看完整评分理由"
               description="完整产品化、体验化、课程化和礼品化路径将在登录后开放。"
-              ctaLabel="登录后查看"
-              ctaHref="/login"
+              ctaLabel="登录 / 注册后查看"
+              ctaHref={`/login?next=/projects/${id}`}
             />
           }
         >
@@ -422,8 +422,8 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                 requiredTier="registered"
                 title="登录后查看完整评分理由"
                 description="推荐资料包和收藏项目入口将在登录后开放。你也可以先发起智能初评或提交项目诊断。"
-                ctaLabel="登录后查看"
-                ctaHref="/login"
+                ctaLabel="登录 / 注册后查看"
+                ctaHref={`/login?next=/projects/${id}`}
               />
             }
           >

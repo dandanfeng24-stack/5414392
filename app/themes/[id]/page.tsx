@@ -36,7 +36,7 @@ export default async function ThemePage({ params }: { params: Promise<{ id: stri
 
       <section className="mt-16">
         <SectionHeading title="代表项目卡片" />
-        <div className="grid gap-5 md:grid-cols-3">{relatedProjects.slice(0, 6).map((project) => <ProjectCard key={project.id} project={project} />)}</div>
+        <div className="grid gap-5 md:grid-cols-3">{relatedProjects.slice(0, 6).map((project) => <ProjectCard key={project.id} project={project} loginNextPath={`/themes/${id}`} />)}</div>
       </section>
 
       <section className="mt-16 grid gap-8 md:grid-cols-[0.75fr_1fr]">

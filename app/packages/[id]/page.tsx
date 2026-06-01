@@ -3,6 +3,7 @@ import { AccessGate } from "@/components/access/AccessGate";
 import { LockedContent } from "@/components/access/LockedContent";
 import { getPackageItem, packages, projects } from "@/lib/data";
 import { ProjectCard } from "@/components/cards/ProjectCard";
+import { PackageSampleCards } from "@/components/packages/PackageSampleCards";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TagPill } from "@/components/ui/TagPill";
 
@@ -33,7 +34,9 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
             backgroundSize: "cover"
           }}
         />
-        <button className="mt-8 rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">{item.cta}</button>
+        <a href="#package-samples" className="mt-8 inline-flex rounded bg-gold px-6 py-3 text-sm text-ink hover:bg-paper">
+          查看样张说明
+        </a>
       </div>
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         <ListBlock title="适合谁" items={item.targetUsers} />
@@ -47,22 +50,28 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
         </div>
         <div className="mt-6 flex flex-wrap gap-2">{item.relatedTags.map((tag) => <TagPill key={tag}>{tag}</TagPill>)}</div>
       </section>
-      <div className="mt-8 grid gap-5 md:grid-cols-2">
+      <div className="mt-8 grid gap-5">
         <AccessGate
           requiredTier="registered"
           fallback={
             <LockedContent
               requiredTier="registered"
-              title="注册后下载资料包样张"
-              description="当前可浏览样张预览；样张下载、基础版资料包和部分表格模板需要登录后开放。"
+              title="注册后查看资料包样张说明"
+              description="当前可浏览样张预览；结构化样张说明、基础模板用途和适用场景需要登录后开放。"
               ctaLabel="登录 / 注册后查看"
-              ctaHref="/login"
+              ctaHref={`/login?next=/packages/${id}`}
             />
           }
         >
-          <section className="surface rounded p-6">
-            <h2 className="font-serif text-2xl text-paper">样张下载与基础版资料包</h2>
-            <p className="mt-4 text-sm leading-7 text-linen">登录后可查看样张下载入口、基础版资料包和部分表格模板。</p>
+          <section id="package-samples" className="surface scroll-mt-24 rounded p-6">
+            <div className="text-sm text-gold">注册用户权益</div>
+            <h2 className="mt-3 font-serif text-2xl text-paper">资料包样张说明</h2>
+            <p className="mt-4 text-sm leading-7 text-linen">
+              以下为展示型样张说明，用于理解该资料包的结构、用途和适用场景。当前不生成真实附件，也不保存领取记录。
+            </p>
+            <div className="mt-6">
+              <PackageSampleCards item={item} />
+            </div>
           </section>
         </AccessGate>
         <AccessGate
@@ -85,7 +94,7 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
       </div>
       <section className="mt-16">
         <SectionHeading title="可直接使用的工具说明" description="首版提供样张、清单、评分表和模板入口，用于项目内部讨论、选品和课程设计。" />
-        <div className="grid gap-5 md:grid-cols-3">{relatedProjects.map((project) => <ProjectCard key={project.id} project={project} />)}</div>
+        <div className="grid gap-5 md:grid-cols-3">{relatedProjects.map((project) => <ProjectCard key={project.id} project={project} loginNextPath={`/packages/${id}`} />)}</div>
       </section>
     </div>
   );

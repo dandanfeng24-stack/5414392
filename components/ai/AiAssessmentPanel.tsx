@@ -242,7 +242,7 @@ function AssessmentResult({ input, onRestart }: { input: AiAssessmentInput; onRe
             title="登录后查看完整初评解释"
             description="综合分、等级和基础评分概览已开放；完整加分项、扣分项、推荐路径、风险提示和补齐条件需要登录后查看。"
             ctaLabel="登录 / 注册后查看"
-            ctaHref="/login"
+            ctaHref="/login?next=/ai-assessment"
           />
         }
       >

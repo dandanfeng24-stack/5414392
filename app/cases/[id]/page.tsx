@@ -46,7 +46,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
               title="登录后查看基础方法拆解"
               description="成功因素、基础方法拆解、风险问题摘要和相关资料包样张需要登录后查看。"
               ctaLabel="登录 / 注册后查看"
-              ctaHref="/login"
+              ctaHref={`/login?next=/cases/${id}`}
             />
           }
         >
@@ -60,7 +60,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
               title="登录后查看成功因素"
               description="该部分用于理解案例成立的关键条件，以及复制到其它项目时需要优先保留的做法。"
               ctaLabel="登录 / 注册后查看"
-              ctaHref="/login"
+              ctaHref={`/login?next=/cases/${id}`}
             />
           }
         >
@@ -74,7 +74,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
               title="登录后查看风险问题摘要"
               description="该部分用于提示同类项目复制时可能遇到的运营、成本、客群和落地问题。"
               ctaLabel="登录 / 注册后查看"
-              ctaHref="/login"
+              ctaHref={`/login?next=/cases/${id}`}
             />
           }
         >
@@ -84,7 +84,7 @@ export default async function CaseDetailPage({ params }: { params: Promise<{ id:
 
       <section className="mt-16">
         <SectionHeading title="涉及非遗方向" />
-        <div className="grid gap-5 md:grid-cols-3">{relatedProjects.map((project) => <ProjectCard key={project.id} project={project} />)}</div>
+        <div className="grid gap-5 md:grid-cols-3">{relatedProjects.map((project) => <ProjectCard key={project.id} project={project} loginNextPath={`/cases/${id}`} />)}</div>
       </section>
 
       <div className="mt-16 grid gap-5 md:grid-cols-2">
