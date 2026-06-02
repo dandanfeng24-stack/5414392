@@ -123,6 +123,21 @@ export type ProjectOfficialInfo = {
   verificationNote?: string;
 };
 
+export type ProjectRegionalItem = {
+  name: string;
+  province: string;
+  city: string;
+  relationType: string;
+  officialCode: string;
+  category: string;
+  batchName: string;
+  itemType: string;
+  protectionUnit: string;
+  sourceName: string;
+  sourceUrl: string;
+  note: string;
+};
+
 export type Project = {
   id: string;
   name: string;
@@ -154,6 +169,7 @@ export type Project = {
   implementationConditions?: ProjectImplementationConditions;
   revenueModels?: ProjectRevenueModel[];
   officialInfo?: ProjectOfficialInfo;
+  relatedRegionalItems?: ProjectRegionalItem[];
   officialVerification?: ProjectOfficialVerification;
   productDirections: string[];
   experienceDirections: string[];

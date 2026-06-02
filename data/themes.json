@@ -136,5 +136,51 @@
     "seoTitle": "传统妆造与国风旅拍 | 非遗造物",
     "seoDescription": "研究传统妆造与国风旅拍的产品化和风险边界。",
     "image": ""
+  },
+  {
+    "id": "folk-night-tour",
+    "name": "民俗夜游",
+    "shortName": "民俗夜游",
+    "description": "适合夜间经济、节庆巡游、沉浸演艺和街区活动转化的非遗项目。",
+    "color": "#8A4A32",
+    "image": "/images/themes/folk-night-tour.jpg",
+    "imagePrompt": "night folk festival heritage street, lantern parade, warm gold light, dark background, immersive cultural tourism mood",
+    "tags": [
+      "夜间经济",
+      "节庆巡游",
+      "沉浸演艺",
+      "街区活动"
+    ],
+    "subcategories": [
+      "灯彩巡游",
+      "民俗展演",
+      "节庆活动",
+      "夜游场景"
+    ],
+    "seoTitle": "民俗夜游 | 非遗造物",
+    "seoDescription": "研究适合夜间经济、节庆巡游、沉浸演艺和街区活动转化的非遗项目。"
+  },
+  {
+    "id": "lifestyle",
+    "name": "生活方式",
+    "shortName": "生活方式",
+    "description": "适合酒店民宿、生活方式零售、慢体验课程和日常礼品转化的非遗项目。",
+    "color": "#6F6A45",
+    "image": "/images/themes/lifestyle.jpg",
+    "imagePrompt": "heritage lifestyle still life, handmade sachets, flower arrangement, seasonal objects, dark warm background, refined product photography",
+    "tags": [
+      "慢生活体验",
+      "酒店民宿",
+      "生活方式零售",
+      "日常礼品"
+    ],
+    "subcategories": [
+      "香事草木",
+      "花艺节气",
+      "生活器物",
+      "日常礼品"
+    ],
+    "seoTitle": "生活方式 | 非遗造物",
+    "seoDescription": "研究适合酒店民宿、生活方式零售、慢体验课程和日常礼品转化的非遗项目。"
   }
 ]

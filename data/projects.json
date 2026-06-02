@@ -1674,7 +1674,8 @@
     "businessTags": [
       "文创零售",
       "工坊体验",
-      "定制礼品"
+      "定制礼品",
+      "江西资源"
     ],
     "spreadTags": [
       "高传播",
@@ -1765,7 +1766,8 @@
     "commercialTags": [
       "文创零售",
       "工坊体验",
-      "定制礼品"
+      "定制礼品",
+      "江西资源"
     ],
     "riskLevel": "中高",
     "riskExplanation": "景德镇手工制瓷技艺不适合只靠文化叙事售卖，必须用价格分层和体验结果降低决策门槛。",
@@ -1792,9 +1794,10 @@
     "sourceLinks": [
       "https://creativitynook.cn/about/",
       "https://www.theworldofchinese.com/2023/03/how-one-school-in-chinas-porcelain-capital-revived-ancient-ceramic-skills/",
-      "https://gjzx.jci.edu.cn/info/1051/1132.htm"
+      "https://gjzx.jci.edu.cn/info/1051/1132.htm",
+      "https://www.ihchina.cn/project"
     ],
-    "sourceNotes": "本条为平台研究型整理，未补充可验证官方链接前，来源链保持空数组并标注官方事实待核验。",
+    "sourceNotes": "本条为平台研究型整理，未补充可验证官方链接前，来源链保持空数组并标注官方事实待核验。 已按江西国家级非遗资源补充来源和去重标记。",
     "protectionUnit": "景德镇市手工制瓷技艺研究保护中心",
     "heritageCode": "Ⅷ-7",
     "relatedCases": [
@@ -1941,7 +1944,7 @@
         "官方来源链接"
       ],
       "pendingFields": [],
-      "notes": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；未用商业页面反推官方编号。"
+      "notes": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；未用商业页面反推官方编号。 已识别为江西独立项目，本轮只补强不重复创建。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索已记录可供核验的来源，可作为市场可见度与商业信号的初步依据。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -2043,9 +2046,10 @@
       "verificationStatus": "已核验",
       "verifiedAt": "2026-05-23",
       "officialSources": [
-        "https://www.ihchina.cn/project_details/14270.html"
+        "https://www.ihchina.cn/project_details/14270.html",
+        "https://www.ihchina.cn/project"
       ],
-      "verificationNote": "已依据中国非物质文化遗产网项目页核验项目名称、编号、批次、类别、申报地区和保护单位；未用商业页面反推官方编号。"
+      "verificationNote": "按江西国家级非遗资源去重口径补强；该项目已在网站中存在，本轮不重复创建。"
     },
     "directoryBatch": "2006（第一批）",
     "representativeRegion": "江西省景德镇市"
@@ -4964,7 +4968,7 @@
     "standardization": "可标准化为清单和材料包",
     "operationNotes": "剪纸在研学场景中需提前准备年龄分层任务，避免低龄儿童操作过难。",
     "sourceLinks": [],
-    "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。",
+    "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。 已补充瑞昌剪纸作为江西相关子项；本轮不拆分为独立项目卡。",
     "protectionUnit": "待核验",
     "heritageCode": "",
     "relatedCases": [
@@ -5113,7 +5117,7 @@
         "唯一非遗编号",
         "唯一名录批次"
       ],
-      "notes": "剪纸在国家级名录中存在多个地域版本，本数据库条目为概括型入口；本轮仅核验到若干代表性官方项目页，不将其压缩为唯一保护单位、唯一编号或唯一地区。"
+      "notes": "剪纸在国家级名录中存在多个地域版本，本数据库条目为概括型入口；本轮仅核验到若干代表性官方项目页，不将其压缩为唯一保护单位、唯一编号或唯一地区。 已记录瑞昌剪纸为江西子项，避免重复创建项目卡。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -5210,7 +5214,23 @@
         "https://www.ihchina.cn/project_details/13965.html"
       ],
       "verificationNote": "剪纸在国家级名录中存在多个地域版本，本数据库条目为概括型入口；本轮仅核验到若干代表性官方项目页，不将其压缩为唯一保护单位、唯一编号或唯一地区。"
-    }
+    },
+    "relatedRegionalItems": [
+      {
+        "officialCode": "",
+        "category": "传统美术",
+        "batchName": "",
+        "itemType": "",
+        "protectionUnit": "",
+        "sourceName": "中国非物质文化遗产网-国家级非物质文化遗产代表性项目名录",
+        "sourceUrl": "https://www.ihchina.cn/project",
+        "name": "瑞昌剪纸",
+        "province": "江西省",
+        "city": "九江市瑞昌市",
+        "relationType": "江西子项",
+        "note": "本轮作为剪纸项目的江西子项补充，不单独新增项目卡。"
+      }
+    ]
   },
   {
     "id": "woodblock-new-year",
@@ -6467,7 +6487,7 @@
     "standardization": "可标准化为清单和材料包",
     "operationNotes": "竹编在酒店或展馆使用时，应减少噪声、气味和清洁负担。",
     "sourceLinks": [],
-    "sourceNotes": "本条为平台研究型整理，未补充可验证官方链接前，来源链保持空数组并标注官方事实待核验。",
+    "sourceNotes": "本条为平台研究型整理，未补充可验证官方链接前，来源链保持空数组并标注官方事实待核验。 已补充瑞昌竹编作为江西相关子项；本轮不拆分为独立项目卡。",
     "protectionUnit": "待核验",
     "heritageCode": "",
     "relatedCases": [
@@ -6602,7 +6622,7 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "部分核验",
       "verifiedFields": [
         "项目名称",
         "概括型条目属性"
@@ -6614,7 +6634,7 @@
         "名录批次",
         "官方来源链接"
       ],
-      "notes": "竹编可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。"
+      "notes": "竹编可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。 已记录瑞昌竹编为江西子项，避免重复创建项目卡。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -6701,7 +6721,23 @@
       "verifiedAt": "2026-05-24",
       "officialSources": [],
       "verificationNote": "竹编可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。"
-    }
+    },
+    "relatedRegionalItems": [
+      {
+        "officialCode": "",
+        "category": "传统美术",
+        "batchName": "",
+        "itemType": "",
+        "protectionUnit": "",
+        "sourceName": "中国非物质文化遗产网-国家级非物质文化遗产代表性项目名录",
+        "sourceUrl": "https://www.ihchina.cn/project",
+        "name": "瑞昌竹编",
+        "province": "江西省",
+        "city": "九江市瑞昌市",
+        "relationType": "江西子项",
+        "note": "本轮作为竹编项目的江西子项补充，不单独新增项目卡。"
+      }
+    ]
   },
   {
     "id": "hanfu-makeup",
@@ -7480,7 +7516,7 @@
     "id": "dragon-lantern",
     "name": "龙灯彩扎",
     "alias": "龙灯",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "category": "彩扎灯会",
     "region": "多地",
     "heritageLevel": "国家级相关项目",
@@ -9141,7 +9177,7 @@
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "漆器髹饰技艺进入高端礼赠前，应压测单场容量、交付时间和游客带走成果。",
     "sourceLinks": [],
-    "sourceNotes": "项目转化建议来自平台模型判断；官方事实字段以公开主管部门信息为准，未确认部分不编造。",
+    "sourceNotes": "项目转化建议来自平台模型判断；官方事实字段以公开主管部门信息为准，未确认部分不编造。 已补充鄱阳脱胎漆器作为江西相关子项；本轮不拆分为独立项目卡。",
     "protectionUnit": "待核验",
     "heritageCode": "",
     "relatedCases": [
@@ -9248,7 +9284,7 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "部分核验",
       "verifiedFields": [
         "项目名称",
         "概括型条目属性"
@@ -9260,7 +9296,7 @@
         "名录批次",
         "官方来源链接"
       ],
-      "notes": "漆器髹饰技艺可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。"
+      "notes": "漆器髹饰技艺可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。 已记录鄱阳脱胎漆器为江西子项，避免重复创建项目卡。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -9347,7 +9383,23 @@
       "verifiedAt": "2026-05-24",
       "officialSources": [],
       "verificationNote": "漆器髹饰技艺可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。"
-    }
+    },
+    "relatedRegionalItems": [
+      {
+        "officialCode": "",
+        "category": "传统技艺",
+        "batchName": "",
+        "itemType": "",
+        "protectionUnit": "",
+        "sourceName": "中国非物质文化遗产网-国家级非物质文化遗产代表性项目名录",
+        "sourceUrl": "https://www.ihchina.cn/project",
+        "name": "鄱阳脱胎漆器",
+        "province": "江西省",
+        "city": "上饶市鄱阳县",
+        "relationType": "江西子项",
+        "note": "本轮作为漆器髹饰技艺的江西子项补充，不单独新增项目卡。"
+      }
+    ]
   },
   {
     "id": "xiangyunsha",
@@ -9869,7 +9921,7 @@
     "standardization": "需通过预约制、师资培训和样品验收逐步标准化",
     "operationNotes": "油纸伞制作技艺需要先确认耗材采购、成品包装和退换处理，避免现场临时补救。",
     "sourceLinks": [],
-    "sourceNotes": "项目转化建议来自平台模型判断；官方事实字段以公开主管部门信息为准，未确认部分不编造。",
+    "sourceNotes": "项目转化建议来自平台模型判断；官方事实字段以公开主管部门信息为准，未确认部分不编造。 已补充甲路纸伞作为江西相关子项；本轮不拆分为独立项目卡。",
     "protectionUnit": "待核验",
     "heritageCode": "",
     "relatedCases": [
@@ -9975,7 +10027,7 @@
       }
     ],
     "officialVerification": {
-      "status": "待核验",
+      "status": "部分核验",
       "verifiedFields": [
         "项目名称",
         "概括型条目属性"
@@ -9987,7 +10039,7 @@
         "名录批次",
         "官方来源链接"
       ],
-      "notes": "油纸伞制作技艺可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。"
+      "notes": "油纸伞制作技艺可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。 已记录甲路纸伞为江西子项，避免重复创建项目卡。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -10074,13 +10126,29 @@
       "verifiedAt": "2026-05-24",
       "officialSources": [],
       "verificationNote": "油纸伞制作技艺可能对应多个地区版本、多个保护单位或多个相关名录条目；本轮按单条不超过30秒的中国非遗网优先检索规则，未取得足以唯一锁定的官方项目页，因此暂按概括型条目标记，后续需人工选定代表版本后再补编号、批次和保护单位。"
-    }
+    },
+    "relatedRegionalItems": [
+      {
+        "officialCode": "",
+        "category": "传统技艺",
+        "batchName": "",
+        "itemType": "",
+        "protectionUnit": "",
+        "sourceName": "中国非物质文化遗产网-国家级非物质文化遗产代表性项目名录",
+        "sourceUrl": "https://www.ihchina.cn/project",
+        "name": "甲路纸伞",
+        "province": "江西省",
+        "city": "上饶市婺源县",
+        "relationType": "江西子项",
+        "note": "本轮作为油纸伞制作技艺的江西子项补充，不单独新增项目卡。"
+      }
+    ]
   },
   {
     "id": "shadow-puppet",
     "name": "皮影戏",
     "alias": "皮影",
-    "themeId": "craft-study",
+    "themeId": "folk-night-tour",
     "category": "表演/美术",
     "region": "陕西等",
     "heritageLevel": "国家级",
@@ -15168,12 +15236,14 @@
     "commercialTags": [
       "器物美学",
       "高客单",
-      "工坊体验"
+      "工坊体验",
+      "江西资源"
     ],
     "businessTags": [
       "器物美学",
       "高客单",
-      "工坊体验"
+      "工坊体验",
+      "江西资源"
     ],
     "spreadTags": [
       "地域故事"
@@ -15212,8 +15282,10 @@
     "supplyDifficulty": "中",
     "standardization": "需依赖预约制、师资培训和合作方排班，暂不适合完全无人化标准运营",
     "operationNotes": "吉州窑陶瓷烧制技艺试运营阶段应记录问题清单，再决定是否进入固定业态或课程体系。",
-    "sourceLinks": [],
-    "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。",
+    "sourceLinks": [
+      "https://www.ihchina.cn/project"
+    ],
+    "sourceNotes": "本条优先服务产品化和文旅场景判断；官方编号、保护单位和批次需在正式发布前复核。 已按江西国家级非遗资源补充来源和去重标记。",
     "relatedCases": [
       "case-district-workshop",
       "case-city-gift"
@@ -15343,7 +15415,7 @@
         "代表性地区",
         "官方来源链接"
       ],
-      "notes": "吉州窑陶瓷烧制技艺具备官方名录项目候选特征，但本轮按单条不超过30秒的中国非遗网优先检索规则，未取得可核验的官方项目详情页；暂不填写保护单位、非遗编号或名录批次，待后续人工复核官方来源。"
+      "notes": "吉州窑陶瓷烧制技艺具备官方名录项目候选特征，但本轮按单条不超过30秒的中国非遗网优先检索规则，未取得可核验的官方项目详情页；暂不填写保护单位、非遗编号或名录批次，待后续人工复核官方来源。 已识别为江西独立项目，本轮只补强不重复创建。"
     },
     "marketEvidence": {
       "summary": "L1 快速检索未记录到可直接支撑商品、体验、场景、礼品或运营成熟度的可靠来源，继续按弱证据/待核验处理。本评分主要依据公开可见的市场转化证据、搜索可见度、来源质量与商业信号强度，不代表非遗文化价值高低。",
@@ -15420,16 +15492,19 @@
     "officialInfo": {
       "protectionUnits": [],
       "heritageNumber": "",
-      "listBatch": "",
+      "listBatch": "2014（第四批）",
       "representativeRegions": [
         "江西吉安"
       ],
-      "category": "待核验",
-      "protectionLevel": "待核验",
-      "verificationStatus": "待核验",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
       "verifiedAt": "2026-05-24",
-      "officialSources": [],
-      "verificationNote": "吉州窑陶瓷烧制技艺具备官方名录项目候选特征，但本轮按单条不超过30秒的中国非遗网优先检索规则，未取得可核验的官方项目详情页；暂不填写保护单位、非遗编号或名录批次，待后续人工复核官方来源。"
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "按江西国家级非遗资源去重口径补强；保护单位和编号仍待国家非遗官网逐项复核。",
+      "representativeRegion": "江西省吉安市"
     }
   },
   {
@@ -34865,7 +34940,7 @@
     "id": "fish-lantern",
     "name": "鱼灯制作与巡游",
     "alias": "鱼灯制作与巡游",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "theme": "民俗夜游",
     "category": "灯彩巡游",
     "officialCategory": "待核验",
@@ -35265,7 +35340,7 @@
     "id": "shehuo",
     "name": "社火表演",
     "alias": "社火表演",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "theme": "民俗夜游",
     "category": "民俗表演",
     "officialCategory": "待核验",
@@ -35637,7 +35712,7 @@
     "id": "nuo-mask",
     "name": "傩戏面具制作与展演",
     "alias": "傩戏面具制作与展演",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "theme": "民俗夜游",
     "category": "民俗表演",
     "officialCategory": "待核验",
@@ -36009,7 +36084,7 @@
     "id": "iron-flower",
     "name": "打铁花",
     "alias": "打铁花",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "theme": "民俗夜游",
     "category": "节庆表演",
     "officialCategory": "待核验",
@@ -36431,7 +36506,7 @@
     "id": "lion-dance",
     "name": "舞狮",
     "alias": "舞狮",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "theme": "民俗夜游",
     "category": "民俗表演",
     "officialCategory": "待核验",
@@ -36803,7 +36878,7 @@
     "id": "flower-lantern-festival",
     "name": "花灯会",
     "alias": "花灯会",
-    "themeId": "guofeng-photo",
+    "themeId": "folk-night-tour",
     "theme": "民俗夜游",
     "category": "灯彩节庆",
     "officialCategory": "待核验",
@@ -37175,7 +37250,7 @@
     "id": "sachet-making",
     "name": "香囊制作技艺",
     "alias": "香囊",
-    "themeId": "tea-life",
+    "themeId": "lifestyle",
     "theme": "生活方式",
     "category": "香事手作",
     "officialCategory": "待核验",
@@ -37572,7 +37647,7 @@
     "id": "moxa-herbal-sachet",
     "name": "艾草香包制作习俗",
     "alias": "艾草香包制作",
-    "themeId": "tea-life",
+    "themeId": "lifestyle",
     "theme": "生活方式",
     "category": "节气生活",
     "officialCategory": "待核验",
@@ -37941,7 +38016,7 @@
     "id": "chinese-flower-arrangement",
     "name": "传统插花",
     "alias": "传统插花",
-    "themeId": "tea-life",
+    "themeId": "lifestyle",
     "theme": "生活方式",
     "category": "生活美学",
     "officialCategory": "待核验",
@@ -38338,7 +38413,7 @@
     "id": "seasonal-customs",
     "name": "二十四节气民俗体验",
     "alias": "二十四节气民俗体验",
-    "themeId": "tea-life",
+    "themeId": "lifestyle",
     "theme": "生活方式",
     "category": "节气民俗",
     "officialCategory": "待核验",
@@ -38730,5 +38805,4433 @@
       "officialSources": [],
       "verificationNote": "二十四节气民俗体验在本数据库中作为文旅产品化或体验化方向处理，本轮未在30秒快速核验内取得可对应的单一官方名录项目页；不得强填保护单位、非遗编号或名录批次，需后续人工确认是否对应具体官方项目。"
     }
+  },
+  {
+    "id": "qianshan-liansi-paper",
+    "name": "铅山连四纸制作技艺",
+    "alias": "连四纸",
+    "themeId": "craft-study",
+    "theme": "手作研学",
+    "category": "纸艺材料",
+    "officialCategory": "传统技艺",
+    "subCategory": "纸艺材料",
+    "region": "江西上饶铅山",
+    "province": "江西",
+    "city": "上饶",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅷ-66",
+    "summary": "铅山连四纸制作技艺适合从纸张材料认知和书画文房场景切入，形成低门槛研学与礼赠组合。",
+    "positioning": "适合做文房纸品、书画体验、研学课程和城市礼物。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 78,
+      "experience": 82,
+      "sceneFit": 80,
+      "spread": 76,
+      "gift": 80,
+      "operation": 74,
+      "total": 79
+    },
+    "scores": {
+      "commodity": 78,
+      "experience": 82,
+      "scenario": 80,
+      "spread": 76,
+      "gift": 80,
+      "operation": 74
+    },
+    "totalScore": 79,
+    "scoreReason": "铅山连四纸制作技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "铅山连四纸制作技艺的江西资源资料显示，商品化可评 78 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "铅山连四纸制作技艺的江西资源资料显示，体验化可评 82 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "铅山连四纸制作技艺的江西资源资料显示，场景适配可评 80 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "铅山连四纸制作技艺的江西资源资料显示，传播潜力可评 76 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "铅山连四纸制作技艺的江西资源资料显示，礼品属性可评 80 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "铅山连四纸制作技艺的江西资源资料显示，运营友好可评 74 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "铅山连四纸制作技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "铅山连四纸制作技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "铅山连四纸制作技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "铅山连四纸制作技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "铅山连四纸制作技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "铅山连四纸制作技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "铅山连四纸制作技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "连四纸的江西铅山地域识别和文房材料属性清晰，既能讲工艺，也能转为可带走的纸品与课程成果。",
+    "recommendedSkus": [
+      {
+        "name": "连四纸书写体验纸包",
+        "priceBand": "29-69 元",
+        "targetUser": "亲子研学",
+        "salesScene": "研学机构",
+        "reason": "纸张可直接使用，适合低门槛体验和现场购买。"
+      },
+      {
+        "name": "铅山连四纸文房小礼盒",
+        "priceBand": "88-168 元",
+        "targetUser": "城市游客",
+        "salesScene": "城市礼物店",
+        "reason": "文房属性清晰，适合做江西地域伴手礼。"
+      },
+      {
+        "name": "连四纸拓印材料包",
+        "priceBand": "69-129 元",
+        "targetUser": "学校研学",
+        "salesScene": "课程活动",
+        "reason": "能把纸张工艺转为可完成的课堂成果。"
+      },
+      {
+        "name": "连四纸书画定制套装",
+        "priceBand": "198-498 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业定制",
+        "reason": "适合与书法、绘画和地方文化说明卡组合。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "连四纸轻体验",
+        "duration": "45 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解铅山连四纸的地域来源和纸张特征",
+          "观察纸张纤维、帘纹和书写差异",
+          "完成拓印或书写体验并装入说明卡"
+        ],
+        "takeaway": "连四纸体验作品和说明卡",
+        "staffing": "1 名讲解员 + 1 名助教",
+        "riskNotes": "不宜承诺游客现场完成完整造纸工序，应以材料认知和简化体验为主。"
+      },
+      {
+        "title": "连四纸文房研学课",
+        "duration": "90 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "拆解传统纸张与书画应用关系",
+          "完成纸品装帧或书写任务",
+          "复盘纸张保存、包装和礼赠使用方式"
+        ],
+        "takeaway": "连四纸文房作品或材料包",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需要控制纸张损耗和墨水污染，提前准备样品和清洁动线。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "铅山连四纸制作技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "铅山连四纸制作技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "铅山连四纸制作技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "研学机构",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "铅山连四纸制作技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "铅山连四纸制作技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "书画空间",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "连四纸书写体验纸包",
+      "铅山连四纸文房小礼盒",
+      "连四纸拓印与装帧材料包"
+    ],
+    "experienceDirections": [
+      "连四纸材料认知课",
+      "古法纸张观察与拓印体验",
+      "书画纸品研学工作坊"
+    ],
+    "courseDirections": [
+      "连四纸工序拆解课",
+      "纸张纤维与文房美育课",
+      "江西铅山纸文化研学课"
+    ],
+    "giftDirections": [
+      "铅山连四纸伴手礼",
+      "书画纸品商务礼赠",
+      "文房四宝组合延展礼盒"
+    ],
+    "bestScenes": [
+      "研学机构",
+      "城市礼物店",
+      "书画空间"
+    ],
+    "secondaryScenes": [
+      "博物馆商店",
+      "文创市集"
+    ],
+    "avoidScenes": [
+      "纯快闪无讲解摊位",
+      "潮湿或易污染场地"
+    ],
+    "targetUsers": [
+      "亲子研学",
+      "城市游客",
+      "书画爱好者"
+    ],
+    "scenes": [
+      "研学机构",
+      "城市礼物店",
+      "书画空间"
+    ],
+    "businessTags": [
+      "江西资源",
+      "文房礼赠",
+      "课程化"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "文房礼赠",
+      "课程化"
+    ],
+    "spreadTags": [
+      "材料故事",
+      "地域识别"
+    ],
+    "riskTags": [
+      "材料损耗",
+      "体验简化",
+      "防潮保存"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "连四纸的核心风险是完整工序较长，若只做浅层手作容易削弱工艺价值。",
+    "riskControl": [
+      "把完整工艺讲解和轻体验分开，避免把简化体验包装成完整制作。",
+      "提前标准化纸张规格、墨水工具和包装方式。",
+      "用说明卡标明项目来源、体验边界和保存方法。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "先在书画空间或研学机构做小课验证，再延展到城市礼物纸品。",
+    "suitableScenes": [
+      "研学机构",
+      "城市礼物店",
+      "书画空间"
+    ],
+    "unsuitableScenes": [
+      "纯快闪无讲解摊位",
+      "潮湿或易污染场地"
+    ],
+    "risks": [
+      "完整造纸周期不适合短时现场复现。",
+      "纸张保存和运输需要防潮防折。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅷ-66",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "江西省铅山县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：新增项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：新增项目。"
+    },
+    "image": "/images/projects/qianshan-liansi-paper.png",
+    "imagePrompt": "traditional handmade paper sheets and brush on dark table",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "jingdezhen-kiln-workshop",
+    "name": "景德镇传统瓷窑作坊营造技艺",
+    "alias": "瓷窑作坊营造",
+    "themeId": "ceramic-craft",
+    "theme": "陶瓷器物",
+    "category": "陶瓷营造",
+    "officialCategory": "传统技艺",
+    "subCategory": "陶瓷营造",
+    "region": "江西景德镇",
+    "province": "江西",
+    "city": "景德镇",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅷ-29",
+    "summary": "景德镇传统瓷窑作坊营造技艺适合做窑口空间叙事、研学路线和展陈导览，不宜简单转成手作小件。",
+    "positioning": "适合做陶瓷产地研学、窑口导览、空间展陈和城市文化资产说明。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 74,
+      "experience": 84,
+      "sceneFit": 86,
+      "spread": 82,
+      "gift": 70,
+      "operation": 72,
+      "total": 79
+    },
+    "scores": {
+      "commodity": 74,
+      "experience": 84,
+      "scenario": 86,
+      "spread": 82,
+      "gift": 70,
+      "operation": 72
+    },
+    "totalScore": 79,
+    "scoreReason": "景德镇传统瓷窑作坊营造技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，商品化可评 74 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，体验化可评 84 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，场景适配可评 86 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，传播潜力可评 82 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，礼品属性可评 70 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，运营友好可评 72 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "景德镇传统瓷窑作坊营造技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "景德镇传统瓷窑作坊营造技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "它不是单件器物，而是景德镇陶瓷生产空间和窑作秩序的知识入口，适合补足陶瓷体验背后的场景解释。",
+    "recommendedSkus": [
+      {
+        "name": "窑口结构导览折页",
+        "priceBand": "19-39 元",
+        "targetUser": "城市游客",
+        "salesScene": "窑口导览",
+        "reason": "能把复杂空间转成游客可理解的参观线索。"
+      },
+      {
+        "name": "景德镇窑作空间模型",
+        "priceBand": "168-398 元",
+        "targetUser": "研学机构",
+        "salesScene": "课程教具",
+        "reason": "模型适合承接空间营造知识和课堂展示。"
+      },
+      {
+        "name": "陶瓷产地研学路线包",
+        "priceBand": "88-188 元",
+        "targetUser": "学校研学",
+        "salesScene": "研学线路",
+        "reason": "路线包可把窑、作坊和器物体验串成完整服务。"
+      },
+      {
+        "name": "窑口故事明信片套装",
+        "priceBand": "29-69 元",
+        "targetUser": "年轻游客",
+        "salesScene": "城市礼物店",
+        "reason": "低价纸品适合补充空间故事和传播入口。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "瓷窑作坊导览",
+        "duration": "60 分钟",
+        "capacity": "12-30 人/场",
+        "process": [
+          "讲解景德镇瓷窑作坊的空间关系",
+          "观察窑口、作坊和工序分区",
+          "用导览卡完成空间任务"
+        ],
+        "takeaway": "窑口导览卡或路线图",
+        "staffing": "1 名讲解员",
+        "riskNotes": "需控制参观安全和动线，不应让游客进入危险或未开放区域。"
+      },
+      {
+        "title": "陶瓷空间研学课",
+        "duration": "90 分钟",
+        "capacity": "8-20 人/场",
+        "process": [
+          "拆解作坊营造与陶瓷工序的关系",
+          "使用模型完成空间排列任务",
+          "复盘窑作分工和当代展陈转化"
+        ],
+        "takeaway": "窑作空间模型任务卡",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需要提前准备图示和模型，否则内容会过于抽象。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "景德镇传统瓷窑作坊营造技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "景德镇传统瓷窑作坊营造技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "景德镇传统瓷窑作坊营造技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "陶瓷文创园",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "景德镇传统瓷窑作坊营造技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "研学线路",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "景德镇传统瓷窑作坊营造技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "博物馆展陈",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "窑口结构导览图册",
+      "景德镇窑作空间模型",
+      "陶瓷产地研学路线包"
+    ],
+    "experienceDirections": [
+      "传统瓷窑作坊导览",
+      "窑作空间观察课",
+      "陶瓷产地半日研学"
+    ],
+    "courseDirections": [
+      "瓷窑结构认知课",
+      "作坊分工与工序课程",
+      "景德镇陶瓷空间史研学课"
+    ],
+    "giftDirections": [
+      "窑口模型纪念品",
+      "景德镇窑作导览套装",
+      "陶瓷空间故事礼盒"
+    ],
+    "bestScenes": [
+      "陶瓷文创园",
+      "研学线路",
+      "博物馆展陈"
+    ],
+    "secondaryScenes": [
+      "城市礼物店",
+      "高校课程"
+    ],
+    "avoidScenes": [
+      "无实地空间的纯零售摊位",
+      "只卖器物不做讲解的场景"
+    ],
+    "targetUsers": [
+      "学校研学",
+      "城市游客",
+      "文化机构"
+    ],
+    "scenes": [
+      "陶瓷文创园",
+      "研学线路",
+      "博物馆展陈"
+    ],
+    "businessTags": [
+      "江西资源",
+      "研学线路",
+      "展陈导览"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "研学线路",
+      "展陈导览"
+    ],
+    "spreadTags": [
+      "空间叙事",
+      "产地故事"
+    ],
+    "riskTags": [
+      "内容抽象",
+      "安全动线",
+      "礼品弱"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "该项目强在体验和场景解释，弱在直接商品化，若只做商品容易失去项目重点。",
+    "riskControl": [
+      "以导览、课程和模型为主，不把它包装成普通陶瓷商品。",
+      "明确开放区域和安全边界。",
+      "将其与景德镇制瓷项目形成互补，不重复做拉坯体验。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "适合与景德镇手工制瓷技艺形成组合产品，作为陶瓷体验的前置导览。",
+    "suitableScenes": [
+      "陶瓷文创园",
+      "研学线路",
+      "博物馆展陈"
+    ],
+    "unsuitableScenes": [
+      "无实地空间的纯零售摊位",
+      "只卖器物不做讲解的场景"
+    ],
+    "risks": [
+      "空间营造知识对普通游客较抽象。",
+      "现场导览依赖场地和讲解员。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅷ-29",
+      "listBatch": "2006（第一批）",
+      "representativeRegion": "江西省",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：新增项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：新增项目。"
+    },
+    "image": "/images/projects/jingdezhen-kiln-workshop.png",
+    "imagePrompt": "traditional ceramic kiln workshop in Jingdezhen, dark documentary style",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "porcelain-panel-painting",
+    "name": "瓷板画",
+    "alias": "南昌瓷板画",
+    "themeId": "ceramic-craft",
+    "theme": "陶瓷器物",
+    "category": "陶瓷绘画",
+    "officialCategory": "传统美术",
+    "subCategory": "陶瓷绘画",
+    "region": "江西南昌",
+    "province": "江西",
+    "city": "南昌",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统美术",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅶ-89",
+    "summary": "瓷板画适合从小幅装饰、定制肖像和城市礼物切入，形成比大型陶瓷更轻的消费入口。",
+    "positioning": "适合做国风家居装饰、定制礼品、绘瓷体验和城市文化伴手礼。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 82,
+      "experience": 78,
+      "sceneFit": 80,
+      "spread": 80,
+      "gift": 84,
+      "operation": 74,
+      "total": 80
+    },
+    "scores": {
+      "commodity": 82,
+      "experience": 78,
+      "scenario": 80,
+      "spread": 80,
+      "gift": 84,
+      "operation": 74
+    },
+    "totalScore": 80,
+    "scoreReason": "瓷板画以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "瓷板画的江西资源资料显示，商品化可评 82 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "瓷板画的江西资源资料显示，体验化可评 78 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "瓷板画的江西资源资料显示，场景适配可评 80 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "瓷板画的江西资源资料显示，传播潜力可评 80 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "瓷板画的江西资源资料显示，礼品属性可评 84 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "瓷板画的江西资源资料显示，运营友好可评 74 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "瓷板画以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "瓷板画的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "瓷板画的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "瓷板画的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "瓷板画的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "瓷板画的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "瓷板画的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "瓷板画兼具绘画性和陶瓷媒介，江西南昌识别明确，适合把平面图像转成可陈列、可定制的礼赠产品。",
+    "recommendedSkus": [
+      {
+        "name": "小幅瓷板装饰画",
+        "priceBand": "88-168 元",
+        "targetUser": "年轻游客",
+        "salesScene": "城市礼物店",
+        "reason": "小幅成品降低陶瓷礼品的价格和运输压力。"
+      },
+      {
+        "name": "南昌城市图像瓷板",
+        "priceBand": "168-398 元",
+        "targetUser": "城市游客",
+        "salesScene": "文创店",
+        "reason": "城市图像能增强江西地域识别。"
+      },
+      {
+        "name": "定制肖像瓷板礼品",
+        "priceBand": "398 元以上",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业定制",
+        "reason": "定制属性适合高客单礼赠。"
+      },
+      {
+        "name": "瓷板画描摹体验包",
+        "priceBand": "69-129 元",
+        "targetUser": "亲子研学",
+        "salesScene": "手作工坊",
+        "reason": "体验包适合把绘画环节拆成可参与服务。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "瓷板画描摹体验",
+        "duration": "50 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "讲解瓷板画的媒介特征和南昌来源",
+          "选择图案完成描摹和上色",
+          "完成展示拍照和后续烧制说明"
+        ],
+        "takeaway": "瓷板画体验作品或领取凭证",
+        "staffing": "1 名讲解员 + 1 名助教",
+        "riskNotes": "需明确现场作品是否需要后续烧制，避免游客期待即时带走完整成品。"
+      },
+      {
+        "title": "城市图像绘瓷课",
+        "duration": "90 分钟",
+        "capacity": "6-12 人/场",
+        "process": [
+          "拆解城市图像和瓷板画构图",
+          "完成小幅图像绘制",
+          "讲解包装、陈列和礼赠使用方式"
+        ],
+        "takeaway": "城市图像瓷板作品",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "图像版权和肖像定制需要提前确认授权边界。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "瓷板画需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "瓷板画适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "瓷板画可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "瓷板画可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "国风手作空间",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "瓷板画可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "企业礼赠",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "小幅瓷板装饰画",
+      "南昌城市图像瓷板",
+      "定制肖像瓷板礼品"
+    ],
+    "experienceDirections": [
+      "瓷板画描摹轻体验",
+      "城市图像绘瓷课",
+      "亲子瓷板色彩体验"
+    ],
+    "courseDirections": [
+      "瓷板画材料认知课",
+      "陶瓷绘画纹样课",
+      "江西城市图像美育课"
+    ],
+    "giftDirections": [
+      "南昌瓷板画伴手礼",
+      "企业定制瓷板礼",
+      "节令图像瓷板礼盒"
+    ],
+    "bestScenes": [
+      "城市礼物店",
+      "国风手作空间",
+      "企业礼赠"
+    ],
+    "secondaryScenes": [
+      "博物馆商店",
+      "亲子美育"
+    ],
+    "avoidScenes": [
+      "高流量无后端交付场景",
+      "无版权确认的肖像定制"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "商务礼赠",
+      "亲子研学"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "国风手作空间",
+      "企业礼赠"
+    ],
+    "businessTags": [
+      "江西资源",
+      "定制礼品",
+      "城市礼物"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "定制礼品",
+      "城市礼物"
+    ],
+    "spreadTags": [
+      "视觉传播",
+      "城市图像"
+    ],
+    "riskTags": [
+      "烧制交付",
+      "版权授权",
+      "易碎物流"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "瓷板画的风险集中在后续烧制、图像授权和易碎包装，运营时必须把交付规则写清楚。",
+    "riskControl": [
+      "设置可即时带走和需后续烧制两类产品。",
+      "图像和肖像定制前确认授权。",
+      "用标准包装降低运输破损。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "先以小幅图像和标准包装验证礼品转化，再做高客单定制。",
+    "suitableScenes": [
+      "城市礼物店",
+      "国风手作空间",
+      "企业礼赠"
+    ],
+    "unsuitableScenes": [
+      "高流量无后端交付场景",
+      "无版权确认的肖像定制"
+    ],
+    "risks": [
+      "后端烧制周期会影响用户体验。",
+      "定制内容涉及版权和肖像授权。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅶ-89",
+      "listBatch": "2008（第二批）",
+      "representativeRegion": "江西省南昌市",
+      "category": "传统美术",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：新增项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：新增项目。"
+    },
+    "image": "/images/projects/porcelain-panel-painting.png",
+    "imagePrompt": "porcelain panel painting studio, refined ceramic painting",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "xiabu-weaving-jiangxi",
+    "name": "夏布织造技艺",
+    "alias": "江西夏布",
+    "themeId": "textile-pattern",
+    "theme": "织染刺绣",
+    "category": "织造",
+    "officialCategory": "传统技艺",
+    "subCategory": "织造",
+    "region": "江西宜春万载",
+    "province": "江西",
+    "city": "宜春",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅷ-102",
+    "summary": "夏布织造技艺适合围绕亚麻质感、夏季生活方式和软装配件做产品化，不宜只停留在工艺展示。",
+    "positioning": "适合做夏季文创、软装小物、服饰配件和织造美育课程。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 80,
+      "experience": 78,
+      "sceneFit": 82,
+      "spread": 76,
+      "gift": 80,
+      "operation": 72,
+      "total": 78
+    },
+    "scores": {
+      "commodity": 80,
+      "experience": 78,
+      "scenario": 82,
+      "spread": 76,
+      "gift": 80,
+      "operation": 72
+    },
+    "totalScore": 78,
+    "scoreReason": "夏布织造技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "夏布织造技艺的江西资源资料显示，商品化可评 80 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "夏布织造技艺的江西资源资料显示，体验化可评 78 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "夏布织造技艺的江西资源资料显示，场景适配可评 82 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "夏布织造技艺的江西资源资料显示，传播潜力可评 76 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "夏布织造技艺的江西资源资料显示，礼品属性可评 80 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "夏布织造技艺的江西资源资料显示，运营友好可评 72 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "夏布织造技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "夏布织造技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "夏布织造技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "夏布织造技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "夏布织造技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "夏布织造技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "夏布织造技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "夏布的材料触感和季节属性强，江西万载识别明确，适合把传统织造转成可购买、可触摸、可陈列的生活方式产品。",
+    "recommendedSkus": [
+      {
+        "name": "夏布杯垫与桌旗",
+        "priceBand": "69-168 元",
+        "targetUser": "年轻游客",
+        "salesScene": "生活方式店",
+        "reason": "软装小件能直接承接夏布材料触感。"
+      },
+      {
+        "name": "夏布香囊小包",
+        "priceBand": "49-129 元",
+        "targetUser": "城市游客",
+        "salesScene": "景区文创店",
+        "reason": "小包类更容易形成即时购买。"
+      },
+      {
+        "name": "江西夏布软装套组",
+        "priceBand": "198-498 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "套组适合表达地方材料和生活方式。"
+      },
+      {
+        "name": "夏布织造材料体验包",
+        "priceBand": "59-99 元",
+        "targetUser": "亲子研学",
+        "salesScene": "美育课程",
+        "reason": "材料包能支持课程化复制。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "夏布材料轻体验",
+        "duration": "45 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解夏布的江西来源和纤维特征",
+          "观察触摸不同织物样片",
+          "完成香囊或杯垫组合"
+        ],
+        "takeaway": "夏布小件作品",
+        "staffing": "1 名讲解员 + 1 名助教",
+        "riskNotes": "织造完整工序较长，现场应以材料认知和简化组装为主。"
+      },
+      {
+        "title": "夏布生活美学课",
+        "duration": "90 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "拆解夏布纹理和生活场景",
+          "完成软装小物设计",
+          "讲解包装陈列和使用保养"
+        ],
+        "takeaway": "夏布软装小物",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需要提前裁切和锁边，避免现场制作时间过长。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "夏布织造技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "夏布织造技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "夏布织造技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "生活方式店",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "夏布织造技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "美育课程",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "夏布织造技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "夏布杯垫与桌旗",
+      "夏布香囊与小包",
+      "江西夏布软装套组"
+    ],
+    "experienceDirections": [
+      "夏布材料触摸课",
+      "织造纹理观察体验",
+      "夏布香囊手作课"
+    ],
+    "courseDirections": [
+      "夏布纤维认知课",
+      "传统织造工序课",
+      "夏布生活美学课"
+    ],
+    "giftDirections": [
+      "夏布节令香囊礼",
+      "夏布软装伴手礼",
+      "企业定制夏布礼盒"
+    ],
+    "bestScenes": [
+      "生活方式店",
+      "美育课程",
+      "城市礼物店"
+    ],
+    "secondaryScenes": [
+      "酒店民宿",
+      "文创市集"
+    ],
+    "avoidScenes": [
+      "无材料触摸展示的纯图文展",
+      "潮湿难保存场地"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "亲子研学",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "生活方式店",
+      "美育课程",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "江西资源",
+      "软装配件",
+      "材料美育"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "软装配件",
+      "材料美育"
+    ],
+    "spreadTags": [
+      "材料触感",
+      "夏季生活"
+    ],
+    "riskTags": [
+      "工序较长",
+      "材料损耗",
+      "同质化"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "夏布织造如果只展示织机，普通游客较难形成购买理由，需要把材料转成明确生活小物。",
+    "riskControl": [
+      "把完整织造和轻体验区分清楚。",
+      "提前标准化裁片、色卡和包装。",
+      "用江西地域说明强化差异。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "建议从香囊、杯垫、桌旗等低风险小件开始测试。",
+    "suitableScenes": [
+      "生活方式店",
+      "美育课程",
+      "城市礼物店"
+    ],
+    "unsuitableScenes": [
+      "无材料触摸展示的纯图文展",
+      "潮湿难保存场地"
+    ],
+    "risks": [
+      "完整织造不适合短时复制。",
+      "软装产品容易同质化。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅷ-102",
+      "listBatch": "2008（第二批）",
+      "representativeRegion": "江西省万载县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：新增项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：新增项目。"
+    },
+    "image": "/images/projects/xiabu-weaving-jiangxi.png",
+    "imagePrompt": "ramie summer cloth textile samples, refined dark table",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "xiabu-embroidery",
+    "name": "夏布绣",
+    "alias": "江西夏布绣",
+    "themeId": "textile-pattern",
+    "theme": "织染刺绣",
+    "category": "刺绣",
+    "officialCategory": "传统美术",
+    "subCategory": "刺绣",
+    "region": "江西新余",
+    "province": "江西",
+    "city": "新余",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统美术",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅶ-77",
+    "summary": "夏布绣适合把夏布材料和刺绣纹样结合，转成装饰画、配饰和美育课程。",
+    "positioning": "适合做纹样再设计、家居装饰、刺绣体验和女性客群礼品。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 78,
+      "experience": 80,
+      "sceneFit": 80,
+      "spread": 78,
+      "gift": 82,
+      "operation": 72,
+      "total": 78
+    },
+    "scores": {
+      "commodity": 78,
+      "experience": 80,
+      "scenario": 80,
+      "spread": 78,
+      "gift": 82,
+      "operation": 72
+    },
+    "totalScore": 78,
+    "scoreReason": "夏布绣以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "夏布绣的江西资源资料显示，商品化可评 78 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "夏布绣的江西资源资料显示，体验化可评 80 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "夏布绣的江西资源资料显示，场景适配可评 80 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "夏布绣的江西资源资料显示，传播潜力可评 78 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "夏布绣的江西资源资料显示，礼品属性可评 82 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "夏布绣的江西资源资料显示，运营友好可评 72 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "夏布绣以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "夏布绣的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "夏布绣的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "夏布绣的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "夏布绣的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "夏布绣的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "夏布绣的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "夏布绣把江西夏布材料和绣活结合，既有织物底材，又有图案表达，适合建立区别于普通刺绣的地方识别。",
+    "recommendedSkus": [
+      {
+        "name": "夏布绣小幅装饰画",
+        "priceBand": "168-398 元",
+        "targetUser": "年轻游客",
+        "salesScene": "城市礼物店",
+        "reason": "装饰画能承接刺绣时间价值和陈列需求。"
+      },
+      {
+        "name": "夏布绣胸针挂件",
+        "priceBand": "69-129 元",
+        "targetUser": "女性客群",
+        "salesScene": "文创零售",
+        "reason": "小配饰更适合低门槛购买。"
+      },
+      {
+        "name": "江西纹样刺绣材料包",
+        "priceBand": "59-99 元",
+        "targetUser": "亲子研学",
+        "salesScene": "美育课程",
+        "reason": "材料包适合课程复制。"
+      },
+      {
+        "name": "夏布绣节令礼盒",
+        "priceBand": "198-498 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "礼盒可结合地方纹样和女性节日场景。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "夏布绣针法轻体验",
+        "duration": "60 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "讲解夏布绣的材料和江西来源",
+          "学习一组基础针法",
+          "完成胸针、挂件或小幅纹样"
+        ],
+        "takeaway": "夏布绣小件作品",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "针具使用需注意安全，低龄亲子需改用预处理材料。"
+      },
+      {
+        "title": "江西纹样刺绣课",
+        "duration": "120 分钟",
+        "capacity": "6-12 人/场",
+        "process": [
+          "选择江西地域纹样",
+          "完成构图和基础刺绣",
+          "装框并讲解陈列使用方式"
+        ],
+        "takeaway": "夏布绣装饰画",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需控制图案复杂度，避免课程时间超出。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "夏布绣需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "夏布绣适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "夏布绣可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "美育课程",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "夏布绣可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "夏布绣可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "女性节日礼赠",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "夏布绣小幅装饰画",
+      "夏布绣胸针挂件",
+      "江西纹样刺绣礼盒"
+    ],
+    "experienceDirections": [
+      "夏布绣针法轻体验",
+      "江西纹样刺绣课",
+      "夏布绣装饰画工作坊"
+    ],
+    "courseDirections": [
+      "夏布绣材料认知课",
+      "基础针法美育课",
+      "江西纹样再设计课"
+    ],
+    "giftDirections": [
+      "夏布绣胸针伴手礼",
+      "夏布绣装饰画礼",
+      "女性客群节令礼盒"
+    ],
+    "bestScenes": [
+      "美育课程",
+      "城市礼物店",
+      "女性节日礼赠"
+    ],
+    "secondaryScenes": [
+      "生活方式店",
+      "文创市集"
+    ],
+    "avoidScenes": [
+      "低龄无陪伴体验",
+      "赶时间的高翻台场景"
+    ],
+    "targetUsers": [
+      "女性客群",
+      "亲子研学",
+      "年轻游客"
+    ],
+    "scenes": [
+      "美育课程",
+      "城市礼物店",
+      "女性节日礼赠"
+    ],
+    "businessTags": [
+      "江西资源",
+      "纹样再设计",
+      "美育课程"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "纹样再设计",
+      "美育课程"
+    ],
+    "spreadTags": [
+      "纹样传播",
+      "材料故事"
+    ],
+    "riskTags": [
+      "针具安全",
+      "制作耗时",
+      "图案授权"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "夏布绣体验需要控制针具安全和图案复杂度，否则容易影响课程完成率。",
+    "riskControl": [
+      "低龄体验使用预穿孔或半成品材料。",
+      "图案设计采用可授权或原创纹样。",
+      "按时长分成小件和装饰画两类课程。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "优先做胸针、挂件和小幅装饰画，后续再开发高客单定制。",
+    "suitableScenes": [
+      "美育课程",
+      "城市礼物店",
+      "女性节日礼赠"
+    ],
+    "unsuitableScenes": [
+      "低龄无陪伴体验",
+      "赶时间的高翻台场景"
+    ],
+    "risks": [
+      "刺绣耗时长。",
+      "图案授权和课程难度需控制。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅶ-77",
+      "listBatch": "2014（第四批扩展项目）",
+      "representativeRegion": "江西省新余市",
+      "category": "传统美术",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/xiabu-embroidery.png",
+    "imagePrompt": "ramie cloth embroidery detail, Jiangxi pattern, refined product photo",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "wengang-brush",
+    "name": "文港毛笔制作技艺",
+    "alias": "文港毛笔",
+    "themeId": "craft-study",
+    "theme": "手作研学",
+    "category": "文房器物",
+    "officialCategory": "传统技艺",
+    "subCategory": "文房器物",
+    "region": "江西南昌进贤",
+    "province": "江西",
+    "city": "南昌",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "",
+    "summary": "文港毛笔制作技艺适合连接书法课程、文房礼赠和研学体验，形成清晰的文教消费入口。",
+    "positioning": "适合做书法研学、文房礼盒、企业文化礼赠和校园课程。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 82,
+      "experience": 78,
+      "sceneFit": 82,
+      "spread": 76,
+      "gift": 84,
+      "operation": 76,
+      "total": 80
+    },
+    "scores": {
+      "commodity": 82,
+      "experience": 78,
+      "scenario": 82,
+      "spread": 76,
+      "gift": 84,
+      "operation": 76
+    },
+    "totalScore": 80,
+    "scoreReason": "文港毛笔制作技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "文港毛笔制作技艺的江西资源资料显示，商品化可评 82 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "文港毛笔制作技艺的江西资源资料显示，体验化可评 78 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "文港毛笔制作技艺的江西资源资料显示，场景适配可评 82 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "文港毛笔制作技艺的江西资源资料显示，传播潜力可评 76 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "文港毛笔制作技艺的江西资源资料显示，礼品属性可评 84 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "文港毛笔制作技艺的江西资源资料显示，运营友好可评 76 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "文港毛笔制作技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "文港毛笔制作技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "文港毛笔制作技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "文港毛笔制作技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "文港毛笔制作技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "文港毛笔制作技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "文港毛笔制作技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "文港毛笔有南昌进贤地域识别和文房使用属性，既能做真实书写工具，也能成为书法课程的入口。",
+    "recommendedSkus": [
+      {
+        "name": "文港毛笔入门套装",
+        "priceBand": "69-168 元",
+        "targetUser": "学校研学",
+        "salesScene": "书法课程",
+        "reason": "工具属性明确，能直接进入课程消费。"
+      },
+      {
+        "name": "江西文房小礼盒",
+        "priceBand": "168-398 元",
+        "targetUser": "城市游客",
+        "salesScene": "城市礼物店",
+        "reason": "文房组合适合地方伴手礼。"
+      },
+      {
+        "name": "企业定制毛笔礼",
+        "priceBand": "398 元以上",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业定制",
+        "reason": "定制刻字和书法场景适合商务文化礼。"
+      },
+      {
+        "name": "毛笔结构认知材料包",
+        "priceBand": "49-99 元",
+        "targetUser": "亲子研学",
+        "salesScene": "研学机构",
+        "reason": "材料包可支撑低门槛课堂。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "毛笔结构认知课",
+        "duration": "45 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解文港毛笔的地域和结构",
+          "观察笔头、笔杆和书写差异",
+          "完成基础书写体验"
+        ],
+        "takeaway": "毛笔书写作品和说明卡",
+        "staffing": "1 名讲解员 + 1 名书法助教",
+        "riskNotes": "完整制笔工序较专业，短课应以结构认知和书写体验为主。"
+      },
+      {
+        "title": "文房四宝研学课",
+        "duration": "90 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "拆解毛笔和纸墨关系",
+          "完成书法体验任务",
+          "讲解文房礼盒和使用保养"
+        ],
+        "takeaway": "文房体验套装或书法作品",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需控制墨水清洁和低龄学生安全。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "文港毛笔制作技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "文港毛笔制作技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "文港毛笔制作技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "书法课程",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "文港毛笔制作技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "研学机构",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "文港毛笔制作技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "企业礼赠",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "文港毛笔入门书写套装",
+      "江西文房礼盒",
+      "企业定制毛笔礼"
+    ],
+    "experienceDirections": [
+      "毛笔结构认知课",
+      "书法入门体验",
+      "文房四宝研学课"
+    ],
+    "courseDirections": [
+      "毛笔制作工序课",
+      "书法工具美育课",
+      "江西文房文化课"
+    ],
+    "giftDirections": [
+      "文港毛笔伴手礼",
+      "书法课程礼券套装",
+      "企业文化定制礼盒"
+    ],
+    "bestScenes": [
+      "书法课程",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "secondaryScenes": [
+      "城市礼物店",
+      "文化会客厅"
+    ],
+    "avoidScenes": [
+      "无书写体验的纯陈列",
+      "低龄无人看护场地"
+    ],
+    "targetUsers": [
+      "学校研学",
+      "商务礼赠",
+      "书法爱好者"
+    ],
+    "scenes": [
+      "书法课程",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "businessTags": [
+      "江西资源",
+      "文房礼赠",
+      "书法课程"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "文房礼赠",
+      "书法课程"
+    ],
+    "spreadTags": [
+      "文房故事",
+      "书写体验"
+    ],
+    "riskTags": [
+      "专业门槛",
+      "清洁管理",
+      "品质分级"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "文港毛笔的关键是让用户理解笔的品质差异，否则容易被当成普通文具。",
+    "riskControl": [
+      "用书写对比解释品质差异。",
+      "设置清洁和收纳动线。",
+      "把入门、专业和定制价格带分开。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "适合与书法课程和文房礼盒绑定，避免单独销售普通化。",
+    "suitableScenes": [
+      "书法课程",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "unsuitableScenes": [
+      "无书写体验的纯陈列",
+      "低龄无人看护场地"
+    ],
+    "risks": [
+      "品质分级解释成本高。",
+      "课堂墨水清洁需要管理。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "",
+      "listBatch": "2021（第五批扩展项目）",
+      "representativeRegion": "江西省进贤县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "非遗编号",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/wengang-brush.png",
+    "imagePrompt": "Chinese brushes and handmade paper on dark writing desk",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "xiushui-inkstone",
+    "name": "修水贡砚制作技艺",
+    "alias": "修水贡砚",
+    "themeId": "ceramic-craft",
+    "theme": "陶瓷器物",
+    "category": "文房器物",
+    "officialCategory": "传统技艺",
+    "subCategory": "文房器物",
+    "region": "江西九江修水",
+    "province": "江西",
+    "city": "九江",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "",
+    "summary": "修水贡砚制作技艺适合以文房器物和高端礼赠切入，体验应以观摩、拓印和讲解为主。",
+    "positioning": "适合做文房礼赠、博物馆商店陈列、书法空间和高端定制。",
+    "conversionGrade": "C",
+    "priority": "中高",
+    "score": {
+      "commercialization": 78,
+      "experience": 70,
+      "sceneFit": 78,
+      "spread": 74,
+      "gift": 84,
+      "operation": 68,
+      "total": 75
+    },
+    "scores": {
+      "commodity": 78,
+      "experience": 70,
+      "scenario": 78,
+      "spread": 74,
+      "gift": 84,
+      "operation": 68
+    },
+    "totalScore": 75,
+    "scoreReason": "修水贡砚制作技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "修水贡砚制作技艺的江西资源资料显示，商品化可评 78 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "修水贡砚制作技艺的江西资源资料显示，体验化可评 70 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "修水贡砚制作技艺的江西资源资料显示，场景适配可评 78 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "修水贡砚制作技艺的江西资源资料显示，传播潜力可评 74 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "修水贡砚制作技艺的江西资源资料显示，礼品属性可评 84 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "修水贡砚制作技艺的江西资源资料显示，运营友好可评 68 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "修水贡砚制作技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "修水贡砚制作技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "修水贡砚制作技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "修水贡砚制作技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "修水贡砚制作技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "修水贡砚制作技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "修水贡砚制作技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "修水贡砚具备江西修水地域识别和文房器物价值，适合承接书法、收藏和礼赠场景。",
+    "recommendedSkus": [
+      {
+        "name": "修水贡砚入门陈列件",
+        "priceBand": "198-498 元",
+        "targetUser": "城市游客",
+        "salesScene": "博物馆商店",
+        "reason": "入门陈列件降低高端砚台的购买门槛。"
+      },
+      {
+        "name": "文房砚台礼盒",
+        "priceBand": "498-1200 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "文房礼盒能承接商务文化礼需求。"
+      },
+      {
+        "name": "书法空间定制砚",
+        "priceBand": "1200 元以上",
+        "targetUser": "书法爱好者",
+        "salesScene": "书法空间",
+        "reason": "定制砚适合专业用户和高客单。"
+      },
+      {
+        "name": "贡砚拓印说明套装",
+        "priceBand": "69-129 元",
+        "targetUser": "研学客群",
+        "salesScene": "研学活动",
+        "reason": "拓印说明套装可把观摩转成轻参与。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "贡砚纹理观摩",
+        "duration": "40 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解修水贡砚的地域和材料",
+          "观察纹理、雕刻和使用方法",
+          "完成拓印或试墨体验"
+        ],
+        "takeaway": "贡砚拓印卡或试墨作品",
+        "staffing": "1 名讲解员",
+        "riskNotes": "不建议让游客参与高难度雕刻，应控制工具安全。"
+      },
+      {
+        "title": "文房器物鉴赏课",
+        "duration": "90 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "拆解砚台与书法使用关系",
+          "体验研墨和书写",
+          "讲解陈列、保养和礼赠方式"
+        ],
+        "takeaway": "试墨作品和文房说明卡",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需要保护样品，避免高价值砚台损耗。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "修水贡砚制作技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "修水贡砚制作技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "修水贡砚制作技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "博物馆商店",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "修水贡砚制作技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "书法空间",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "修水贡砚制作技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "商务礼赠",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "修水贡砚入门陈列件",
+      "文房砚台礼盒",
+      "书法空间定制砚"
+    ],
+    "experienceDirections": [
+      "贡砚纹理观摩",
+      "砚台拓印说明课",
+      "文房器物鉴赏体验"
+    ],
+    "courseDirections": [
+      "砚台材料认知课",
+      "文房器物美育课",
+      "江西修水贡砚故事课"
+    ],
+    "giftDirections": [
+      "修水贡砚商务礼",
+      "文房四宝组合礼",
+      "高端定制陈列礼"
+    ],
+    "bestScenes": [
+      "博物馆商店",
+      "书法空间",
+      "商务礼赠"
+    ],
+    "secondaryScenes": [
+      "研学机构",
+      "文化会客厅"
+    ],
+    "avoidScenes": [
+      "低龄高强度手作",
+      "无讲解的普通零售"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "书法爱好者",
+      "城市游客"
+    ],
+    "scenes": [
+      "博物馆商店",
+      "书法空间",
+      "商务礼赠"
+    ],
+    "businessTags": [
+      "江西资源",
+      "文房礼赠",
+      "高端定制"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "文房礼赠",
+      "高端定制"
+    ],
+    "spreadTags": [
+      "文房器物",
+      "材料纹理"
+    ],
+    "riskTags": [
+      "高客单",
+      "工具安全",
+      "样品损耗"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "修水贡砚直接手作难度高，适合观摩和鉴赏，不适合把核心雕刻开放给普通游客。",
+    "riskControl": [
+      "体验以观摩、拓印和试墨为主。",
+      "高价值样品单独陈列和保护。",
+      "价格带和材质说明必须清楚。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "优先进入书法空间和博物馆商店，建立文房礼赠的信任解释。",
+    "suitableScenes": [
+      "博物馆商店",
+      "书法空间",
+      "商务礼赠"
+    ],
+    "unsuitableScenes": [
+      "低龄高强度手作",
+      "无讲解的普通零售"
+    ],
+    "risks": [
+      "高价值样品损耗风险。",
+      "雕刻工具不适合开放给游客。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "",
+      "listBatch": "2021（第五批扩展项目）",
+      "representativeRegion": "江西省修水县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "非遗编号",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/xiushui-inkstone.png",
+    "imagePrompt": "inkstone and brush gift set, dark elegant product photo",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "shicheng-inkstone",
+    "name": "石城砚制作技艺",
+    "alias": "石城砚",
+    "themeId": "ceramic-craft",
+    "theme": "陶瓷器物",
+    "category": "文房器物",
+    "officialCategory": "传统技艺",
+    "subCategory": "文房器物",
+    "region": "江西赣州石城",
+    "province": "江西",
+    "city": "赣州",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "",
+    "summary": "石城砚制作技艺适合以赣南文房器物、研学观摩和城市礼赠切入，避免做成无差异砚台销售。",
+    "positioning": "适合做赣南城市礼物、文房课程、博物馆商店和商务礼赠。",
+    "conversionGrade": "C",
+    "priority": "中高",
+    "score": {
+      "commercialization": 76,
+      "experience": 70,
+      "sceneFit": 76,
+      "spread": 72,
+      "gift": 82,
+      "operation": 68,
+      "total": 74
+    },
+    "scores": {
+      "commodity": 76,
+      "experience": 70,
+      "scenario": 76,
+      "spread": 72,
+      "gift": 82,
+      "operation": 68
+    },
+    "totalScore": 74,
+    "scoreReason": "石城砚制作技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "石城砚制作技艺的江西资源资料显示，商品化可评 76 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "石城砚制作技艺的江西资源资料显示，体验化可评 70 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "石城砚制作技艺的江西资源资料显示，场景适配可评 76 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "石城砚制作技艺的江西资源资料显示，传播潜力可评 72 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "石城砚制作技艺的江西资源资料显示，礼品属性可评 82 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "石城砚制作技艺的江西资源资料显示，运营友好可评 68 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "石城砚制作技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "石城砚制作技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "石城砚制作技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "石城砚制作技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "石城砚制作技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "石城砚制作技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "石城砚制作技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "石城砚能补足赣南文房器物资源，与修水贡砚形成不同地域的砚台识别。",
+    "recommendedSkus": [
+      {
+        "name": "石城砚入门礼品",
+        "priceBand": "168-398 元",
+        "targetUser": "城市游客",
+        "salesScene": "城市礼物店",
+        "reason": "入门礼品适合降低砚台购买门槛。"
+      },
+      {
+        "name": "赣南文房套装",
+        "priceBand": "398-980 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "套装能强化赣南地域和文房属性。"
+      },
+      {
+        "name": "石城砚拓印体验包",
+        "priceBand": "69-129 元",
+        "targetUser": "亲子研学",
+        "salesScene": "研学课程",
+        "reason": "体验包可支持轻参与和课堂讲解。"
+      },
+      {
+        "name": "商务定制砚台",
+        "priceBand": "1200 元以上",
+        "targetUser": "商务礼赠",
+        "salesScene": "定制渠道",
+        "reason": "高客单定制适合文化礼赠。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "石城砚材料观摩",
+        "duration": "40 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解石城砚的赣南地域来源",
+          "观察砚石材料和雕刻样品",
+          "完成拓印或试墨体验"
+        ],
+        "takeaway": "拓印卡或试墨作品",
+        "staffing": "1 名讲解员",
+        "riskNotes": "核心雕刻不适合短时开放，需要以观摩替代。"
+      },
+      {
+        "title": "赣南文房体验课",
+        "duration": "90 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "拆解砚台和书写工具关系",
+          "完成研墨和书写任务",
+          "讲解礼盒包装和保养方法"
+        ],
+        "takeaway": "书写作品和砚台说明卡",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "需保护砚台样品并控制墨水清洁。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "石城砚制作技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "石城砚制作技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "石城砚制作技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "石城砚制作技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "书法空间",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "石城砚制作技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "商务礼赠",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "石城砚入门礼品",
+      "赣南文房套装",
+      "石城砚拓印体验包"
+    ],
+    "experienceDirections": [
+      "石城砚材料观摩",
+      "文房试墨体验",
+      "赣南砚台故事课"
+    ],
+    "courseDirections": [
+      "砚台制作工序课",
+      "赣南文房器物课",
+      "书法工具认知课"
+    ],
+    "giftDirections": [
+      "石城砚城市礼物",
+      "文房四宝礼盒",
+      "商务定制砚台"
+    ],
+    "bestScenes": [
+      "城市礼物店",
+      "书法空间",
+      "商务礼赠"
+    ],
+    "secondaryScenes": [
+      "研学机构",
+      "博物馆商店"
+    ],
+    "avoidScenes": [
+      "无讲解低价摊位",
+      "开放危险雕刻工具的场景"
+    ],
+    "targetUsers": [
+      "城市游客",
+      "商务礼赠",
+      "书法爱好者"
+    ],
+    "scenes": [
+      "城市礼物店",
+      "书法空间",
+      "商务礼赠"
+    ],
+    "businessTags": [
+      "江西资源",
+      "赣南礼物",
+      "文房器物"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "赣南礼物",
+      "文房器物"
+    ],
+    "spreadTags": [
+      "赣南故事",
+      "材料纹理"
+    ],
+    "riskTags": [
+      "高客单",
+      "样品保护",
+      "体验受限"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "石城砚需要用材料和地域故事建立差异，否则容易被用户视作普通砚台。",
+    "riskControl": [
+      "设置赣南地域说明和材质对比。",
+      "体验以拓印、试墨和观摩为主。",
+      "高客单产品独立陈列。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "建议与赣南城市礼物和书法课程组合，避免单点销售。",
+    "suitableScenes": [
+      "城市礼物店",
+      "书法空间",
+      "商务礼赠"
+    ],
+    "unsuitableScenes": [
+      "无讲解低价摊位",
+      "开放危险雕刻工具的场景"
+    ],
+    "risks": [
+      "普通用户难区分砚台差异。",
+      "制作体验受工具和安全限制。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "",
+      "listBatch": "2021（第五批扩展项目）",
+      "representativeRegion": "江西省石城县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "非遗编号",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/shicheng-inkstone.png",
+    "imagePrompt": "traditional inkstone from Jiangxi, elegant writing table",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "ninghong-tea",
+    "name": "宁红茶制作技艺",
+    "alias": "宁红茶",
+    "themeId": "tea-life",
+    "theme": "茶文化",
+    "category": "制茶技艺",
+    "officialCategory": "传统技艺",
+    "subCategory": "制茶技艺",
+    "region": "江西九江修水",
+    "province": "江西",
+    "city": "九江",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "",
+    "summary": "宁红茶制作技艺适合从江西茶礼、酒店茶包和茶席体验切入，形成较清晰的消费转化。",
+    "positioning": "适合做酒店茶饮、商务茶礼、茶空间品鉴和修水地域伴手礼。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 84,
+      "experience": 82,
+      "sceneFit": 84,
+      "spread": 78,
+      "gift": 86,
+      "operation": 80,
+      "total": 82
+    },
+    "scores": {
+      "commodity": 84,
+      "experience": 82,
+      "scenario": 84,
+      "spread": 78,
+      "gift": 86,
+      "operation": 80
+    },
+    "totalScore": 82,
+    "scoreReason": "宁红茶制作技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "宁红茶制作技艺的江西资源资料显示，商品化可评 84 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "宁红茶制作技艺的江西资源资料显示，体验化可评 82 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "宁红茶制作技艺的江西资源资料显示，场景适配可评 84 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "宁红茶制作技艺的江西资源资料显示，传播潜力可评 78 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "宁红茶制作技艺的江西资源资料显示，礼品属性可评 86 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "宁红茶制作技艺的江西资源资料显示，运营友好可评 80 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "宁红茶制作技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "宁红茶制作技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "宁红茶制作技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "宁红茶制作技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "宁红茶制作技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "宁红茶制作技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "宁红茶制作技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "宁红茶具备成品茶属性和修水地域识别，能直接进入品饮、礼赠和茶旅体验。",
+    "recommendedSkus": [
+      {
+        "name": "宁红茶分级茶样套装",
+        "priceBand": "88-168 元",
+        "targetUser": "年轻游客",
+        "salesScene": "茶空间",
+        "reason": "茶样套装便于用户理解风味差异。"
+      },
+      {
+        "name": "修水宁红茶酒店茶包",
+        "priceBand": "29-69 元",
+        "targetUser": "酒店住客",
+        "salesScene": "酒店民宿",
+        "reason": "酒店茶包能形成低门槛消费入口。"
+      },
+      {
+        "name": "江西红茶商务礼盒",
+        "priceBand": "198-498 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "红茶礼盒适合节令和商务场景。"
+      },
+      {
+        "name": "宁红茶冷泡旅行装",
+        "priceBand": "49-99 元",
+        "targetUser": "年轻游客",
+        "salesScene": "景区零售",
+        "reason": "旅行装适合即时购买和轻饮用。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "宁红茶品鉴体验",
+        "duration": "35 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "讲解宁红茶的修水来源和风味",
+          "对比不同茶样香气和汤色",
+          "完成冲泡和购买建议说明"
+        ],
+        "takeaway": "宁红茶茶样或品鉴卡",
+        "staffing": "1 名茶艺讲解员",
+        "riskNotes": "需控制茶样品质和冲泡标准，避免体验口感波动。"
+      },
+      {
+        "title": "江西红茶茶席课",
+        "duration": "75 分钟",
+        "capacity": "6-12 人/场",
+        "process": [
+          "拆解红茶制作与品饮关系",
+          "完成茶席冲泡练习",
+          "讲解礼盒分级和保存方法"
+        ],
+        "takeaway": "宁红茶茶样套装",
+        "staffing": "1 名茶艺师 + 1 名助教",
+        "riskNotes": "价格分级和茶叶等级需要透明说明。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "宁红茶制作技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "宁红茶制作技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "宁红茶制作技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "茶空间",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "宁红茶制作技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "酒店民宿",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "宁红茶制作技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "商务礼赠",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "宁红茶分级茶样套装",
+      "修水宁红茶酒店茶包",
+      "江西红茶商务礼盒"
+    ],
+    "experienceDirections": [
+      "宁红茶品鉴体验",
+      "红茶冲泡课程",
+      "修水茶文化茶席"
+    ],
+    "courseDirections": [
+      "宁红茶制作工序课",
+      "红茶风味认知课",
+      "江西茶礼研学课"
+    ],
+    "giftDirections": [
+      "宁红茶伴手礼",
+      "商务红茶礼盒",
+      "酒店茶饮联名套装"
+    ],
+    "bestScenes": [
+      "茶空间",
+      "酒店民宿",
+      "商务礼赠"
+    ],
+    "secondaryScenes": [
+      "城市礼物店",
+      "茶旅线路"
+    ],
+    "avoidScenes": [
+      "无冲泡条件的快闪摊位",
+      "低价无分级散装销售"
+    ],
+    "targetUsers": [
+      "商务礼赠",
+      "年轻游客",
+      "酒店住客"
+    ],
+    "scenes": [
+      "茶空间",
+      "酒店民宿",
+      "商务礼赠"
+    ],
+    "businessTags": [
+      "江西资源",
+      "茶礼",
+      "酒店场景"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "茶礼",
+      "酒店场景"
+    ],
+    "spreadTags": [
+      "风味传播",
+      "茶席体验"
+    ],
+    "riskTags": [
+      "品质分级",
+      "价格解释",
+      "冲泡标准"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "宁红茶转化关键在茶样品质和价格分级，若解释不足会影响用户信任。",
+    "riskControl": [
+      "建立茶样分级和冲泡 SOP。",
+      "礼盒标注产地、风味和保存方式。",
+      "先在酒店和茶空间测试复购。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "优先与酒店茶包、茶空间品鉴和商务礼盒组合落地。",
+    "suitableScenes": [
+      "茶空间",
+      "酒店民宿",
+      "商务礼赠"
+    ],
+    "unsuitableScenes": [
+      "无冲泡条件的快闪摊位",
+      "低价无分级散装销售"
+    ],
+    "risks": [
+      "茶叶等级解释成本高。",
+      "冲泡不稳定会影响体验。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "",
+      "listBatch": "2021（第五批扩展项目）",
+      "representativeRegion": "江西省修水县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "非遗编号",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/ninghong-tea.png",
+    "imagePrompt": "Jiangxi black tea tasting set, warm dark tea table",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "wuyuan-green-tea",
+    "name": "婺源绿茶制作技艺",
+    "alias": "婺源绿茶",
+    "themeId": "tea-life",
+    "theme": "茶文化",
+    "category": "制茶技艺",
+    "officialCategory": "传统技艺",
+    "subCategory": "制茶技艺",
+    "region": "江西上饶婺源",
+    "province": "江西",
+    "city": "上饶",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅷ-148",
+    "summary": "婺源绿茶制作技艺适合连接婺源旅游、茶礼和茶山体验，形成产地型消费路径。",
+    "positioning": "适合做茶旅路线、春茶礼盒、酒店茶饮和游客伴手礼。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 84,
+      "experience": 84,
+      "sceneFit": 86,
+      "spread": 80,
+      "gift": 84,
+      "operation": 78,
+      "total": 83
+    },
+    "scores": {
+      "commodity": 84,
+      "experience": 84,
+      "scenario": 86,
+      "spread": 80,
+      "gift": 84,
+      "operation": 78
+    },
+    "totalScore": 83,
+    "scoreReason": "婺源绿茶制作技艺以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "婺源绿茶制作技艺的江西资源资料显示，商品化可评 84 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "婺源绿茶制作技艺的江西资源资料显示，体验化可评 84 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "婺源绿茶制作技艺的江西资源资料显示，场景适配可评 86 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "婺源绿茶制作技艺的江西资源资料显示，传播潜力可评 80 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "婺源绿茶制作技艺的江西资源资料显示，礼品属性可评 84 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "婺源绿茶制作技艺的江西资源资料显示，运营友好可评 78 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "婺源绿茶制作技艺以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "婺源绿茶制作技艺的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "婺源绿茶制作技艺的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "婺源绿茶制作技艺的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "婺源绿茶制作技艺的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "婺源绿茶制作技艺的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "婺源绿茶制作技艺的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "婺源绿茶有鲜明旅游目的地和茶叶成品属性，适合把风景记忆转化为茶礼和茶席体验。",
+    "recommendedSkus": [
+      {
+        "name": "婺源绿茶春茶礼盒",
+        "priceBand": "198-498 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "春茶礼盒适合季节性消费。"
+      },
+      {
+        "name": "婺源旅行茶包",
+        "priceBand": "39-79 元",
+        "targetUser": "年轻游客",
+        "salesScene": "景区零售",
+        "reason": "旅行茶包适合旅游伴手礼。"
+      },
+      {
+        "name": "茶山风味茶样套装",
+        "priceBand": "88-168 元",
+        "targetUser": "茶旅游客",
+        "salesScene": "茶旅线路",
+        "reason": "茶样套装便于现场品鉴转购买。"
+      },
+      {
+        "name": "酒店联名绿茶包",
+        "priceBand": "按项目定制",
+        "targetUser": "酒店住客",
+        "salesScene": "酒店民宿",
+        "reason": "酒店场景能把产地茶记忆带回房间。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "婺源绿茶品鉴",
+        "duration": "35 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "讲解婺源绿茶的产地和风味",
+          "对比茶样香气、汤色和口感",
+          "完成冲泡体验和购买建议"
+        ],
+        "takeaway": "婺源绿茶茶样或品鉴卡",
+        "staffing": "1 名茶艺讲解员",
+        "riskNotes": "需控制茶样品质和冲泡水温。"
+      },
+      {
+        "title": "婺源茶旅研学",
+        "duration": "半日",
+        "capacity": "12-30 人/场",
+        "process": [
+          "进入茶山或茶空间了解采制关系",
+          "完成采茶或制茶观察任务",
+          "以茶席复盘产地故事和礼盒选择"
+        ],
+        "takeaway": "茶样套装或茶旅记录卡",
+        "staffing": "1 名主讲老师 + 1 名线路助教",
+        "riskNotes": "茶山活动受季节和天气影响，需要准备室内替代方案。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "婺源绿茶制作技艺需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "婺源绿茶制作技艺适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "婺源绿茶制作技艺可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "茶旅线路",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "婺源绿茶制作技艺可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "酒店民宿",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "婺源绿茶制作技艺可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "婺源绿茶春茶礼盒",
+      "婺源旅行茶包",
+      "茶山风味茶样套装"
+    ],
+    "experienceDirections": [
+      "婺源绿茶品鉴",
+      "茶山采茶研学",
+      "酒店绿茶茶席"
+    ],
+    "courseDirections": [
+      "绿茶制作工序课",
+      "茶叶风味认知课",
+      "婺源茶旅研学课"
+    ],
+    "giftDirections": [
+      "婺源绿茶伴手礼",
+      "春茶节令礼盒",
+      "酒店联名茶礼"
+    ],
+    "bestScenes": [
+      "茶旅线路",
+      "酒店民宿",
+      "城市礼物店"
+    ],
+    "secondaryScenes": [
+      "茶空间",
+      "企业礼赠"
+    ],
+    "avoidScenes": [
+      "无品质分级的散装低价销售",
+      "雨季无备选路线的户外体验"
+    ],
+    "targetUsers": [
+      "茶旅游客",
+      "年轻游客",
+      "商务礼赠"
+    ],
+    "scenes": [
+      "茶旅线路",
+      "酒店民宿",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "江西资源",
+      "茶旅",
+      "伴手礼"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "茶旅",
+      "伴手礼"
+    ],
+    "spreadTags": [
+      "产地风景",
+      "春茶故事"
+    ],
+    "riskTags": [
+      "季节波动",
+      "品质分级",
+      "线路依赖"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "婺源绿茶强依赖产地和季节体验，若没有茶样分级和备选动线会影响交付稳定。",
+    "riskControl": [
+      "建立茶样和礼盒分级。",
+      "茶山体验准备室内茶席替代方案。",
+      "把风景内容和茶叶购买路径衔接。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "适合与婺源旅游、酒店民宿和城市礼物店组合落地。",
+    "suitableScenes": [
+      "茶旅线路",
+      "酒店民宿",
+      "城市礼物店"
+    ],
+    "unsuitableScenes": [
+      "无品质分级的散装低价销售",
+      "雨季无备选路线的户外体验"
+    ],
+    "risks": [
+      "户外茶旅受天气影响。",
+      "茶叶等级和价格需透明说明。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅷ-148",
+      "listBatch": "2014（第四批扩展项目）",
+      "representativeRegion": "江西省婺源县",
+      "category": "传统技艺",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/wuyuan-green-tea.png",
+    "imagePrompt": "Wuyuan green tea travel tea set, elegant dark product style",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "zhangshu-medicine",
+    "name": "樟树中药炮制技艺/樟树药俗",
+    "alias": "樟树药俗",
+    "themeId": "local-flavor",
+    "theme": "地方风味",
+    "category": "传统医药与药俗",
+    "officialCategory": "传统医药 / 民俗",
+    "subCategory": "传统医药与药俗",
+    "region": "江西宜春樟树",
+    "province": "江西",
+    "city": "宜春",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统医药",
+    "protectionUnit": "待核验",
+    "heritageCode": "Ⅸ-3 / X-60",
+    "summary": "樟树中药炮制技艺和药俗适合从药都文化、香囊茶饮和养生展陈切入，必须谨慎处理医疗功效表达。",
+    "positioning": "适合做药都文化展陈、节令香囊、养生茶饮说明和研学课程。",
+    "conversionGrade": "C",
+    "priority": "中高",
+    "score": {
+      "commercialization": 76,
+      "experience": 78,
+      "sceneFit": 82,
+      "spread": 78,
+      "gift": 76,
+      "operation": 68,
+      "total": 77
+    },
+    "scores": {
+      "commodity": 76,
+      "experience": 78,
+      "scenario": 82,
+      "spread": 78,
+      "gift": 76,
+      "operation": 68
+    },
+    "totalScore": 77,
+    "scoreReason": "樟树中药炮制技艺/樟树药俗以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，商品化可评 76 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，体验化可评 78 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，场景适配可评 82 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，传播潜力可评 78 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，礼品属性可评 76 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，运营友好可评 68 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "樟树中药炮制技艺/樟树药俗以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "樟树中药炮制技艺/樟树药俗的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://www.aiyoujiangxi.com/badd/218210/"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "樟树药俗有江西药都识别，能转成文化展示、气味体验和节令生活产品，但不能被包装成医疗承诺。",
+    "recommendedSkus": [
+      {
+        "name": "樟树药俗香囊",
+        "priceBand": "39-99 元",
+        "targetUser": "城市游客",
+        "salesScene": "城市礼物店",
+        "reason": "香囊可表达药俗文化且消费门槛低。"
+      },
+      {
+        "name": "药都文化茶饮说明包",
+        "priceBand": "69-129 元",
+        "targetUser": "年轻游客",
+        "salesScene": "文旅街区",
+        "reason": "茶饮说明包适合做文化体验而非功效承诺。"
+      },
+      {
+        "name": "节令草本生活礼",
+        "priceBand": "168-398 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业礼赠",
+        "reason": "节令礼盒可承接地方生活方式表达。"
+      },
+      {
+        "name": "草本气味认知材料包",
+        "priceBand": "49-99 元",
+        "targetUser": "亲子研学",
+        "salesScene": "研学课程",
+        "reason": "气味认知适合转成安全的课堂体验。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "草本气味认知体验",
+        "duration": "45 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解樟树药都和药俗来源",
+          "识别安全草本材料气味",
+          "完成香囊或说明卡"
+        ],
+        "takeaway": "草本香囊和安全说明卡",
+        "staffing": "1 名讲解员 + 1 名助教",
+        "riskNotes": "必须避免医疗功效承诺，材料需确认过敏风险。"
+      },
+      {
+        "title": "药都文化研学课",
+        "duration": "90 分钟",
+        "capacity": "8-16 人/场",
+        "process": [
+          "拆解药俗、节令和生活方式关系",
+          "完成草本材料分类任务",
+          "复盘文化表达和安全边界"
+        ],
+        "takeaway": "药都文化记录卡或香囊",
+        "staffing": "1 名主讲老师 + 1 名助教",
+        "riskNotes": "涉及传统医药内容时需使用文化科普口径，不提供诊疗建议。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "樟树中药炮制技艺/樟树药俗需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "樟树中药炮制技艺/樟树药俗适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "樟树中药炮制技艺/樟树药俗可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "文旅街区",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "樟树中药炮制技艺/樟树药俗可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "研学机构",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "樟树中药炮制技艺/樟树药俗可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "樟树药俗香囊",
+      "药都文化茶饮说明包",
+      "节令草本生活礼"
+    ],
+    "experienceDirections": [
+      "药都文化导览",
+      "草本气味认知体验",
+      "节令香囊手作课"
+    ],
+    "courseDirections": [
+      "中药炮制文化认知课",
+      "药俗与节令生活课",
+      "草本材料安全边界课"
+    ],
+    "giftDirections": [
+      "樟树香囊伴手礼",
+      "节令草本礼盒",
+      "药都文化说明套装"
+    ],
+    "bestScenes": [
+      "文旅街区",
+      "研学机构",
+      "城市礼物店"
+    ],
+    "secondaryScenes": [
+      "文化馆展陈",
+      "节令市集"
+    ],
+    "avoidScenes": [
+      "医疗功效营销",
+      "无过敏提示的食品化售卖"
+    ],
+    "targetUsers": [
+      "城市游客",
+      "亲子研学",
+      "节令礼赠"
+    ],
+    "scenes": [
+      "文旅街区",
+      "研学机构",
+      "城市礼物店"
+    ],
+    "businessTags": [
+      "江西资源",
+      "药都文化",
+      "节令消费"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "药都文化",
+      "节令消费"
+    ],
+    "spreadTags": [
+      "气味体验",
+      "药俗故事"
+    ],
+    "riskTags": [
+      "功效表达",
+      "过敏风险",
+      "合规边界"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "樟树药俗最重要的风险是被误包装成医疗或保健功效，必须坚持文化科普表达。",
+    "riskControl": [
+      "所有文案避免诊疗和疗效承诺。",
+      "材料包标注过敏提示和使用边界。",
+      "体验以气味、节令和文化解释为主。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "适合先做文化展陈、香囊和节令生活礼，不做医疗化产品。",
+    "suitableScenes": [
+      "文旅街区",
+      "研学机构",
+      "城市礼物店"
+    ],
+    "unsuitableScenes": [
+      "医疗功效营销",
+      "无过敏提示的食品化售卖"
+    ],
+    "risks": [
+      "传统医药内容存在合规边界。",
+      "草本材料需注意过敏和食品安全。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://www.aiyoujiangxi.com/badd/218210/"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "Ⅸ-3 / X-60",
+      "listBatch": "2008（第二批扩展项目）/ 2014（第四批扩展项目）",
+      "representativeRegion": "江西省樟树市",
+      "category": "传统医药 / 民俗",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次",
+        "非遗编号"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/zhangshu-medicine.png",
+    "imagePrompt": "traditional herbal sachet and apothecary culture, dark refined table",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
+  },
+  {
+    "id": "gannan-hakka-costume",
+    "name": "赣南客家服饰",
+    "alias": "客家服饰",
+    "themeId": "textile-pattern",
+    "theme": "织染刺绣",
+    "category": "传统服饰",
+    "officialCategory": "传统服饰",
+    "subCategory": "传统服饰",
+    "region": "江西赣州定南",
+    "province": "江西",
+    "city": "赣州",
+    "heritageLevel": "国家级",
+    "level": "国家级",
+    "type": "传统技艺",
+    "protectionUnit": "待核验",
+    "heritageCode": "",
+    "summary": "赣南客家服饰适合围绕纹样、旅拍、研学和服饰配件做转化，需避免把传统服饰简单戏服化。",
+    "positioning": "适合做客家纹样配件、国风旅拍服饰、研学课程和地方礼物。",
+    "conversionGrade": "B",
+    "priority": "中高",
+    "score": {
+      "commercialization": 78,
+      "experience": 82,
+      "sceneFit": 84,
+      "spread": 84,
+      "gift": 78,
+      "operation": 70,
+      "total": 80
+    },
+    "scores": {
+      "commodity": 78,
+      "experience": 82,
+      "scenario": 84,
+      "spread": 84,
+      "gift": 78,
+      "operation": 70
+    },
+    "totalScore": 80,
+    "scoreReason": "赣南客家服饰以江西国家级非遗整理资料和平台转化口径进入首批精选；评分用于判断造物转化优先级，不代表文化价值高低。",
+    "scoreExplanation": "本评分主要依据公开可见的名录资料、江西地域识别度、可产品化程度、体验组织难度和文旅场景适配，不代表非遗文化价值高低。",
+    "scoreDetails": {
+      "commercialization": "赣南客家服饰的江西资源资料显示，商品化可评 78 分，主要依据是产品零售、礼盒、定制小件具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "experience": "赣南客家服饰的江西资源资料显示，体验化可评 82 分，主要依据是工坊、研学、轻体验具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "sceneFit": "赣南客家服饰的江西资源资料显示，场景适配可评 84 分，主要依据是城市礼物店、文旅街区、研学空间具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "spread": "赣南客家服饰的江西资源资料显示，传播潜力可评 84 分，主要依据是材料、工序、地域故事具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "gift": "赣南客家服饰的江西资源资料显示，礼品属性可评 78 分，主要依据是伴手礼、商务礼赠、节令套装具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。",
+      "operation": "赣南客家服饰的江西资源资料显示，运营友好可评 70 分，主要依据是供应、师资、标准化具备平台研究转化空间；限制是保护单位、市场价格带和稳定运营主体仍需后续复核。"
+    },
+    "marketEvidence": {
+      "summary": "赣南客家服饰以江西国家级非遗整理资料为基础，适合先作为数据库研究条目进入平台，后续再补充逐项保护单位和市场证据。",
+      "evidenceLevel": "中证据",
+      "dimensions": {
+        "commercialization": {
+          "summary": "赣南客家服饰的江西资源资料显示，商品化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "experience": {
+          "summary": "赣南客家服饰的江西资源资料显示，体验化维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "sceneFit": {
+          "summary": "赣南客家服饰的江西资源资料显示，场景适配维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "spread": {
+          "summary": "赣南客家服饰的江西资源资料显示，传播潜力维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "gift": {
+          "summary": "赣南客家服饰的江西资源资料显示，礼品属性维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        },
+        "operation": {
+          "summary": "赣南客家服饰的江西资源资料显示，运营友好维度已有江西名录和公开文旅资料可作初步判断。",
+          "evidenceLevel": "中证据",
+          "evidenceTypes": [
+            "官方名录口径",
+            "地方文旅资料",
+            "平台研究判断"
+          ]
+        }
+      },
+      "sources": [
+        "https://www.ihchina.cn/project",
+        "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+      ],
+      "searchVisibility": {
+        "level": "中",
+        "resultDensity": "可见地方非遗和文旅资料，商业转化资料需继续补强",
+        "sourceDiversity": [
+          "国家非遗官网入口",
+          "地方文旅公开资料",
+          "平台研究记录"
+        ],
+        "commercialSignal": "中",
+        "experienceSignal": "中",
+        "notes": "本轮重在江西资源去重扩充，市场证据仍需后续专项核验。"
+      },
+      "pendingReview": true
+    },
+    "uniqueValue": "赣南客家服饰具备客家文化和江西赣南地域识别，既能进入纹样设计，也能进入旅拍和课程场景。",
+    "recommendedSkus": [
+      {
+        "name": "客家纹样丝巾配件",
+        "priceBand": "88-168 元",
+        "targetUser": "女性客群",
+        "salesScene": "城市礼物店",
+        "reason": "纹样配件比整套服饰更易购买和日常使用。"
+      },
+      {
+        "name": "赣南服饰纹样帆布包",
+        "priceBand": "69-129 元",
+        "targetUser": "年轻游客",
+        "salesScene": "文创零售",
+        "reason": "包袋适合承接纹样再设计。"
+      },
+      {
+        "name": "客家服饰旅拍租赁套装",
+        "priceBand": "199-499 元",
+        "targetUser": "年轻游客",
+        "salesScene": "国风旅拍",
+        "reason": "旅拍能释放服饰视觉传播力。"
+      },
+      {
+        "name": "企业定制纹样礼盒",
+        "priceBand": "298-698 元",
+        "targetUser": "商务礼赠",
+        "salesScene": "企业定制",
+        "reason": "纹样礼盒适合地方文化定制。"
+      }
+    ],
+    "recommendedExperiences": [
+      {
+        "title": "客家服饰纹样认知",
+        "duration": "45 分钟",
+        "capacity": "12-24 人/场",
+        "process": [
+          "讲解赣南客家服饰的地域和结构",
+          "观察纹样、色彩和穿着场景",
+          "完成纹样卡片或配件搭配"
+        ],
+        "takeaway": "客家纹样卡或小配件",
+        "staffing": "1 名讲解员 + 1 名助教",
+        "riskNotes": "应避免把传统服饰当作随意戏服使用，需讲清文化语境。"
+      },
+      {
+        "title": "赣南客家旅拍体验",
+        "duration": "90 分钟",
+        "capacity": "4-8 人/场",
+        "process": [
+          "完成服饰讲解和穿搭选择",
+          "在合适场景拍摄基础照片",
+          "复盘纹样含义和购买延展品"
+        ],
+        "takeaway": "基础照片和纹样说明卡",
+        "staffing": "1 名妆造/服装助理 + 1 名摄影协作",
+        "riskNotes": "需控制服饰清洁、尺码和文化表达边界。"
+      }
+    ],
+    "implementationConditions": {
+      "space": "20-60 平方米展示或轻体验区，保留讲解、操作、陈列和等候动线。",
+      "staff": "赣南客家服饰需要熟悉江西地域故事和基础工艺的讲解员；复杂环节由合作工艺师或受训助教把控。",
+      "materials": "核心材料需提前标准化成样品包、体验包或销售规格，避免现场临时采购造成品质波动。",
+      "equipment": "配置展示台、收纳、照明、清洁和基础安全设备；涉及染色、纸浆、茶饮或药材时增加卫生和通风管理。",
+      "operationDifficulty": "中",
+      "minimumBudget": "5-15 万",
+      "preparationCycle": "3-6 周",
+      "notes": "赣南客家服饰适合先做小规模试点，验证客单价、参与时长和复购意愿后再扩大成固定业态。"
+    },
+    "revenueModels": [
+      {
+        "type": "产品零售",
+        "description": "赣南客家服饰可通过入门产品、地方限定款或材料套装形成收入。",
+        "suitableScene": "国风旅拍",
+        "difficulty": "中",
+        "notes": "先做小批量 SKU，避免库存和品质解释压力过大。"
+      },
+      {
+        "type": "体验收费",
+        "description": "赣南客家服饰可通过轻体验、研学课或预约工坊形成收入。",
+        "suitableScene": "城市礼物店",
+        "difficulty": "中",
+        "notes": "体验环节需要控制时长、材料损耗和带走成果。"
+      },
+      {
+        "type": "礼赠定制",
+        "description": "赣南客家服饰可结合江西地域故事开发伴手礼或企业定制。",
+        "suitableScene": "研学课程",
+        "difficulty": "中",
+        "notes": "定制前需确认授权边界、包装和交付周期。"
+      }
+    ],
+    "productDirections": [
+      "客家纹样丝巾配件",
+      "赣南服饰纹样帆布包",
+      "客家服饰旅拍租赁套装"
+    ],
+    "experienceDirections": [
+      "客家服饰纹样认知",
+      "赣南客家旅拍体验",
+      "传统服饰穿搭讲解课"
+    ],
+    "courseDirections": [
+      "客家服饰结构课",
+      "纹样再设计美育课",
+      "赣南客家文化研学课"
+    ],
+    "giftDirections": [
+      "客家纹样配件礼",
+      "赣南旅拍体验券",
+      "企业定制纹样礼盒"
+    ],
+    "bestScenes": [
+      "国风旅拍",
+      "城市礼物店",
+      "研学课程"
+    ],
+    "secondaryScenes": [
+      "文旅街区",
+      "客家文化展陈"
+    ],
+    "avoidScenes": [
+      "无文化说明的戏服租赁",
+      "过度娱乐化仿古表演"
+    ],
+    "targetUsers": [
+      "年轻游客",
+      "女性客群",
+      "亲子研学"
+    ],
+    "scenes": [
+      "国风旅拍",
+      "城市礼物店",
+      "研学课程"
+    ],
+    "businessTags": [
+      "江西资源",
+      "纹样再设计",
+      "旅拍体验"
+    ],
+    "commercialTags": [
+      "江西资源",
+      "纹样再设计",
+      "旅拍体验"
+    ],
+    "spreadTags": [
+      "视觉传播",
+      "客家故事"
+    ],
+    "riskTags": [
+      "文化误读",
+      "服饰维护",
+      "尺码管理"
+    ],
+    "riskLevel": "中",
+    "riskExplanation": "赣南客家服饰容易被简单旅拍化，必须保留纹样、结构和客家文化说明。",
+    "riskControl": [
+      "旅拍前加入服饰文化讲解。",
+      "建立清洁、尺码和损耗管理。",
+      "纹样再设计需避免随意拼贴和误读。"
+    ],
+    "priceBands": [
+      "29-69 元入门小件",
+      "88-168 元体验或套装",
+      "198-498 元礼赠组合"
+    ],
+    "salesChannels": [
+      "城市礼物店",
+      "景区体验点",
+      "研学机构",
+      "企业礼赠"
+    ],
+    "supplyDifficulty": "中",
+    "standardization": "需通过样品标准、讲解卡、材料清单和合作方验收逐步标准化",
+    "operationNotes": "优先用纹样配件和讲解型旅拍降低运营风险，再拓展完整服饰体验。",
+    "suitableScenes": [
+      "国风旅拍",
+      "城市礼物店",
+      "研学课程"
+    ],
+    "unsuitableScenes": [
+      "无文化说明的戏服租赁",
+      "过度娱乐化仿古表演"
+    ],
+    "risks": [
+      "传统服饰可能被过度娱乐化。",
+      "服饰租赁维护成本较高。"
+    ],
+    "cases": [],
+    "relatedCases": [],
+    "relatedPackages": [
+      "gift-model",
+      "district-guide"
+    ],
+    "sources": [
+      "国家级非遗名录公开信息",
+      "江西文旅公开资料",
+      "平台产品化研究判断"
+    ],
+    "sourceLinks": [
+      "https://www.ihchina.cn/project",
+      "https://jx.people.com.cn/n2/2021/0616/c186330-34777704.html"
+    ],
+    "sourceNotes": "本条为江西非遗资源去重扩充后的平台研究型整理；官方编号、保护单位和批次以国家非遗官网逐条复核为准。",
+    "officialInfo": {
+      "heritageNumber": "",
+      "listBatch": "2021（第五批扩展项目）",
+      "representativeRegion": "江西省赣州市定南县",
+      "category": "传统服饰",
+      "protectionLevel": "国家级",
+      "verificationStatus": "部分核验",
+      "verifiedAt": "2026-06-02",
+      "officialSources": [
+        "https://www.ihchina.cn/project"
+      ],
+      "verificationNote": "已根据 reports/jiangxi-national-ich-record.md 中整理的江西国家级非遗清单补充编号、批次、门类和申报地区；保护单位字段此前未能从国家非遗官网动态表格导出，仍待逐项复核。项目类型：扩展项目。",
+      "protectionUnit": "待核验"
+    },
+    "officialVerification": {
+      "status": "部分核验",
+      "verifiedFields": [
+        "项目名称",
+        "官方门类",
+        "江西申报地区或单位",
+        "国家级保护级别",
+        "名录批次"
+      ],
+      "pendingFields": [
+        "保护单位",
+        "非遗编号",
+        "官网逐项详情页链接",
+        "市场证据来源"
+      ],
+      "notes": "已补充来自江西国家级非遗整理记录的官方字段；保护单位未在既有记录中取得，保持待核验。项目类型：扩展项目。"
+    },
+    "image": "/images/projects/gannan-hakka-costume.png",
+    "imagePrompt": "Hakka costume pattern and travel photo styling, refined dark red textile",
+    "reviewStatus": "人工初审",
+    "confidence": "中",
+    "contentStatus": "人工初审",
+    "contentStatusNote": "江西资源扩充，官方字段待复核",
+    "updatedAt": "2026-06-02"
   }
 ]

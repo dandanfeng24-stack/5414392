@@ -38,11 +38,11 @@ function derivedGrade(total) {
   return "D";
 }
 const expectedDistribution = {
-  "茶文化": 12,
-  "陶瓷器物": 14,
-  "织染刺绣": 18,
-  "地方风味": 14,
-  "手作研学": 20,
+  "茶文化": 14,
+  "陶瓷器物": 18,
+  "织染刺绣": 21,
+  "地方风味": 15,
+  "手作研学": 22,
   "妆造旅拍": 10,
   "民俗夜游": 8,
   "生活方式": 4
@@ -318,7 +318,7 @@ function validateProject(project, index) {
   validateOfficialInfo(project, mode === "full" || mode === "verify-official-all" || (mode === "verify-top-a" && topAOfficialIds.includes(project.id)));
 }
 
-if (mode === "full" && projects.length !== 100) fail(`projects.json must contain exactly 100 records, got ${projects.length}`);
+if (mode === "full" && projects.length !== 112) fail(`projects.json must contain exactly 112 records, got ${projects.length}`);
 
 const ids = new Set();
 for (const project of projects) {

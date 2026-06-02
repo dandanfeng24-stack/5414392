@@ -24,6 +24,14 @@ export function filterProjects(projects: Project[], filters: ProjectFilters) {
       project.region,
       project.province,
       project.city,
+      ...(project.relatedRegionalItems || []).flatMap((item) => [
+        item.name,
+        item.province,
+        item.city,
+        item.relationType,
+        item.category,
+        item.note
+      ]),
       ...project.targetUsers,
       ...getProjectScenes(project),
       ...getProjectCommercialTags(project),
