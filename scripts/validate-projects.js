@@ -39,12 +39,13 @@ function derivedGrade(total) {
 }
 const expectedDistribution = {
   "茶文化": 14,
-  "陶瓷器物": 18,
+  "陶瓷器物": 14,
   "织染刺绣": 21,
   "地方风味": 15,
-  "手作研学": 22,
+  "手作研学": 20,
   "妆造旅拍": 10,
   "民俗夜游": 8,
+  "文房雅集": 6,
   "生活方式": 4
 };
 const sampleIds = [

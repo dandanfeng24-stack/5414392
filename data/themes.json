@@ -182,5 +182,28 @@
     ],
     "seoTitle": "生活方式 | 非遗造物",
     "seoDescription": "研究适合酒店民宿、生活方式零售、慢体验课程和日常礼品转化的非遗项目。"
+  },
+  {
+    "id": "scholar-studio",
+    "name": "文房雅集",
+    "shortName": "文房雅集",
+    "description": "围绕纸、笔、墨、砚、篆刻与书房器物的非遗造物主题，适合文创礼赠、书房空间、研学课程和城市文化消费转化。",
+    "color": "#5F4932",
+    "image": "/images/themes/scholar-studio.jpg",
+    "imagePrompt": "dark Chinese scholar studio tabletop with handmade paper, brushes, ink sticks, inkstone and seal carving stones, warm gold light, realistic still life photography",
+    "tags": [
+      "文创礼赠",
+      "书房空间",
+      "文房器物",
+      "研学课程"
+    ],
+    "subcategories": [
+      "纸笔墨砚",
+      "篆刻印章",
+      "书房器物",
+      "雅集体验"
+    ],
+    "seoTitle": "文房雅集 | 非遗造物",
+    "seoDescription": "研究纸、笔、墨、砚、篆刻与书房器物相关非遗的产品化、礼赠化和空间体验转化。"
   }
 ]
