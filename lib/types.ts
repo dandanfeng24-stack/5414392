@@ -214,6 +214,14 @@ export type Project = {
   updatedAt: string;
 };
 
+export type CaseBudgetLevel = {
+  name: string;
+  investmentRange: string;
+  configuration: string;
+  revenueAssumption: string;
+  notes: string;
+};
+
 export type CaseStudy = {
   id: string;
   title: string;
@@ -221,6 +229,16 @@ export type CaseStudy = {
   city: string;
   scene: string;
   targetUsers: string[];
+  summary: string;
+  background: string;
+  projectCombination: string[];
+  businessModel: string[];
+  implementationPath: string[];
+  budgetLevels: CaseBudgetLevel[];
+  operationChecklist: string[];
+  riskMitigation: string[];
+  replicationAdvice: string[];
+  researchNote: string;
   transformationLogic: string;
   successFactors: string[];
   risks: string[];

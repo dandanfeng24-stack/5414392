@@ -22,7 +22,7 @@ export function CaseCard({ caseStudy }: { caseStudy: CaseStudy }) {
           {caseStudy.city} · {caseStudy.scene}
         </div>
         <h3 className="mt-3 font-serif text-2xl text-paper">{caseStudy.title}</h3>
-        <p className="mt-4 text-sm leading-7 text-linen">{caseStudy.transformationLogic}</p>
+        <p className="mt-4 text-sm leading-7 text-linen">{caseStudy.summary || caseStudy.transformationLogic}</p>
         <div className="mt-5 flex flex-wrap gap-2">
           {caseStudy.targetUsers.map((user) => (
             <TagPill key={user}>{user}</TagPill>
